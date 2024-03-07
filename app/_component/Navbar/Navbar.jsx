@@ -13,7 +13,7 @@ function Navbar() {
   };
   return (
     // <!-- Start Header -->
-    <div style={{ height: "99vh", width: "100vw" }}>
+    <div style={{ width: "100vw" }} className="landing">
       <header className="header ">
         <div className="container shadow-2xl" style={{ height: "78px" }}>
           <Image
@@ -67,7 +67,20 @@ function Navbar() {
           </div>
         </div>
       </header>
-      <ResponsiveMenu toggleMenu={toggleMenu} showMenu={showMenu} setShowMenu={setShowMenu}/>
+      <ResponsiveMenu toggleMenu={toggleMenu} showMenu={showMenu} setShowMenu={setShowMenu} />
+      <div className="text">
+        <div className="content">
+          <h2>
+            Hello World!<br />
+            We Are Kasper We Make Art.
+          </h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt
+            nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
+            elit, eget tincidunt.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

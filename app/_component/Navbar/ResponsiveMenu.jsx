@@ -6,15 +6,14 @@ import Link from "next/link";
 import Image from "next/image";
 import { VscFoldRight, VscFoldUp, VscChevronRight } from "react-icons/vsc";
 import { AiOutlineClose } from "react-icons/ai";
-function ResponsiveMenu({ showMenu,toggleMenu }) {
+function ResponsiveMenu({ showMenu, toggleMenu }) {
   return (
     <>
       <div
         id="asd"
-        style={{ color: "#609521", zIndex: "999", backgroundColor: "#b2870f"}}
-        className={`${
-          showMenu ? "left-0 " : "-left-[100%]  "
-        } fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
+        style={{ color: "#609521", zIndex: "999", backgroundColor: "#b2870f", height: "728px" }}
+        className={`${showMenu ? "left-0 " : "-left-[100%]  "
+          } fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
       >
         <AiOutlineClose
           style={{ position: "absolute" }}
@@ -70,15 +69,7 @@ function ResponsiveMenu({ showMenu,toggleMenu }) {
             </li>
           </ul>
         </nav>
-        <div
-          className="footer"
-          style={{ position: "absolute", bottom: "65px" }}
-        >
-          <h1 style={{ color: "white" }} className="md:text-xl text-xs">
-            Made with ❤ by
-            <a href="#"> ibrahim</a>
-          </h1>
-        </div>
+
       </div>
     </>
   );

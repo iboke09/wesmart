@@ -69,7 +69,7 @@ ul {
 
 @media (max-width: 768px) {
   .responsivenav {
-    top: -115px !important;
+    top: -65px !important;
   }
 }
 
@@ -187,6 +187,7 @@ ul {
   position: relative;
   top: -155px;
   z-index: 1000;
+  
 }
 
 /* Responsive navbar // */
@@ -228,4 +229,44 @@ ul {
   width: 25px;
   height: 25px;
   border-radius: 7px;
+}
+
+.landing{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/landing13.jpg);
+  background-size: cover;
+  height: 84vh;
+  box-shadow: 0px 0px 50px black;
+}
+
+.text{
+  position: absolute;
+  left: 0;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 50%;
+  padding: 50px;
+  background-color: #c19311cc;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text .content h2 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.text .content p {
+  font-size: 16px;
+  background: linear-gradient(to bottom,#ffffffcc,var(--main-color));
+  font-weight: bold;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 2;
+}
+
+.text .content {
+  max-width: 500px;
 }
