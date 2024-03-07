@@ -67,7 +67,7 @@ function Navbar() {
           </div>
         </div>
       </header>
-      <ResponsiveMenu showMenu={showMenu} setShowMenu={setShowMenu}/>
+      <ResponsiveMenu toggleMenu={toggleMenu} showMenu={showMenu} setShowMenu={setShowMenu}/>
     </div>
   );
 }

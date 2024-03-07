@@ -6,21 +6,21 @@ import Link from "next/link";
 import Image from "next/image";
 import { VscFoldRight, VscFoldUp, VscChevronRight } from "react-icons/vsc";
 import { AiOutlineClose } from "react-icons/ai";
-function ResponsiveMenu({ showMenu }) {
+function ResponsiveMenu({ showMenu,toggleMenu }) {
   return (
     <>
       <div
         id="asd"
-        style={{ color: "#609521", zIndex: "999", backgroundColor: "#b2870f" }}
+        style={{ color: "#609521", zIndex: "999", backgroundColor: "#b2870f"}}
         className={`${
-          showMenu ? "left-0 display: block;" : "-left-[100%]"
-        } fixed bottom-0 top-0  flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
+          showMenu ? "left-0 " : "-left-[100%]  "
+        } fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
       >
         <AiOutlineClose
           style={{ position: "absolute" }}
-          className="x"
+          className="x hover:bg-green-700"
           onClick={() => {
-            document.getElementById("asd").style.display = "none";
+            toggleMenu();
           }}
         />
         <Image
