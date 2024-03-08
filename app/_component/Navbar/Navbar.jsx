@@ -5,11 +5,29 @@ import logo from "../../img/logo.png.webp";
 import Link from "next/link";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
+import { motion } from "framer-motion";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  const spanVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+    },
+  };
+  const text =
+    "That dont lights. Blessed land spirit creature divide our made twoitself upon youll dominion waters man second good you theyre dividedupon winged were replenish night";
   const toggleMenu = () => {
     setShowMenu(!showMenu);
+  };
+  const pVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.02,
+      },
+    },
   };
   return (
     // <!-- Start Header -->
@@ -67,19 +85,32 @@ function Navbar() {
           </div>
         </div>
       </header>
-      <ResponsiveMenu toggleMenu={toggleMenu} showMenu={showMenu} setShowMenu={setShowMenu} />
+      <ResponsiveMenu
+        toggleMenu={toggleMenu}
+        showMenu={showMenu}
+        setShowMenu={setShowMenu}
+      />
       <div className="text">
-        <div className="content">
-          <h2>
-            Hello World!<br />
-            We Are Kasper We Make Art.
-          </h2>
-          <p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt
-            nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet
-            elit, eget tincidunt.
-          </p>
-        </div>
+        <p className="first">give a hand</p>
+        <motion.h2>to make the better world</motion.h2>
+        <motion.p
+          className="no"
+          variants={pVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          {text.split("").map((char, index) => (
+            <motion.span key={index} variants={spanVariants}>
+              {char}
+            </motion.span>
+          ))}
+        </motion.p>
+        <Link className="pro-btn" href="#">
+          donate now
+        </Link>
+        <Link className="bad-btn" href="#">
+          see causes
+        </Link>
       </div>
     </div>
   );

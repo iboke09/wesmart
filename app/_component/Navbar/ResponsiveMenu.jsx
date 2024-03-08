@@ -10,10 +10,15 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
   return (
     <>
       <div
-        id="asd"
-        style={{ color: "#609521", zIndex: "999", backgroundColor: "#b2870f", height: "728px" }}
-        className={`${showMenu ? "left-0 " : "-left-[100%]  "
-          } fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
+        style={{
+          color: "#609521",
+          zIndex: "999",
+          backgroundColor: "#b2870f",
+          height: "772px",
+        }}
+        className={`${
+          showMenu ? "left-0 " : "-left-[100%]  "
+        } fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
       >
         <AiOutlineClose
           style={{ position: "absolute" }}
@@ -69,7 +74,6 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
             </li>
           </ul>
         </nav>
-
       </div>
     </>
   );

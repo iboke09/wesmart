@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;500;600&display=swap");
+
+
+
+.containerS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    color: white;
+  }
+  .cards {
+    width: 100%;
+    .splide__pagination{
+      top: 435px
+    }
+    .splide__pagination li button{
+      padding: 4px;
+      border-radius: 4px;
+      width: 35px;
+      margin: 7px;
+      height: 1px;
+    }
+    .splide__slide {
+      border: none!important;
+      .card {
+        transition: 0.3s ease;
+        opacity: 0.5;
+        background: white;
+        margin: 1rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        gap: 1rem;
+        img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+        p {
+          text-align: center;
+          color: #111;
+        }
+      }
+      &.is-active {
+        .card {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
