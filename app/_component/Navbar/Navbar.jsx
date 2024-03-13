@@ -31,7 +31,7 @@ function Navbar() {
   };
   return (
     // <!-- Start Header -->
-    <div style={{ width: "100vw" }} className="landing">
+    <>
       <header className="header ">
         <div className="container shadow-2xl" style={{ height: "78px" }}>
           <Image
@@ -112,7 +112,7 @@ function Navbar() {
           see causes
         </Link>
       </div>
-    </div>
+    </>
   );
 }
 

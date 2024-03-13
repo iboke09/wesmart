@@ -41,7 +41,7 @@ html {
   --main-transition: 0.3s;
   --main-color: #60a84e;
   --main-alt-color: #fdbb00;
-  --padding-top: 110px;
+  --padding-top: 150px;
   --padding-bottom: 100px;
   --muhum-color: #777;
   --section-background: #ececec;
@@ -69,7 +69,7 @@ ul {
 
 @media (max-width: 768px) {
   .responsivenav {
-    top: -65px !important;
+    top: -90px !important;
   }
 }
 
@@ -181,12 +181,12 @@ ul {
 /* Responsive navbar */
 .responsivenav {
   display: flex;
-  /* height: 98%; */
+  height: 53vh;
   width: 100%;
   flex-direction: column;
   position: relative;
-  top: -55px;
   z-index: 1000;
+  top: -80px;
 }
 
 /* Responsive navbar // */
@@ -295,9 +295,13 @@ ul {
   margin-left: 20px;
 }
 @media (max-width: 767px){
-.text {
-    width: 100%;
+.landing{
+  height: 100vh;
+}
+.masko{
+  height: 100vh !important;
 }}
+
 
 .landing .text a.pro-btn:hover{
   background-color: transparent;
@@ -305,9 +309,7 @@ ul {
 }
 
 @media (max-width:991px){
-  .landing .text{
-      width: 500px;
-  }
+  
   .landing .text .first{
     font-size: 55px;
     margin-bottom: -15px;
@@ -328,6 +330,11 @@ ul {
 }
 
 @media (max-width:767px){
+  .landing .text{
+    width: 500px;
+    width: 100%;
+  top: 54%;
+}
   .landing .text{
       width: 300px;
   }
@@ -351,11 +358,16 @@ ul {
       line-height: 1.7;
   }
   .landing .text a{
-      font-size:15px;
-      line-height: 25px;
-      padding: 0 35px;
-      margin: 10px;
-      width: 175px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0 35px;
+    margin: 17px;
+    width: 175px;
+    top: -16px;
+    height: 42px;
+    /* text-align: center; */
+    align-items: center;
+    position: relative;
   }
   .landing .text a.bad-btn{
       margin: 0;
@@ -392,12 +404,11 @@ ul {
   position: relative;
   text-align: center;
   background-color: #f9fafc;
-  padding: 50px;
+  padding: 45px 27px;
   box-shadow: 0 0 10px #ddd;
   transform-style:preserve-3d !important ;
   border-radius: 6px;
-  height: 325px;
-  width: 355px;
+  
   
 }
 .our .box::before {
@@ -437,7 +448,7 @@ ul {
   box-shadow: 0 0 30px #ddd;
 }
 .our .box h4{
-  font-size: 25px;
+  font-size: 23px;
   color: black;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -453,12 +464,13 @@ ul {
   margin-bottom: 48px;
   margin-top: 30px;
 }
+@media (max-width: 340px){
+  .our .box{
+    width: 285px;
+  }}
 
 @media (max-width:767px) {
-  .our .box{
-    height: 350px;
-    width: 290px;
-  }
+  
   .our .box h4:nth-child(2){
     font-size: 21px;
   }
@@ -466,7 +478,7 @@ ul {
     font-size: 30px;
   }
   .tutan > p{
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: -55px;
     margin-top: 15px;
     font-weight: 400;
