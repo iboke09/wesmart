@@ -3,6 +3,7 @@ import Navbar from "./_component/Navbar/Navbar";
 import Hero from "./_component/Hero/Hero";
 import Spliden from "./_component/Spliden/Spliden";
 import Landing from "./_component/Landing/Landing";
+import Footer from "./_component/Footer/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Landing>
       <Hero />
       <Spliden />
+      <Footer />
     </>
   );
 }

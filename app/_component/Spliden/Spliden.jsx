@@ -22,6 +22,9 @@ function Spliden() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        height: "85vh",
+        background: "#eee",
+        marginTop: "100px",
       }}
     >
       <div
@@ -33,7 +36,7 @@ function Spliden() {
           height: "100vh",
         }}
       >
-        <h1>Tutoriel React Splide</h1>
+        <h1>Any Thing</h1>
         <div className="cards">
           <Splide
             aria-label="Testimonials"
@@ -43,14 +46,13 @@ function Spliden() {
               focus: "center",
               isNavigation: true,
               autoplay: true,
-
               perPage: 2,
             }}
           >
             {data.map((item) => (
               <SplideSlide key={item.id} style={{ width: "50vw" }}>
-                <div className="card">
-                  <Image width={100} height={100} src={item.img} alt="img" />
+                <div className="card" style={{ backgroundImage: item.imo }}>
+                  {item.img}
                   <h2>{item.name}</h2>
                   <p className="splideP">{item.text}</p>
                 </div>
