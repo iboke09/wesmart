@@ -13,6 +13,8 @@ body {
   font-size: 15px;
   /* font-family: system-ui; */
   font-weight: normal;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 ::-webkit-scrollbar {
