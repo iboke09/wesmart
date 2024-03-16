@@ -14,7 +14,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
           color: "#609521",
           zIndex: "999",
           backgroundColor: "#b2870f",
-          height: "84vh",
+          height: "100vh",
         }}
         className={`${
           showMenu ? "left-0 " : "-left-[100%]  "
