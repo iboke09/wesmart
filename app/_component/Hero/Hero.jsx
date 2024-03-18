@@ -4,7 +4,7 @@ import { FcCircuit, FcFaq, FcBullish } from "react-icons/fc";
 import styles from "./Hero.module.css";
 import Tilt from "react-vanilla-tilt";
 import { motion } from "framer-motion";
-
+import 'animate.css'; 
 function Hero() {
   return (
     <div className="our">

@@ -16,6 +16,8 @@ import "../Spliden/Spliden";
 import "./index.scss";
 function Spliden() {
   return (
+    <>
+    <div class="spikes" style={{position:"relative"}}></div>
     <div
       style={{
         width: "100vw",
@@ -51,7 +53,7 @@ function Spliden() {
           >
             {data.map((item) => (
               <SplideSlide key={item.id} style={{ width: "50vw" }}>
-                <div className="card" style={{ backgroundImage: item.imo }}>
+                <div className="card" >
                   {item.img}
                   <h2>{item.name}</h2>
                   <p className="splideP">{item.text}</p>
@@ -62,6 +64,7 @@ function Spliden() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

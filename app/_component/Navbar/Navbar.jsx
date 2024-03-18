@@ -105,10 +105,10 @@ function Navbar() {
             </motion.span>
           ))}
         </motion.p>
-        <Link className="pro-btn" href="#">
+        <Link className="pro-btn animate__animated animate__backInDown" href="#">
           donate now
         </Link>
-        <Link className="bad-btn" href="#">
+        <Link className="bad-btn animate__animated animate__backInDown" href="#">
           see causes
         </Link>
       </div>
