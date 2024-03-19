@@ -7,7 +7,9 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+img{
+  /* max-height: 100%;  */
+}
 body {
   line-height: 25px;
   font-size: 15px;
@@ -26,11 +28,11 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #28611a;
+  background-color: #000000;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2b631dc4;
+  background-color: #000000c4;
 }
 
 html {
@@ -41,7 +43,7 @@ html {
 
 :root {
   --main-transition: 0.3s;
-  --main-color: #60a84e;
+  --main-color: #00aeff;
   --main-alt-color: #fdbb00;
   --padding-top: 110px;
   --padding-bottom: 100px;
@@ -95,7 +97,7 @@ ul {
   left: 0;
   font-family: system-ui;
   width: 100%;
-  z-index: 100;
+  z-index: 1001;
 }
 
 .header .container {
@@ -103,7 +105,9 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222222ad;
+  box-shadow: 0px 0px 15px #000;
+  /* background-color: #222222ad; */
+  background-color: #000000c2;
 }
 
 .header .container ul {
@@ -232,12 +236,7 @@ ul {
   border-radius: 7px;
 }
 
-.landing {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/landing13.avif);
-  background-size: cover;
-  height: 89vh;
-  box-shadow: 0px 0px 50px black;
-}
+
 
 .text {
   color: #fdbb00;
@@ -250,9 +249,10 @@ ul {
 
 .text .first {
   font-size: 60px;
-  color: #fdbb00;
+  color: black;
   line-height: 100px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 
@@ -281,12 +281,12 @@ ul {
 
 .landing .text a.bad-btn:hover {
   background-color: transparent;
-  border: 1px solid var(--main-alt-color);
+  border: 1px solid black;
 }
 
 .text a {
   display: inline-flex;
-  background: #60bc0f;
+  background: black;
   padding: 0px 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -298,13 +298,16 @@ ul {
   box-shadow: none !important;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
   cursor: pointer;
   transition: all 300ms linear 0s;
   border-radius: 6px;
 }
 
 .landing .text a.bad-btn {
-  background-color: var(--main-alt-color);
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
   margin-left: 20px;
 }
 
@@ -316,7 +319,7 @@ ul {
 
 .landing .text a.pro-btn:hover {
   background-color: transparent;
-  border: 1px solid var(--main-color);
+  border: 1px solid white;
 }
 
 @media (max-width:991px) {
@@ -333,16 +336,6 @@ ul {
     font-size: 35px;
     line-height: 1.3;
     margin-top: 35px
-  }
-
-  .landing .text .no {
-    font-size: 20px;
-
-  }
-
-  .landing .text p {
-    font-size: 15px;
-    line-height: 1.7;
   }
 }
 
@@ -366,16 +359,17 @@ ul {
 
   .landing .text .no {
     font-size: 18px;
-
+    font-size: 18px;
+    padding-top: 10px;
+    margin-bottom: 20px;
   }
 
   .landing .text p {
-    font-size: 20px;
     line-height: 1.7;
   }
 
   .landing .text a {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 25px;
     padding: 0 35px;
     margin: 10px;
@@ -473,12 +467,12 @@ ul {
 }
 
 .our .box p {
-  background: linear-gradient(to bottom, var(--main-color), var(--main-alt-color));
+  background: linear-gradient(to bottom, var(--main-color), black);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.tutan>p {
+.our .tutan>p {
   font-size: 20px;
   margin-bottom: -40px;
   margin-top: 30px;
@@ -569,29 +563,23 @@ ul {
 }
 
 .splide__arrow svg path {
-  fill: green;
+  fill: var(--main-color);
 }
 
 .splide__pagination__page.is-active {
-  background: green !important;
+  background: var(--main-color) !important;
 }
 
 .containerS .cards .splide__slide .card {
   /* margin-bottom: 100px !important; */
-  background-image: linear-gradient(to right, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(./_component/data/pexels-pixabay-45920.avif) !important;
+  /* background-image: linear-gradient(to right, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url(./_component/data/pexels-pixabay-45920.avif) !important; */
   background-size: cover !important;
   background-color: white !important;
   color: black !important
 }
 
 .containerS .cards .splide__slide .card p {
-  color: var(--main-alt-color) !important;
   font-weight: bold;
-  text-align: center;
-  background: linear-gradient(to bottom, var(--main-color), var(--main-alt-color));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* @media (min-width:767px) {
@@ -615,3 +603,145 @@ ul {
 .card svg {
   font-size: 100px;
 }
+
+
+/* Animate.css */
+.animate__animated.animate__zoomInRight {
+  --animate-duration: 1.5s !important;
+}
+.animate__animated.animate__zoomInLeft {
+  --animate-duration: 1.5s !important;
+}
+/* Animate.css // */
+
+/* wave */
+.landing {
+  /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/landing13.avif); */
+  /* background-size: cover; */
+  height: 100vh;
+  /* box-shadow: 0px 0px 50px black;  */
+  background-color: #357f95;
+}
+
+.landing .wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./img/wave.png);
+  background-size: 1000px 100px;
+}
+
+.landing .wave.wave1{
+  animation: animate 30s linear infinite;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom:0
+}
+.landing .wave.wave2{
+  animation: animate2 15s linear infinite;
+  z-index: 999;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom:10px
+}
+.landing .wave.wave3{
+  animation: animate 15s linear infinite;
+  z-index: 998;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom:15px
+}
+.landing .wave.wave4{
+  animation: animate2 5s linear infinite;
+  z-index: 997;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom:20px
+}
+@keyframes animate2 {
+  0%{ 
+    background-position-x:1000px ;
+  }
+}
+@keyframes animate {
+  0%{
+    background-position-x:-1000px ;
+  }
+}
+/* wave // */
+
+/* start meet */
+/* Start Meet */
+.meet{
+  padding-bottom: var(--padding-bottom);
+  padding-top: var(--padding-top);
+  position: relative;
+}
+.meet .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  gap: 40px;
+}
+.meet .box{
+  position: relative;
+  text-align: center;
+  transition: var(--main-transition);
+
+}
+
+.meet .box .tutan h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  transition: all 300ms linear 0s;
+}
+.meet .box .tutan:not(h4) p,i{
+  color: var(--muhum-color);
+}
+.meet .box .tutan .sochial {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+
+.meet .box .tutan .sochial a{
+  font-size: 14px;
+  color: #acadb0;
+  margin-right: 20px;
+  height: 30px;
+  /* TEXT-ALIGN: CENTER; */
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  place-content: center;
+  border: 1px solid #777777;
+  transition: all 300ms linear 0s;
+  place-items: center;
+  display: flex;
+}
+.meet .box:hover h4{
+  color: var(--main-color);
+}
+.meet .box .tutan .sochial a:hover { 
+  background-color: var(--main-color);
+}
+.meet .box .tutan .sochial a:hover svg{
+  color: black;
+}
+
+.meet .box .active{
+  background-color:var(--main-color)
+}
+.meet .box .active svg{
+  color: black;
+}
+
+/* End Meet */
+/* start meet // */

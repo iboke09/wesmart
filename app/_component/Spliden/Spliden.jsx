@@ -17,7 +17,7 @@ import "./index.scss";
 function Spliden() {
   return (
     <>
-    <div class="spikes" style={{position:"relative"}}></div>
+    <div className="spikes" style={{position:"relative"}}></div>
     <div
       style={{
         width: "100vw",

@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import logo from "../../img/logo.png.webp";
+import logo from "../../img/The First logo design for WeSmartt coloring-05.webp";
 import Link from "next/link";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
@@ -34,14 +34,16 @@ function Navbar() {
     <>
       <header className="header ">
         <div className="container shadow-2xl" style={{ height: "78px" }}>
-          <Image
-            decoding="async"
-            src={logo}
-            alt="Logo"
-            width={140}
-            height={100}
-          />
-
+          <Link href="">
+            <Image
+              style={{ height: "125px" }}
+              decoding="async"
+              src={logo}
+              alt="Logo"
+              width={140}
+              height={2100}
+            />
+          </Link>
           <nav className="hidden lg:block ">
             <ul>
               <li>
@@ -105,10 +107,16 @@ function Navbar() {
             </motion.span>
           ))}
         </motion.p>
-        <Link className="pro-btn animate__animated animate__backInDown" href="#">
+        <Link
+          className="pro-btn animate__animated animate__zoomInLeft"
+          href="#"
+        >
           donate now
         </Link>
-        <Link className="bad-btn animate__animated animate__backInDown" href="#">
+        <Link
+          className="bad-btn animate__animated animate__zoomInRight"
+          href="#"
+        >
           see causes
         </Link>
       </div>

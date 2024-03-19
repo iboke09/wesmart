@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "../../img/logo.png.webp";
+import logo from "../../img/The First logo design for WeSmartt coloring-05.webp";
 import { Navlink } from "./Navbar";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,8 +13,9 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
         style={{
           color: "#609521",
           zIndex: "999",
-          backgroundColor: "#b2870f",
+          backgroundColor: "#000000",
           height: "100vh",
+          zIndex: "1002",
         }}
         className={`${
           showMenu ? "left-0 " : "-left-[100%]  "
@@ -22,12 +23,13 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
       >
         <AiOutlineClose
           style={{ position: "absolute" }}
-          className="x hover:bg-green-700"
+          className="x hover:bg-gray-700"
           onClick={() => {
             toggleMenu();
           }}
         />
         <Image
+          style={{ height: "115px" }}
           decoding="async"
           src={logo}
           alt="Logo"

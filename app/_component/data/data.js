@@ -1,30 +1,39 @@
 import image from "./logo192.png";
-import { FcCircuit, FcFaq, FcBullish, FcShipped } from "react-icons/fc";
+import {
+  FcCircuit,
+  FcFaq,
+  FcBullish,
+  FcShipped,
+  FcEnteringHeavenAlive,
+  FcInternal,
+  FcAnswers,
+  FcNeutralTrading,
+} from "react-icons/fc";
 
 const data = [
   {
     id: 1,
-    img: <FcCircuit />,
+    img: <FcEnteringHeavenAlive />,
     name: "Leonel Ngoya",
-    text: "Je tiens à te remercier pour ce magnifique cadeau d'anniversaire/de naissance/de mariage/de départ à la retraite. J'ai été très touché de cette jolie attention de ta part. Tu as toujours su trouver le cadeau parfait. J'ai beaucoup de chance de t'avoir dans ma vie.",
+    text: "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
   },
   {
     id: 2,
-    img: <FcFaq />,
+    img: <FcInternal />,
     name: "Leonel Ngoya",
-    text: "Je tiens à te remercier pour ce magnifique cadeau d'anniversaire/de naissance/de mariage/de départ à la retraite. J'ai été très touché de cette jolie attention de ta part. Tu as toujours su trouver le cadeau parfait. J'ai beaucoup de chance de t'avoir dans ma vie.",
+    text: "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
   },
   {
     id: 3,
-    img: <FcBullish />,
+    img: <FcAnswers />,
     name: "Leonel Ngoya",
-    text: "Je tiens à te remercier pour ce magnifique cadeau d'anniversaire/de naissance/de mariage/de départ à la retraite. J'ai été très touché de cette jolie attention de ta part. Tu as toujours su trouver le cadeau parfait. J'ai beaucoup de chance de t'avoir dans ma vie.",
+    text: "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
   },
   {
     id: 4,
-    img: <FcShipped />,
+    img: <FcNeutralTrading />,
     name: "Leonel Ngoya",
-    text: "Je tiens à te remercier pour ce magnifique cadeau d'anniversaire/de naissance/de mariage/de départ à la retraite. J'ai été très touché de cette jolie attention de ta part. Tu as toujours su trouver le cadeau parfait. J'ai beaucoup de chance de t'avoir dans ma vie.",
+    text: "A paragraph is a series of sentences that are organized and coherent, and are all related to a single topic. Almost every piece of writing you do that is longer than a few sentences should be organized into paragraphs.",
   },
 ];
 
