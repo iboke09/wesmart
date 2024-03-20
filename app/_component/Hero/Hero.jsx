@@ -19,7 +19,6 @@ function Hero() {
     <div className="our">
       <div className="tutan main-title">
         <h2>our major causes</h2>
-        <p>Creepeth called face upon face yielding midst is after moveth</p>
       </div>
       <div className="container">
         <Tilt className={styles.hal}>

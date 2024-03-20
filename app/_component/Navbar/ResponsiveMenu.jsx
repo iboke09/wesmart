@@ -13,7 +13,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
         style={{
           color: "#609521",
           zIndex: "999",
-          backgroundColor: "#000000",
+          backgroundColor: "rgb(38 86 163)",
           height: "100vh",
           zIndex: "1002",
         }}

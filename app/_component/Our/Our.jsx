@@ -14,24 +14,35 @@ import { FaInstagram } from "react-icons/fa6";
 function Our() {
   return (
     <>
-      <div class="meet" id="meet">
-        <div class="tutan main-title">
+      <div className="meet" id="meet">
+        <div
+          className="tutan main-title"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h2>Meet Our Voluteer</h2>
-          <p>Creepeth called face upon face yielding midst is after moveth</p>
         </div>
-        <div class="container">
-          <div class="box">
+        <div className="container">
+          <div
+            className="box"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1000"
+          >
             <Image src={image2} alt="" width={1000} height={100} />
 
-            <div class="tutan">
-              <h4 class="head">Alea Mirslava</h4>
+            <div className="tutan">
+              <h4 className="head">Alea Mirslava</h4>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
                 years living.
               </p>
-              <div class="sochial">
-                <a href="https://www.youtube.com/@omr94/shorts" class="active">
+              <div className="sochial">
+                <a
+                  href="https://www.youtube.com/@omr94/shorts"
+                  className="active"
+                >
                   <FaFacebook />
                 </a>
                 <a href="https://www.youtube.com/@omr94/shorts">
@@ -46,18 +57,26 @@ function Our() {
               </div>
             </div>
           </div>
-          <div class="box">
+          <div
+            className="box"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1250"
+          >
             <Image src={image1} alt="" width={1000} height={100} />
 
-            <div class="tutan">
-              <h4 class="head">Adam Virland</h4>
+            <div className="tutan">
+              <h4 className="head">Adam Virland</h4>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
                 years living.
               </p>
-              <div class="sochial">
-                <a href="https://www.youtube.com/@omr94/shorts" class="active">
+              <div className="sochial">
+                <a
+                  href="https://www.youtube.com/@omr94/shorts"
+                  className="active"
+                >
                   <FaFacebook />
                 </a>
                 <a href="https://www.youtube.com/@omr94/shorts">
@@ -72,17 +91,25 @@ function Our() {
               </div>
             </div>
           </div>
-          <div class="box">
+          <div
+            className="box"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1500"
+          >
             <Image src={image3} width={1000} height={100} alt="" />
-            <div class="tutan">
-              <h4 class="head">Adam Virland</h4>
+            <div className="tutan">
+              <h4 className="head">Adam Virland</h4>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
                 years living.
               </p>
-              <div class="sochial">
-                <a href="https://www.youtube.com/@omr94/shorts" class="active">
+              <div className="sochial">
+                <a
+                  href="https://www.youtube.com/@omr94/shorts"
+                  className="active"
+                >
                   <FaFacebook />
                 </a>
                 <a href="https://www.youtube.com/@omr94/shorts">
@@ -97,18 +124,26 @@ function Our() {
               </div>
             </div>
           </div>
-          <div class="box">
+          <div
+            className="box"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            data-aos-duration="1750"
+          >
             <Image src={image} width={1000} height={100} alt="" />
 
-            <div class="tutan">
-              <h4 class="head">Alea Mirslava</h4>
+            <div className="tutan">
+              <h4 className="head">Alea Mirslava</h4>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
                 years living.
               </p>
-              <div class="sochial">
-                <a href="https://www.youtube.com/@omr94/shorts" class="active">
+              <div className="sochial">
+                <a
+                  href="https://www.youtube.com/@omr94/shorts"
+                  className="active"
+                >
                   <FaFacebook />
                 </a>
                 <a href="https://www.youtube.com/@omr94/shorts">

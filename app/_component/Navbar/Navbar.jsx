@@ -6,7 +6,7 @@ import Link from "next/link";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
-
+import image from "../../img/landingimg.png";
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
   const spanVariants = {
@@ -92,33 +92,41 @@ function Navbar() {
         showMenu={showMenu}
         setShowMenu={setShowMenu}
       />
-      <div className="text">
-        <p className="first">give a hand</p>
-        <motion.h2>to make the better world</motion.h2>
-        <motion.p
-          className="no"
-          variants={pVariants}
-          initial="hidden"
-          animate="visible"
+      <div className="text container">
+        <div
+          className="centere"
+          style={{ textAlign: "left", top: "65px", position: "relative" }}
         >
-          {text.split("").map((char, index) => (
-            <motion.span key={index} variants={spanVariants}>
-              {char}
-            </motion.span>
-          ))}
-        </motion.p>
-        <Link
-          className="pro-btn animate__animated animate__zoomInLeft"
-          href="#"
-        >
-          donate now
-        </Link>
-        <Link
-          className="bad-btn animate__animated animate__zoomInRight"
-          href="#"
-        >
-          see causes
-        </Link>
+          <p className="first">give a hand</p>
+          <motion.h2>to make the better world</motion.h2>
+          <motion.p
+            className="no"
+            variants={pVariants}
+            initial="hidden"
+            animate="visible"
+          >
+            {text.split("").map((char, index) => (
+              <motion.span key={index} variants={spanVariants}>
+                {char}
+              </motion.span>
+            ))}
+          </motion.p>
+          <Link
+            className="pro-btn animate__animated animate__zoomInLeft"
+            href="#"
+          >
+            donate now
+          </Link>
+          <Link
+            className="bad-btn animate__animated animate__zoomInRight"
+            href="#"
+          >
+            see causes
+          </Link>
+        </div>
+        <div>
+          <Image src={image} alt="alt" width={450} height={200} />
+        </div>
       </div>
     </>
   );
