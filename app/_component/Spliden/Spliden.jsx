@@ -17,53 +17,55 @@ import "./index.scss";
 function Spliden() {
   return (
     <>
-    <div className="spikes" style={{position:"relative"}}></div>
-    <div
-      style={{
-        width: "100vw",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "85vh",
-        background: "#eee",
-        marginTop: "100px",
-      }}
-    >
+      {/* <div className="spikes" style={{ position: "relative" }}></div> */}
       <div
-        className="containerS"
+        className="hait"
         style={{
+          width: "100vw",
+          position: "relative",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "85vh",
+          background: "#00152e",
+          marginTop: "100px",
         }}
       >
-        <h1>Any Thing</h1>
-        <div className="cards">
-          <Splide
-            aria-label="Testimonials"
-            options={{
-              type: "loop",
-              // fixedWidth: "700px",
-              focus: "center",
-              isNavigation: true,
-              autoplay: true,
-              perPage: 2,
-            }}
-          >
-            {data.map((item) => (
-              <SplideSlide key={item.id} style={{ width: "50vw" }}>
-                <div className="card" >
-                  {item.img}
-                  <h2>{item.name}</h2>
-                  <p className="splideP">{item.text}</p>
-                </div>
-              </SplideSlide>
-            ))}
-          </Splide>
+        <div
+          className="containerS"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100vh",
+          }}
+        >
+          <h1>Any Thing</h1>
+          <div className="cards">
+            <Splide
+              aria-label="Testimonials"
+              options={{
+                type: "loop",
+                // fixedWidth: "700px",
+                focus: "center",
+                isNavigation: true,
+                autoplay: true,
+                perPage: 2,
+              }}
+            >
+              {data.map((item) => (
+                <SplideSlide key={item.id} style={{ width: "50vw" }}>
+                  <div className="card">
+                    {item.img}
+                    <h2>{item.name}</h2>
+                    <p className="splideP">{item.text}</p>
+                  </div>
+                </SplideSlide>
+              ))}
+            </Splide>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 }
