@@ -32,7 +32,7 @@ function Navbar() {
   return (
     // <!-- Start Header -->
     <>
-      <header className="header ">
+      <header className="header">
         <div className="container shadow-2xl" style={{ height: "78px" }}>
           <Link href="">
             <Image

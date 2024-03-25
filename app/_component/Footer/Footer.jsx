@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../img/The First logo design for WeSmartt coloring-05.webp";
 import Image from "next/image";
 import Link from "next/link";
-import Spline from "@splinetool/react-spline";
+// import Spline from "@splinetool/react-spline";
 
 function Footer() {
   return (
