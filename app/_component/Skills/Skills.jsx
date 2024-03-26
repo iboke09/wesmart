@@ -30,13 +30,13 @@ function Skills() {
             <p className="text-white" data-aos="fade-left">AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.</p>
           </div>
           <div className="mask" data-aos="fade-up">
-            <h1 className="title">SAP CONSALTENT</h1>
-            <Image
+            <h1 className="title" data-aos-duration="1000" data-aos="fade-up">SAP CONSALTENT</h1>
+            <Image data-aos="fade-up" data-aos-duration="1000" 
               src={imageS} className="sapimg" width={200} height={200} alt="sap" />
-            <p className="text1">These checks highlight opportunities to improve the accessibility of your web app.</p>
-            <Image
+            <p className="text1" data-aos="fade-up" data-aos-duration="1000">These checks highlight opportunities to improve the accessibility of your web app.</p>
+            <Image data-aos="fade-up" data-aos-duration="1000"
               src={imageS1} className="sapimg2" width={200} height={200} alt="sap" />
-            <p className="text2">
+            <p className="text2" data-aos="fade-up" data-aos-duration="1000">
               These checks highlight opportunities to improve the accessibility of your web app.</p>
           </div>
         </div>
