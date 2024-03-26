@@ -15,7 +15,6 @@ import Tacarob from "./_component/Tacarob/Tacarob";
 export default function Home() {
   useEffect(() => {
     AOS.init();
-    // AOS.refresh();
   }, []);
   return (
     <>

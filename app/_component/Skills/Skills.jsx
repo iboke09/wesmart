@@ -14,130 +14,6 @@ import imageS1 from "../../img/abstract-background-with-low-poly-design.jpg"
 function Skills() {
   return (
     <>
-      {/* <div className="skills" id="services">
-        <div className="container">
-          <div
-            className="tutan main-title"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            <h2>Our Services</h2>
-          </div>
-          <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="700"
-            >
-              <Image
-                alt=""
-                src={image}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-
-              <div className="mt-4 flex items-center justify-center ">
-
-
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1300"
-            >
-              <Image
-                alt=""
-                src={image1}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-
-              <div className="mt-4 flex items-center justify-center ">
-
-
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1700"
-            >
-              <Image
-                alt=""
-                src={image2}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-
-              <div className="mt-4 flex items-center justify-center ">
-
-
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1000"
-            >
-              <Image
-                alt=""
-                src={image3}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-
-              <div className="mt-4 flex items-center justify-center">
-
-
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1300"
-            >
-              <Image
-                alt=""
-                src={image4}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-
-              <div className="mt-4 flex items-center justify-center">
-
-
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-            <Link
-              href="#"
-              className="block ad"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="1600"
-            >
-              <Image
-                alt=""
-                src={image5}
-                className="img h-56 w-full rounded-bl-3xl rounded-tr-3xl object-cover sm:h-64 lg:h-72"
-              />
-              <div className="mt-4 flex items-center justify-center">
-                <p className="mt-0.5 opacity-50 sm:mt-0 text-white">Branding / Signage</p>
-              </div>
-            </Link>
-          </div>
-        </div>
-      </div> */}
       <div className="ski">
         <div className="container">
           <div className="animatio">
@@ -153,11 +29,15 @@ function Skills() {
             <h1 className="title-2 text-white text-4xl" data-aos="fade-left">SAP</h1>
             <p className="text-white" data-aos="fade-left">AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.</p>
           </div>
-          <div className="mask">
-          <Image
-              src={imageS} width={200} height={200} alt="sap"/>
+          <div className="mask" data-aos="fade-up">
+            <h1 className="title">SAP CONSALTENT</h1>
             <Image
-              src={imageS1} width={200} height={200} alt="sap"/>
+              src={imageS} className="sapimg" width={200} height={200} alt="sap" />
+            <p className="text1">These checks highlight opportunities to improve the accessibility of your web app.</p>
+            <Image
+              src={imageS1} className="sapimg2" width={200} height={200} alt="sap" />
+            <p className="text2">
+              These checks highlight opportunities to improve the accessibility of your web app.</p>
           </div>
         </div>
       </div>
