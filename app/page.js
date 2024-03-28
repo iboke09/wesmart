@@ -11,13 +11,16 @@ import "aos/dist/aos.css";
 import Our from "./_component/Our/Our";
 import Skills from "./_component/Skills/Skills";
 import Tacarob from "./_component/Tacarob/Tacarob";
-
+import Head from "next/head"
 export default function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
+    <Head>
+			<link rel='icon' href='./favicon.ico' />
+		</Head>
       <Landing>
         <Navbar />
       </Landing>
