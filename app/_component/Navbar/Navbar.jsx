@@ -32,12 +32,12 @@ function Navbar() {
           <nav className="hidden lg:block ">
             <ul>
               <li>
-                <Link className="active" href="#">
+                <Link className="active" href="/">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#">Services</Link>
+                <Link href="/Services">Services</Link>
               </li>
               <li>
                 <Link href="#">Portfolio</Link>
