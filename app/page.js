@@ -12,6 +12,7 @@ import Our from "./_component/Our/Our";
 import Skills from "./_component/Skills/Skills";
 import Tacarob from "./_component/Tacarob/Tacarob";
 import Head from "next/head"
+import Main from "./_component/Main/Main";
 export default function Home() {
   useEffect(() => {
     AOS.init();
@@ -23,6 +24,7 @@ export default function Home() {
 		</Head>
       <Landing>
         <Navbar />
+        <Main/>
       </Landing>
       <Hero />
       <Spliden />

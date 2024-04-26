@@ -11,7 +11,7 @@ export default function Loading() {
         position: "fixed",
         left: "0",
         top: "0",
-        backgroundColor: "black",
+        backgroundColor: "rgb(0 21 46)",
         zIndex: "10000",
       }}
     >
