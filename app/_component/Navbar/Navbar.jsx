@@ -8,12 +8,25 @@ import ResponsiveMenu from "./ResponsiveMenu";
 import { motion } from "framer-motion";
 import image from "../../img/landingimg.png";
 import Main from "../Main/Main";
-function Navbar() {
+import { usePathname } from "next/navigation";
+function Navbar({ active }) {
   const [showMenu, setShowMenu] = useState(false);
+  const currentPath = usePathname();
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
- 
+  
+  const pages = [
+    { name: "Home", path: "/" },
+    { name: "Services", path: "/Services" },
+    { name: "About", path: "/sa" },
+    { name: "Contact", path: "/asf" },
+    { name: "Pricing", path: "/asgg" },
+    { name: "Portfolio", path: "/asgh" },
+  ];
+  const isActive = (path) => {
+    return currentPath === path;
+  };
   return (
     // <!-- Start Header -->
     <>
@@ -31,26 +44,17 @@ function Navbar() {
           </Link>
           <nav className="hidden lg:block ">
             <ul>
-              <li>
-                <Link className="active" href="#">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="#">Services</Link>
-              </li>
-              <li>
-                <Link href="#">Portfolio</Link>
-              </li>
-              <li>
-                <Link href="#">About</Link>
-              </li>
-              <li>
-                <Link href="#">Pricing</Link>
-              </li>
-              <li>
-                <Link href="#">Contact</Link>
-              </li>
+              {pages.map((page, index) => (
+                <li key={index}>
+                  <Link
+                    href={page.path}
+                    alt={page.name}
+                    className={isActive(page.path) ? "active" : ""}
+                  >
+                    {page.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
           <div className=" lg:hidden flex items-center">
@@ -77,7 +81,7 @@ function Navbar() {
         showMenu={showMenu}
         setShowMenu={setShowMenu}
       />
-      <Main/>
+      {/* <Main/> */}
     </>
   );
 }
