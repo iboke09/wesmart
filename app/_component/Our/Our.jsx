@@ -66,7 +66,7 @@ function Our() {
             <Image src={image1} alt="" width={1000} height={100} />
 
             <div className="tutan">
-              <h4 className="head">Adam Virland</h4>
+              <h4 className="head">Adam Virland</h4>  
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
