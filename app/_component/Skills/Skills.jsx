@@ -106,7 +106,7 @@ function Skills() {
             <motion.div
               data-aos="fade-up"
               style={{ background: " linear-gradient(95deg,#eb68b3, transparent)" }}
-              className="gitA_2"
+              className="gitA_2 t"
               whileInView={{ height: "185px" }}
               transition={{ duration: 0.8, delay: 0.65 }}
             ></motion.div>
