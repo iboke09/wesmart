@@ -86,13 +86,13 @@ export default function Sales() {
                                 <h2 className="title text-white text-xl yoga" data-aos="fade-left">
                                     Sales Manager
                                 </h2>
-                                <h1 className="title-2 text-white text-4xl" data-aos="fade-left" style={{
+                                <h1 className="title-2 text-white text-4xl"  style={{
                                     color: "var(--main-color)",
                                     marginTop: "-20px"
                                 }}>
                                     SAP
                                 </h1>
-                                <p className="text-white titleo" data-aos="fade-left" style={{
+                                <p className="text-white titleo" style={{
                                     fontSize: "25px",
                                     padding: "10px 0",
                                     // width: "50%",
