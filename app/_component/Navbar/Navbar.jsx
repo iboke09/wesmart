@@ -34,12 +34,12 @@ function Navbar({ active }) {
         <div className="container shadow-2xl" style={{ height: "78px" }}>
           <Link href="">
             <Image
-              style={{ height: "125px" }}
+              // style={{ height: "125px" }}
               decoding="async"
               src={logo}
               alt="Logo"
               width={140}
-              height={2100}
+              height={200}
             />
           </Link>
           <nav className="hidden lg:block ">

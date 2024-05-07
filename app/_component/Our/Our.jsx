@@ -4,7 +4,7 @@ import image from "../../img/v1.jpg.webp";
 import image1 from "../../img/v2.jpg.webp";
 import image2 from "../../img/v3.jpg.webp";
 import image3 from "../../img/v4.jpg.webp";
-import imageb from "../../img/1001714918782.jpeg";
+import imageb from "../../img/IMG_0480.webp";
 import image4 from "../../img/WhatsApp Görsel 2023-09-24 saat 23.10.28_35b53247.jpg";
 import image5 from "../../img/WhatsApp Görsel 2023-10-07 saat 12.11.44_8cd07256.jpg";
 import image6 from "../../img/WhatsApp Görsel 2023-10-07 saat 12.12.33_c77dbd98.jpg";
@@ -31,7 +31,7 @@ function Our() {
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1000"
           >
-           <Link href="/Sales" id="sales"> <Image src={imageb} alt="" width={1000} height={100} /></Link>
+           <Link href="/Sales" id="sales"> <Image src={imageb}  alt="Sap" width={1000} height={100} /></Link>
 
             <div className="tutan">
               <h4 className="head">Abdullah Shwehenh</h4>
