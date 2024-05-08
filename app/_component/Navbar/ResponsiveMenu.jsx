@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "../../img/The First logo design for WeSmartt coloring-05.webp";
+import logo from "../../img/lightLogoWebp-11.webp";
 import { Navlink } from "./Navbar";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,7 +13,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
         style={{
           color: "#609521",
           zIndex: "999",
-          backgroundColor: "rgb(38 86 163)",
+          backgroundColor: "rgb(17 47 96)",
           height: "100vh",
           zIndex: "1002",
         }}
@@ -29,11 +29,11 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
           }}
         />
         <Image
-          style={{ height: "115px" }}
+          // style={{ height: "115px" }}
           decoding="async"
           src={logo}
           alt="Logo"
-          width={140}
+          width={180}
           height={100}
         />
         <nav className="mt-12 responsivenav">

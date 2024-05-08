@@ -161,13 +161,12 @@ ul {
 .header ul li a {
   padding: 26px 24px;
   /* letter-spacing: 1px; */
-  font-family: '__Inter_aaf875';
+  font-family: calibri;
   font-weight: 300;
-  display: block;
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 21px;
   transition: 0.3s;
   position: relative;
   z-index: 2;
@@ -1354,10 +1353,9 @@ i {
 }
 
 .tazbit{
-  color: transparent;
-  width: 310px;
-  padding: 0;
-  margin: 0;
-  left: -55px;
-  position: relative;
+  width: 192px;
+    padding: 0;
+    margin: 0;
+    left: 5px;
+    position: relative;
 }
