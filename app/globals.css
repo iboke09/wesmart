@@ -1061,13 +1061,15 @@ i {
   padding: 38px 0px;
 }
 
-.ski .content .title-2 {
+.ski .content .title-2:not(.ue) {
   color: var(--main-color);
   margin-top: -20px;
 }
-
-.title-2.t {
-  color: #eb68b3;
+ 
+.title-2.t,
+.title-2.ue,
+.title.ue {
+  color: #eb68b3 !important;
 }
 
 .ski .mask {
@@ -1091,7 +1093,7 @@ i {
 
 .ski .mask .title {
   font-size: 40px !important;
-  color: var(--main-color) !important;
+  color: var(--main-color);
   margin-top: 35px !important;
 }
 

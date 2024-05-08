@@ -10,7 +10,7 @@ import image4 from "../../img/landing13.jpg";
 import { motion } from "framer-motion";
 import { FcSupport } from "react-icons/fc";
 import imageS from "../../img/enterprise-resource-planning-holographic-interface.jpg";
-import imageS1 from "../../img/abstract-background-with-low-poly-design.jpg";
+import imageS1 from "../../img/abstract-background-with-low-poly-design.jpg"; 
 import image22 from "../../img/emily-bernal-BM3U_D2lygo-unsplash.jpg";
 import image23 from "../../img/kelly-sikkema-Dx1b5ucschA-unsplash.jpg";
 import image24 from "../../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg";
@@ -82,7 +82,7 @@ function Skills() {
           <div className="animatio">
             <motion.div
               data-aos="fade-up"
-              style={{ background: "linear-gradient(85deg, #eb68b3, transparent)" }}
+              style={{ background: "linear-gradient(85deg, #eb68b3, transparent) " }}
               className="gitA"
               whileInView={{ height: "150px" }}
               transition={{ duration: 0.8, delay: 0.35 }}
@@ -116,7 +116,7 @@ function Skills() {
               Lorem header
             </h2>
             <h1
-              className="title-2 text-white text-4xl"
+              className="title-2 text-white text-4xl ue"
               data-aos="fade-left"
               style={{ color: "#eb68b3 !important" }}
             >
@@ -135,7 +135,7 @@ function Skills() {
             height={800}
           />
           <div className="mask" data-aos="fade-up">
-            <h1 className="title" style={{ color: "#eb68b3 !important" }}>
+            <h1 className="title ue" style={{ color: "#eb68b3 !important" }}>
               Graphic Design
             </h1>
             <Image
