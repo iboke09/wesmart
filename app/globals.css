@@ -914,6 +914,14 @@ footer{
 }
 
 @media (max-width:1022px) {
+  nav ul li:not(:nth-child(0)){
+    display: none !important ;
+    background-color: #726A6E;
+  }
+  .maskdarkapp{
+    position: relative;
+    left: 215px;
+  }
   .landing .text h2 {
     font-size: 39px;
   }
@@ -957,11 +965,63 @@ footer{
   }
 }
 
+
+
+
 @media (max-width:767px) {
   .text img {
     display: none;
   }
 }
+
+@media (max-width:767px) {
+  .maskdarkapp{
+    left: 150px;
+  }
+}
+@media (max-width:630px) {
+  .maskdarkapp{
+    left: 130px;
+  }
+}
+@media (max-width:585px) {
+  .maskdarkapp{
+    left: 110px;
+  }
+}
+@media (max-width:545px) {
+  .maskdarkapp{
+    left: 90px !important;
+  }
+}
+@media (max-width:500px) {
+  .tazbit{
+    width: 125px !important;
+  }
+  .maskdarkapp{
+    left: 95px !important;
+  }
+}
+@media (max-width:470px) {
+  .maskdarkapp{
+    left: 75px !important;
+  }
+}
+@media (max-width:410px) {
+  .maskdarkapp{
+    left: 45px !important;
+  }
+}
+@media (max-width:370px) {
+  .maskdarkapp{
+    left: 30px !important;
+  }
+}
+
+
+
+
+
 
 @keyframes animate2 {
   0% {
@@ -1450,8 +1510,15 @@ i {
     transform: rotate(360deg);
   }
 }
-
-
+/* nav ul li:not(:nth-child(0)){
+  display: none ;
+  background-color: #726A6E;
+} */
+@media (min-width: 1024px) {
+  .lg\:block {
+      display: block !important;
+  }
+}
 /* .maskoy{
   position: relative;
   height: 300px;
