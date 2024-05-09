@@ -1017,11 +1017,6 @@ footer{
     left: 40px !important;
   }
 }
-@media (max-width:330px) {
-  .maskdarkapp{
-    left: 30px !important;
-  }
-}
 
 
 
