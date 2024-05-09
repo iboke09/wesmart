@@ -1039,7 +1039,7 @@ footer{
     left: 150px;
   }
 }
-@media (max-width:630px) {
+/* @media (max-width:630px) {
   .maskdarkapp{
     left: 130px;
   }
@@ -1081,7 +1081,7 @@ footer{
   .maskdarkapp{
     left: 30px !important;
   }
-}
+} */
 
 /* start meet */
 /* Start Meet */
