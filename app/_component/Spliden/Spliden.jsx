@@ -27,7 +27,6 @@ function Spliden() {
           justifyContent: "center",
           alignItems: "center",
           height: "85vh",
-          background: "#00152e",
           marginTop: "100px",
         }}
       >

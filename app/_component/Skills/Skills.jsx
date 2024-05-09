@@ -40,13 +40,13 @@ function Skills() {
             ></motion.div>
           </div>
           <div className="container content">
-            <h2 className="title text-white text-xl" data-aos="fade-left">
+            <h2 className="title blawh text-xl" data-aos="fade-left">
               Lorem header
             </h2>
-            <h1 className="title-2 text-white text-4xl" data-aos="fade-left">
+            <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
               SAP
             </h1>
-            <p className="text-white" data-aos="fade-left">
+            <p className="blawh" data-aos="fade-left">
               AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
             </p>
           </div>
@@ -112,17 +112,17 @@ function Skills() {
             ></motion.div>
           </div>
           <div className="container content">
-            <h2 className="title text-white text-xl" data-aos="fade-left">
+            <h2 className="title blawh text-xl" data-aos="fade-left">
               Lorem header
             </h2>
             <h1
-              className="title-2 text-white text-4xl ue"
+              className="title-2 blawh text-4xl ue"
               data-aos="fade-left"
               style={{ color: "#eb68b3 !important" }}
             >
               Graphic
             </h1>
-            <p className="text-white" data-aos="fade-left">
+            <p className="blawh" data-aos="fade-left">
               AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
             </p>
           </div>
@@ -186,13 +186,13 @@ function Skills() {
             ></motion.div>
           </div>
           <div className="container content">
-            <h2 className="title text-white text-xl" data-aos="fade-left">
+            <h2 className="title blawh text-xl" data-aos="fade-left">
               Lorem header
             </h2>
-            <h1 className="title-2 text-white text-4xl" data-aos="fade-left">
+            <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
               Web Design
             </h1>
-            <p className="text-white" data-aos="fade-left">
+            <p className="blawh" data-aos="fade-left">
               AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
             </p>
           </div>

@@ -44,9 +44,10 @@ function Main() {
                 </motion.p>
                 <Link
                     className="pro-btn animate__animated animate__zoomInLeft"
-                    href="#"
+                    href="/Services"
                 >
-                    donate now
+                    <span style={{zIndex:"1000"}}>donate now</span>
+                    
                 </Link>
                 <Link
                     className="bad-btn animate__animated animate__zoomInRight"

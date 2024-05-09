@@ -11,12 +11,12 @@ export default function Loading() {
         position: "fixed",
         left: "0",
         top: "0",
-        backgroundColor: "rgb(0 21 46)",
+        backgroundColor: "var(--main-alt-color1)",
         zIndex: "10000",
       }}
     >
-      <div class="spinner">
-        <div class="spinner1"></div>
+      <div className="spinner">
+        <div className="spinner1"></div>
       </div>
     </div>
   );

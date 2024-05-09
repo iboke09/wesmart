@@ -8,7 +8,7 @@ function Footer() {
   return (
     <>
       {/* <Spline scene="https://prod.spline.design/7yukYUf0Rgsg8-0W/scene.splinecode" /> */}
-      <footer className="" style={{ backgroundColor: "rgb(0 21 46)" }}>
+      <footer className="">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex justify-center text-teal-600 dark:text-teal-300">
             <Image

@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --main-transition: 0.3s;
+  --main-color: #00cdff;
+  --main-alt-color1: rgb(0, 21, 46);
+  --main-alt-color: #fdbb00;
+  --padding-top: 110px;
+  --padding-bottom: 110px;
+  --muhum-color: #777;
+  --section-background: #ececec;
+  --mask-color:rgb(6 17 31); 
+  --blawh-color:white;
+  --blawho-color:#06111f;
+  --shadow-color:#00cdff;
+  --agib-color:rgb(0, 21, 46);
+  --gray-color:gray;
+}
+
+.darko{
+  --main-color: #ffffff;
+  --main-alt-color1: rgb(255, 255, 255);
+  --main-alt-color: #fdbb00;
+  --muhum-color: #f8f8f8;
+  --section-background: #b4a5a5;
+  --mask-color:rgb(70, 76, 85);
+  --blawh-color:black;
+  --blawho-color:black;
+  --shadow-color:#26d5ff;
+  --gray-color:#726A6E;
+  --agib-color:black;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -30,7 +61,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--main-color);
+  background-color: #00cdff;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -42,18 +73,6 @@ html {
   overflow-x: hidden;
 
 }
-
-:root {
-  --main-transition: 0.3s;
-  --main-color: #00cdff;
-  --main-alt-color1: rgb(0, 21, 46);
-  --main-alt-color: #fdbb00;
-  --padding-top: 110px;
-  --padding-bottom: 110px;
-  --muhum-color: #777;
-  --section-background: #ececec;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -262,7 +281,7 @@ ul {
 
 .text .first {
   font-size: 60px;
-  color: white;
+  color: var(--blawh-color);
   line-height: 100px;
   text-transform: uppercase;
   font-weight: bold;
@@ -291,7 +310,7 @@ ul {
 
 } */
 .text .no {
-  color: #f9f9ff;
+  color: var(--blawh-color);
   max-width: 680px;
   margin: 0px auto 45px;
 }
@@ -300,6 +319,80 @@ ul {
   background-color: transparent;
   color: var(--main-color);
   border: 1px solid;
+}
+
+/* The switch - the box around the slider */
+#theme-toggle-button {
+  font-size: 9px;
+  position: relative;
+  top: -11px;
+  display: inline-block;
+  width: 7em;
+  cursor: pointer;
+}
+
+/* Hide default HTML checkbox */
+
+#toggle {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#container,
+#patches,
+#stars,
+#button,
+#sun,
+#moon,
+#cloud {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.25s;
+}
+
+/* night sky background */
+#toggle:checked + svg #container {
+  fill: #2b4360;
+}
+
+/* move button to right when checked */
+#toggle:checked + svg #button {
+  transform: translate(28px, 2.333px);
+}
+
+/* show/hide sun and moon based on checkbox state */
+#sun {
+  opacity: 1;
+}
+
+#toggle:checked + svg #sun {
+  opacity: 0;
+}
+
+#moon {
+  opacity: 0;
+}
+
+#toggle:checked + svg #moon {
+  opacity: 1;
+}
+
+/* show or hide background items on checkbox state */
+#cloud {
+  opacity: 1;
+}
+
+#toggle:checked + svg #cloud {
+  opacity: 0;
+}
+
+#stars {
+  opacity: 0;
+}
+
+#toggle:checked + svg #stars {
+  opacity: 1;
 }
 
 .text a {
@@ -312,7 +405,6 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 48px;
-  border: 1px solid black;
   outline: none !important;
   box-shadow: none !important;
   text-align: center;
@@ -328,14 +420,10 @@ ul {
   background-color: #ffffff;
   background-image: none !important;
   color: black;
+  border: 1px solid var(--blawh-color);
   font-weight: bold;
   margin-left: 20px;
-  /* background-color: transparent;
-  background-image: none !important;
-  color: white;
-  font-weight: bold;
-  margin-left: 20px;
-  border-color: white; */
+  
 }
 
 @media (max-width: 767px) {
@@ -344,11 +432,41 @@ ul {
   }
 }
 
-.landing .text a.pro-btn:hover {
+/* .landing .text a.pro-btn:hover {
   transition: 1s;
   background-image: linear-gradient(114deg, rgb(25 157 167), rgb(12 0 134)) ;
+} */
+.landing .text a.pro-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3em;
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+  display: inline-flex;
+  background-image: linear-gradient(114deg, rgb(15 111 119), rgb(40, 21, 236));
+  padding: 0px 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 48px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  /* transition: background-image 1s; */
+  border-radius: 60px;
 }
-
+.landing .text a.pro-btn:hover::after {
+  opacity: 1;
+}
 @media (max-width:991px) {
   .landing .text {
     width: 775px;
@@ -439,7 +557,7 @@ ul {
   margin-bottom: 10px;
   text-transform: capitalize;
   font-weight: 600;
-  color: white;
+  color: var(--blawh-color);
 }
 
 .our .container {
@@ -465,9 +583,9 @@ ul {
 
   border-radius: 5px;
   top: 0px;
-  width: 51%;
+  width: 50.1%;
   height: 1%;
-  background-color: var(--main-color);
+  background-color:#00cdff;
   right: 0;
   transition: var(--main-transition);
 }
@@ -479,7 +597,7 @@ ul {
   top: 0px;
   width: 50%;
   height: 1%;
-  background-color: var(--main-color);
+  background-color:#00cdff;
   left: 0px;
   /* right: 0; */
   transition: var(--main-transition);
@@ -504,7 +622,9 @@ ul {
   margin-bottom: 10px;
   margin-top: -5px;
 }
-
+footer{
+  background-color: var(--agib-color);
+}
 .our .box p {
   background: linear-gradient(to bottom, var(--main-color), black);
   background-clip: text;
@@ -602,11 +722,11 @@ ul {
 }
 
 .splide__arrow svg path {
-  fill: var(--main-color);
+  fill: #00cdff;
 }
 
 .splide__pagination__page.is-active {
-  background: var(--main-color) !important;
+  background: #00cdff !important;
 }
 
 .containerS .cards .splide__slide .card {
@@ -659,8 +779,6 @@ ul {
 .landing {
   position: relative;
   height: 100vh;
-  background-color: #357f95;
-  background: var(--main-alt-color1);
   /* overflow: hidden; */
   /* background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(20 58 73) 100%); */
 }
@@ -672,9 +790,10 @@ ul {
   top: -100px;
   width: 300px;
   height: 300px;
-  background-color: var(--main-color);
+  background-color: var(--shadow-color);
   border-radius: 50%;
   filter: blur(125px);
+  z-index: -99;
 }
 
 .landing::after {
@@ -684,9 +803,10 @@ ul {
   width: 300px;
   bottom: -75px;
   height: 300px;
-  background-color: var(--main-color);
+  background-color: var(--shadow-color);
   border-radius: 50%;
   filter: blur(100px);
+  z-index: -99;
 }
 
 .hait::before {
@@ -696,8 +816,9 @@ ul {
   top: -100px;
   width: 300px;
   height: 300px;
-  background-color: var(--main-color);
+  background-color: var(--shadow-color);
   border-radius: 50%;
+  z-index: -99;
   filter: blur(125px);
 }
 
@@ -708,9 +829,10 @@ ul {
   width: 300px;
   bottom: -75px;
   height: 300px;
-  background-color: var(--main-color);
+  background-color: var(--shadow-color);
   border-radius: 50%;
   filter: blur(100px);
+  z-index: -99;
 }
 
 /* .landing .wave{
@@ -883,7 +1005,7 @@ ul {
 
 .meet .box .tutan:not(h4) p,
 i {
-  color: white;
+  color: var(--blawh-color);
 }
 
 .meet .box .tutan .sochial {
@@ -911,7 +1033,7 @@ i {
 }
 
 .meet .box:hover h4 {
-  color: var(--main-color);
+  color: #00cdff;
 }
 
 .meet .box img {
@@ -923,7 +1045,7 @@ i {
 } */
 .meet .box .tutan .sochial a:hover svg {
   transition: 0.5s;
-  color: var(--main-color);
+  color: #00cdff;
 }
 
 /* End Meet */
@@ -996,14 +1118,14 @@ i {
   top: -150px;
   height: 0px;
   width: 2px;
-  background: linear-gradient(85deg, var(--main-color), transparent);
+  background: linear-gradient(85deg, #00cdff, transparent);
 }
 
 .gitA_2 {
   position: absolute;
   height: 0px;
   width: 2px;
-  background: linear-gradient(95deg, var(--main-color), transparent);
+  background: linear-gradient(95deg, #00cdff, transparent);
   top: 55px;
 }
 
@@ -1026,7 +1148,7 @@ i {
   height: 30px;
   width: 30px;
   display: block;
-  background: var(--main-color);
+  background: #00cdff;
   top: -11px;
   position: relative;
   left: -13px;
@@ -1061,10 +1183,13 @@ i {
 }
 
 .ski .content .title-2:not(.ue) {
-  color: var(--main-color);
+  color: #00cdff;
   margin-top: -20px;
 }
  
+.blawh{
+  color: var(--blawh-color);
+}
 .title-2.t,
 .title-2.ue,
 .title.ue {
@@ -1078,9 +1203,9 @@ i {
   flex-wrap: wrap;
   left: -30px;
   height: 400px;
-  background: rgb(6 17 31);
+  background: var(--blawho-color);
   border-radius: 12px;
-  border: 1px solid gray;
+  border: 2px solid var(--gray-color);
   overflow: hidden;
   text-align: center;
   transition: 0.5s !important;
@@ -1131,7 +1256,7 @@ i {
 }
 
 .ski .mask:hover {
-  border-color: var(--main-color);
+  border-color:  #00cdff;
   /* transition: 1s; */
 }
 
@@ -1141,10 +1266,11 @@ i {
   left: -150px;
   width: 265px;
   height: 200px;
-  background-color: var(--main-color);
+  background-color: var(--shadow-color);
   border-radius: 50%;
   filter: blur(100px);
   top: -170px;
+  z-index: -99;
 }
 
 /* .ski.o::before {
