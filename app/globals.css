@@ -1004,15 +1004,20 @@ footer{
 }
 @media (max-width:470px) {
   .maskdarkapp{
-    left: 75px !important;
+    left: 80px !important;
   }
 }
 @media (max-width:410px) {
   .maskdarkapp{
-    left: 45px !important;
+    left: 58px !important;
   }
 }
 @media (max-width:370px) {
+  .maskdarkapp{
+    left: 40px !important;
+  }
+}
+@media (max-width:330px) {
   .maskdarkapp{
     left: 30px !important;
   }
