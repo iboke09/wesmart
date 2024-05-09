@@ -626,7 +626,7 @@ footer{
   background-color: var(--agib-color);
 }
 .our .box p {
-  background: linear-gradient(to bottom, var(--main-color), black);
+  background: linear-gradient(to top, #00b1ff, #123a73);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
