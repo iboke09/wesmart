@@ -17,6 +17,7 @@
   --shadow-color:#00cdff;
   --agib-color:rgb(0, 21, 46);
   --gray-color:gray;
+  --agib2-color:#00cdff;
 }
 
 .darko{
@@ -31,6 +32,7 @@
   --shadow-color:#26d5ff;
   --gray-color:#726A6E;
   --agib-color:black;
+  --agib2-color:#00cdff;
 }
 
 * {
@@ -43,6 +45,9 @@ img {
   /* max-height: 100%;  */
 }
 
+.agib2{
+  color: var(--agib2-color);
+}
 body {
   line-height: 25px;
   font-size: 15px;
@@ -1471,7 +1476,8 @@ i {
 .yoga {
   padding: 11px;
   width: fit-content;
-  background: linear-gradient(45deg, var(--main-color), #182468);
+  color: white;
+  background: linear-gradient(45deg, var(--agib2-color), #182468);
   position: absolute;
   bottom: 0;
   border-radius: 0px 25px;

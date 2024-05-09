@@ -13,7 +13,7 @@ export default function Sales() {
                     <nav aria-label="Breadcrumb" style={{ paddingTop: "115px" }}>
                         <ol className="flex items-center gap-1 text-sm text-gray-600" style={{ color: "#FFFFFF" }}>
                             <li>
-                                <Link href="/" className="block transition hover:text-gray-300">
+                                <Link href="/" className="block transition blawh hover:text-gray-500">
                                     <span className="sr-only">Home</span>
 
                                     <svg
@@ -36,7 +36,7 @@ export default function Sales() {
                             <li className="rtl:rotate-180">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="h-4 w-4"
+                                    className="h-4 w-4 blawh"
                                     viewBox="0 0 20 20"
                                     fill="currentColor"
                                 >
@@ -49,13 +49,13 @@ export default function Sales() {
                             </li>
 
                             <li>
-                                <Link href="/#sales" className="block transition hover:text-gray-300"> Sales Manager </Link>
+                                <Link href="/#sales" className="block transition hover:text-gray-500 blawh"> Sales Manager </Link>
                             </li>
 
                             <li className="rtl:rotate-180">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    className="h-4 w-4"
+                                    className="h-4 w-4 blawh"
                                     viewBox="0 0 20 20"
                                     fill="currentColor"
                                 >
@@ -83,16 +83,15 @@ export default function Sales() {
                             alignItems: "center"
                         }}>
                             <div className='contento' >
-                                <h2 className="title text-white text-xl yoga" data-aos="fade-left">
+                                <h2 className="title blawh text-xl yoga" data-aos="fade-left">
                                     Sales Manager
                                 </h2>
-                                <h1 className="title-2 text-white text-4xl"  style={{
-                                    color: "var(--main-color)",
+                                <h1 className="title-2 agib2 text-4xl"  style={{
                                     marginTop: "-20px"
                                 }}>
                                     SAP
                                 </h1>
-                                <p className="text-white titleo" style={{
+                                <p className="blawh titleo" style={{
                                     fontSize: "25px",
                                     padding: "10px 0",
                                     // width: "50%",
@@ -100,13 +99,12 @@ export default function Sales() {
                                 }}>
                                     AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
                                 </p>
-                                <p className='titleo2' style={{
-                                    borderTop: "1px solid var(--main-color)",
+                                <p className='titleo2 blawh' style={{
+                                    borderTop: "1px solid var(--agib2-color)",
                                     fontSize: "15px",
                                     padding: "5px 0",
                                     // width: "50%",
                                     lineHeight: "34px",
-                                    color: "white",
                                 }}>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolor officia blanditiis repellat in, vero, aperiam porro ipsum laboriosam consequuntur exercitationem incidunt tempora nisi?
                                 </p>
