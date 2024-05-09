@@ -43,7 +43,7 @@ function Navbar({ active }) {
               className="tazbit"
             />
           </Link>
-          <nav className=" lg:block ">
+          <nav className="yami lg:block ">
             <ul>
               {pages.map((page, index) => (
                 <li key={index}>

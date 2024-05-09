@@ -914,7 +914,7 @@ footer{
 }
 
 @media (max-width:1022px) {
-  nav ul li:not(:nth-child(0)){
+  .yami ul li:not(:nth-child(0)){
     display: none !important ;
     background-color: #726A6E;
   }
