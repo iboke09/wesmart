@@ -979,7 +979,7 @@ footer{
     left: 150px;
   }
 }
-@media (max-width:630px) {
+/* @media (max-width:630px) {
   .maskdarkapp{
     left: 130px;
   }
@@ -993,7 +993,7 @@ footer{
   .maskdarkapp{
     left: 90px !important;
   }
-}
+} */
 /* @media (max-width:500px) {
   .tazbit{
     width: 125px !important;
