@@ -914,10 +914,10 @@ footer{
 }
 
 @media (max-width:1022px) {
-  /* nav ul li:not(:nth-child(0)){
+  nav ul li:not(:nth-child(0)){
     display: none !important ;
     background-color: #726A6E;
-  } */
+  }
   .maskdarkapp{
     position: relative;
     left: 215px;
@@ -979,7 +979,7 @@ footer{
     left: 150px;
   }
 }
-/* @media (max-width:630px) {
+@media (max-width:630px) {
   .maskdarkapp{
     left: 130px;
   }
@@ -993,8 +993,8 @@ footer{
   .maskdarkapp{
     left: 90px !important;
   }
-} */
-/* @media (max-width:500px) {
+}
+@media (max-width:500px) {
   .tazbit{
     width: 125px !important;
   }
@@ -1016,7 +1016,8 @@ footer{
   .maskdarkapp{
     left: 40px !important;
   }
-} */
+}
+
 
 
 
@@ -1039,7 +1040,7 @@ footer{
     left: 150px;
   }
 }
-/* @media (max-width:630px) {
+@media (max-width:630px) {
   .maskdarkapp{
     left: 130px;
   }
@@ -1081,7 +1082,7 @@ footer{
   .maskdarkapp{
     left: 30px !important;
   }
-} */
+}
 
 /* start meet */
 /* Start Meet */

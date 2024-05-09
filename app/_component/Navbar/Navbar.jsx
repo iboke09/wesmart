@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import image from "../../img/landingimg.png";
 import Main from "../Main/Main";
 import { usePathname } from "next/navigation";
-import DarkMode from "../DarkMode/darkMode";
+import DarkMode from "../DarkMode/DarkMode";
 function Navbar({ active }) {
   const [showMenu, setShowMenu] = useState(false);
   const currentPath = usePathname();
