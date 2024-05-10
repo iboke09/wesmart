@@ -20,6 +20,7 @@
   --agib2-color:#00cdff;
   --blawhok-color:white;
   --blawhs-color:black;
+  --agib-zindex:-100
 }
 
 .darko{
@@ -37,6 +38,7 @@
   --gray-color:#726A6E;
   --agib-color:black;
   --agib2-color:#00cdff;
+  --agib-zindex:99
 }
 
 * {
@@ -1313,6 +1315,7 @@ i {
 }
 
 .ski .mask {
+  z-index: 2;
   position: relative;
   top: 70px;
   width: 700px;
@@ -1402,7 +1405,7 @@ i {
 } */
 
 @media (max-width:1100px) {
-  .ski::after {
+  .ski:not(.t)::after {
     bottom: 710px !important;
   }
 
@@ -1428,6 +1431,9 @@ i {
 @media (max-width:1500px) {
   .kayip {
     left: 920px !important;
+  }
+  .kayip1 {
+    left: 700px !important;
   }
 }
 
@@ -1517,15 +1523,15 @@ i {
     line-height: 34px;
   }
 }
-
-/* @media (max-width: 991px) {
-  .kayip {
-      left: 570px !important;
-  }
-} */
+#toggle:checked .kayip{
+  width: 100000px;
+}
 @media (max-width: 1199px) {
   .kayip {
     left: 570px !important;
+  }
+  .kayip1 {
+    left: 500px !important;
   }
 
   .ski:not(.ski.o, .ski.t):after {
@@ -1535,7 +1541,23 @@ i {
 }
 
 /* gitA // */
+footer{
+  position: relative;
+  z-index: var(--agib-zindex);
+}
 
+.ski.t::after{
+  content: "";
+  position: absolute;
+  right: -100px;
+  width: 300px;
+  bottom: -89px;
+  height: 300px;
+  background-color: var(--shadow-color);
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -99;
+}
 
 .spinner {
   background-image: linear-gradient(rgb(186, 66, 255) 35%, rgb(0, 225, 255));

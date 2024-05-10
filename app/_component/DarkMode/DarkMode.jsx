@@ -15,9 +15,9 @@ function DarkMode() {
     }
   }
   let defaultChecked = "defaultChecked";
-
+  
   let lp = 0;
-
+  
   if (typeof window !== "undefined") {
     if (localStorage.getItem("dali")) {
       lp = 1;

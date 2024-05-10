@@ -15,6 +15,7 @@ import image22 from "../../img/emily-bernal-BM3U_D2lygo-unsplash.jpg";
 import image23 from "../../img/kelly-sikkema-Dx1b5ucschA-unsplash.jpg";
 import image24 from "../../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg";
 import image25 from "../../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg";
+import image26 from "../../img/nothingso-19.png";
 import { SiCodesignal } from "react-icons/si";
 function Skills() {
   return (
@@ -128,11 +129,19 @@ function Skills() {
           </div>
           <Image
             src="https://github.githubassets.com/assets/shape-2-f30dcc9bd35c.svg"
-            style={{ position: "absolute", left: "1300px", top: "165px" }}
+            style={{ position: "absolute", left: "1300px", top: "165px",zIndex:"1" }}
             className="kayip"
             alt=""
             width={800}
             height={800}
+          />
+          <Image
+            src={image26}
+            style={{ position: "absolute", left: "1300px", top: "165px" }}
+            className="kayip1"
+            alt=""
+            width={1200}
+            height={1200}
           />
           <div className="mask" data-aos="fade-up">
             <h1 className="title ue" style={{ color: "#eb68b3 !important" }}>
