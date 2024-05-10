@@ -18,9 +18,12 @@
   --agib-color:rgb(0, 21, 46);
   --gray-color:gray;
   --agib2-color:#00cdff;
+  --blawhok-color:white;
+  --blawhs-color:black;
 }
 
 .darko{
+  --blawhok-color:#4b4b4b;
   --main-color: #ffffff;
   --main-alt-color1: rgb(255, 255, 255);
   --main-alt-color: #fdbb00;
@@ -28,6 +31,7 @@
   --section-background: #b4a5a5;
   --mask-color:rgb(70, 76, 85);
   --blawh-color:black;
+  --blawhs-color:white;
   --blawho-color:black;
   --shadow-color:#26d5ff;
   --gray-color:#726A6E;
@@ -322,7 +326,7 @@ ul {
 
 .landing .text a.bad-btn:hover {
   background-color: transparent;
-  color: var(--main-color);
+  color: var(--blawh-color);
   border: 1px solid;
 }
 
@@ -422,9 +426,9 @@ ul {
 }
 
 .landing .text a.bad-btn {
-  background-color: #ffffff;
+  background-color: var(--blawh-color);
   background-image: none !important;
-  color: black;
+  color: var(--blawhs-color);
   border: 1px solid var(--blawh-color);
   font-weight: bold;
   margin-left: 20px;
@@ -974,7 +978,7 @@ footer{
   }
 }
 
-@media (max-width:767px) {
+/* @media (max-width:767px) {
   .maskdarkapp{
     left: 150px;
   }
@@ -1016,7 +1020,7 @@ footer{
   .maskdarkapp{
     left: 40px !important;
   }
-}
+} */
 
 
 
