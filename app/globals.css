@@ -292,6 +292,7 @@ ul {
 }
 
 .text .first {
+  transition: 0.7s;
   font-size: 60px;
   color: var(--blawh-color);
   line-height: 100px;
@@ -322,6 +323,7 @@ ul {
 
 } */
 .text .no {
+  transition: 0.7s;
   color: var(--blawh-color);
   max-width: 680px;
   margin: 0px auto 45px;
