@@ -302,7 +302,9 @@ ul {
 }
 
 
-
+h2,h1{
+  transition: 0.7s;
+}
 
 .landing .text h2 {
   background: linear-gradient(to top, #0e6074, #00cdff);
