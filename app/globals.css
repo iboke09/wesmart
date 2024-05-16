@@ -132,6 +132,11 @@ ul {
     width: 1170px;
   }
 }
+@media (min-width: 1280px) {
+  .abdullah{
+    height: 264px;
+  }
+}
 
 .header {
   font-weight: 100;
@@ -899,6 +904,7 @@ footer{
 }
 
 @media (max-width:1270px) {
+  
   .landing .text h2 {
     font-size: 39px;
   }
@@ -1446,6 +1452,8 @@ i {
     left: 700px !important;
   }
 }
+
+
 
 @media (max-width:767px) {
   .sura{
