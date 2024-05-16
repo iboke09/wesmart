@@ -20,10 +20,11 @@
   --agib2-color:#00cdff;
   --blawhok-color:white;
   --blawhs-color:black;
-  --agib-zindex:-100
+  --agib-zindex:-100;
 }
 
 .darko{
+  transition: 0.7s;
   --blawhok-color:#4b4b4b;
   --main-color: #ffffff;
   --main-alt-color1: rgb(255, 255, 255);
@@ -60,7 +61,7 @@ body {
   background: var(--main-alt-color1);
   font-weight: normal;
   overflow-x: hidden;
-  /* overflow-y: hidden; */
+  transition: 0.7s;
 }
 
 ::-webkit-scrollbar {
