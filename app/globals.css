@@ -302,7 +302,7 @@ ul {
 }
 
 
-h2,h1{
+h2{
   transition: 0.7s;
 }
 
@@ -329,6 +329,7 @@ h2,h1{
   color: var(--blawh-color);
   max-width: 680px;
   margin: 0px auto 45px;
+  margin-left: 7px;
 }
 
 .landing .text a.bad-btn:hover {
