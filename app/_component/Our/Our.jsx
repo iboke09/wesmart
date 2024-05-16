@@ -31,7 +31,7 @@ function Our() {
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1000"
           >
-           <Link href="/Sales" id="sales"> <Image src={imageb}  alt="Sap" width={1000} height={100} style={{height:"264px"}}/></Link>
+           <Link href="/Sales" id="sales"> <Image src={imageb}  alt="Sap" width={1000} height={100} className="abdullah" style={{height:"264px"}}/></Link>
 
             <div className="tutan">
               <h4 className="head">Abdullah Shwehenh</h4>

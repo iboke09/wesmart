@@ -48,13 +48,14 @@
   box-sizing: border-box;
 }
 
-img {
+/* img { */
   /* max-height: 100%;  */
-}
+/* } */
 
 .agib2{
   color: var(--agib2-color);
 }
+
 body {
   line-height: 25px;
   font-size: 15px;
@@ -108,6 +109,9 @@ ul {
 @media (max-width: 768px) {
   .responsivenav {
     top: -10px !important;
+  }
+  .abdullah{
+    height: auto !important;
   }
 }
 
