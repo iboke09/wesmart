@@ -349,7 +349,7 @@ h2{
 
 /* The switch - the box around the slider */
 #theme-toggle-button {
-  font-size: 9px;
+  font-size: 8px;
   position: relative;
   top: -11px;
   display: inline-block;
