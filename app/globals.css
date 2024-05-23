@@ -21,10 +21,12 @@
   --blawhok-color:white;
   --blawhs-color:black;
   --agib-zindex:-100;
+  --vi-color:rgb(6 45 94)
 }
 
 .darko{
   transition: 0.7s;
+  --vi-color:black;
   --blawhok-color:#4b4b4b;
   --main-color: #ffffff;
   --main-alt-color1: rgb(255, 255, 255);
@@ -1648,4 +1650,36 @@ footer{
     margin: 0;
     left: 5px;
     position: relative;
+}
+
+
+@media (max-width:767px) {
+  .videoT{
+    display: none;
+  }
+  .maskV{
+    transition: 0.7s;
+    background-color: var(--vi-color);
+  }
+  .youy{
+  height: 100vh;
+  }
+}
+
+@media (min-width:1199px) {
+  .videoT{
+    height: auto !important;
+  }
+}
+/* .youy::before{
+  content:"";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  background-image: linear-gradient(var(--main-alt-color1),transparent);
+} */
+
+.youy{
+  margin-top: 100px;
 }

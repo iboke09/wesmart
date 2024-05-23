@@ -11,25 +11,27 @@ import "aos/dist/aos.css";
 import Our from "./_component/Our/Our";
 import Skills from "./_component/Skills/Skills";
 import Tacarob from "./_component/Tacarob/Tacarob";
-import Head from "next/head"
+import Head from "next/head";
 import Main from "./_component/Main/Main";
+import Incaz from "./_component/Incaz/Incaz.jsx";
 export default function Home() {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
     <>
-    <Head>
-			<link rel='icon' href='/favicon/favicon.ico' />
-		</Head>
+      <Head>
+        <link rel="icon" href="/favicon/favicon.ico" />
+      </Head>
       <Landing>
         <Navbar />
-        <Main/>
+        <Main />
       </Landing>
       <Hero />
-      <Spliden />
       <Our />
       <Skills />
+      <Incaz />
+      <Spliden />
       <Footer />
       {/* <Tacarob/> */}
     </>

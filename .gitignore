@@ -128,3 +128,18 @@ node_modules
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# next-video
+y/*
+!y/*.json
+!y/*.js
+!y/*.ts
+public/_next-video
+
+# next-video
+y/*
+!y/*.json
+!y/*.js
+!y/*.ts
+public/_next-video
