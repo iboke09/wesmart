@@ -8,7 +8,7 @@ import React from "react";
 export default function Component() {
   return (
     <div className="relative w-full h-[80vh] overflow-hidden youy">
-      <video autoPlay muted loop style={{height:"100%"}} className="videoT">
+      <video autoPlay muted loop playsinline  style={{height:"100%"}} className="videoT">
         <source src={"/_next-videos/Technology.mp4"} type="video/mp4" />
       </video>
       <span className="absolute inset-0 w-full h-full object-cover rounded-md bg-muted" />

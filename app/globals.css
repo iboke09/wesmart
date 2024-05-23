@@ -1656,19 +1656,6 @@ footer{
 }
 
 
-@media (max-width:767px) {
-  .videoT{
-    height: 95%;
-    rotate: 90deg;
-    min-width: 869px;
-    left: -192px;
-    position: relative;
-  }
-  .youy{
-  height: 100vh;
-  }
-}
-
 @media (min-width:1199px) {
   .videoT{
     height: auto !important;
@@ -1696,4 +1683,20 @@ footer{
 
 .youy{
   margin-top: 100px;
+}
+
+@media (max-width:767px) {
+  .videoT{
+    height: 95%;
+    rotate: 90deg;
+    min-width: 869px;
+    left: -192px;
+    position: relative;
+  }
+  .youy{
+    height: 110vh;
+  }
+  .youy::after{
+    bottom: 15px;
+  }
 }
