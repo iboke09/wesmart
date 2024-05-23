@@ -11,6 +11,7 @@ export default function Component() {
       <video autoPlay muted loop playsinline  style={{height:"100%"}} className="videoT">
         <source src={"/_next-videos/Technology.mp4"} type="video/mp4" />
       </video>
+      {/* </div> */}
       <span className="absolute inset-0 w-full h-full object-cover rounded-md bg-muted" />
       <div className="absolute inset-0 maskV flex items-center justify-center">
         <div className="container px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 text-white">

@@ -1685,18 +1685,27 @@ footer{
   margin-top: 100px;
 }
 
+@media (max-width:1315px) {
+  video{
+    max-width: 200%;
+  }
+}
 @media (max-width:767px) {
   .videoT{
     height: 95%;
     rotate: 90deg;
     min-width: 869px;
-    left: -192px;
+    left: -335px;
     position: relative;
   }
   .youy{
     height: 110vh;
   }
   .youy::after{
-    bottom: 15px;
+    bottom: 2%;
+  }
+  .youy::before{
+    top: 9px;
+    z-index: 1;
   }
 }
