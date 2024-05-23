@@ -1658,11 +1658,11 @@ footer{
 
 @media (max-width:767px) {
   .videoT{
-    display: none;
-  }
-  .maskV{
-    transition: 0.7s;
-    background-color: var(--vi-color);
+    height: 95%;
+    rotate: 90deg;
+    min-width: 869px;
+    left: -192px;
+    position: relative;
   }
   .youy{
   height: 100vh;
