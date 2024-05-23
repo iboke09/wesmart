@@ -5,7 +5,8 @@
 :root {
   --main-transition: 0.3s;
   --main-color: #00cdff;
-  --main-alt-color1: rgb(0, 21, 46);
+  --main-alt-color1: rgb(5, 20, 38);
+  --main-alt-color11: rgb(5, 20, 38);
   --main-alt-color: #fdbb00;
   --padding-top: 110px;
   --padding-bottom: 110px;
@@ -30,6 +31,7 @@
   --blawhok-color:#4b4b4b;
   --main-color: #ffffff;
   --main-alt-color1: rgb(255, 255, 255);
+  --main-alt-color11: transparent;
   --main-alt-color: #fdbb00;
   --muhum-color: #f8f8f8;
   --section-background: #b4a5a5;
@@ -1671,14 +1673,25 @@ footer{
     height: auto !important;
   }
 }
-/* .youy::before{
+.youy::before{
   content:"";
   display: block;
   position: absolute;
   width: 100%;
-  height: 15%;
-  background-image: linear-gradient(var(--main-alt-color1),transparent);
-} */
+  height: 10%;
+  transition: 0.7s;
+  background-image: linear-gradient(var(--main-alt-color11),transparent);
+}
+.youy::after{
+  content:"";
+  transition: 0.7s;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-image: linear-gradient(transparent,var(--main-alt-color11));
+}
 
 .youy{
   margin-top: 100px;
