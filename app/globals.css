@@ -267,13 +267,12 @@ ul {
 
 .responsivenav ul li:hover a {
   padding-left: 15px;
-  color: var(--main-color);
+  color: #00cdff;
 }
 
 .responsivenav ul li:hover {
   padding-left: 10px;
-  color: var(--main-color);
-  border-bottom: 2px solid var(--main-color);
+  border-bottom: 2px solid #00cdff;
 }
 
 .x {
