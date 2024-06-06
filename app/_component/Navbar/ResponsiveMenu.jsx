@@ -7,10 +7,25 @@ import Image from "next/image";
 import { VscFoldRight, VscFoldUp, VscChevronRight } from "react-icons/vsc";
 import { AiOutlineClose } from "react-icons/ai";
 import DarkMode from "../DarkMode/DarkMode";
-
+import style from "./style.module.css";
 function ResponsiveMenu({ showMenu, toggleMenu }) {
   return (
     <>
+      <div
+        class={`${showMenu ? "block" : "hidden"}`}
+        onClick={() => {
+          toggleMenu();
+        }}
+        style={{
+          position: "fixed",
+          top: "0",
+          left: "0",
+          width: "100%",
+          height: "100vh",
+          background: "rgba(0, 0, 0, 0.5)",
+          zIndex: "10",
+        }}
+      ></div>
       <div
         style={{
           color: "#609521",
@@ -21,7 +36,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
         }}
         className={`${
           showMenu ? "left-0 " : "-left-[100%]  "
-        } masko fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center  flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
+        } masko fixed bottom-0 top-0  !flex h-screen md:w-[30%] md:text-left text-center hayo flex-col justify-between bg-white  dark:text-white px-8 pb-6 pt-16 text-black transition-all duration-200 lg:hidden rounded-r-xl shadow-md`}
       >
         <AiOutlineClose
           style={{ position: "absolute" }}

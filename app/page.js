@@ -14,6 +14,7 @@ import Tacarob from "./_component/Tacarob/Tacarob";
 import Head from "next/head";
 import Main from "./_component/Main/Main";
 import Incaz from "./_component/Incaz/Incaz.jsx";
+import Cta from "./_component/CTA/Cta";
 export default function Home() {
   useEffect(() => {
     AOS.init();
@@ -27,6 +28,7 @@ export default function Home() {
         <Navbar />
         <Main />
       </Landing>
+      {/* <Cta/> */}
       <Hero />
       <Our />
       <Skills />

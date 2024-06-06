@@ -20,10 +20,10 @@ function Navbar({ active }) {
   const pages = [
     { name: "Home", path: "/" },
     { name: "Services", path: "/Services" },
-    { name: "About", path: "/sa" },
-    { name: "Contact", path: "/asf" },
-    { name: "Pricing", path: "/asgg" },
-    { name: "Portfolio", path: "/asgh" },
+    { name: "About", path: "/About" },
+    { name: "Contact", path: "/Contact" },
+    { name: "Pricing", path: "/Pricing" },
+    { name: "Portfolio", path: "/Portfolio" },
   ];
   const isActive = (path) => {
     return currentPath === path;
@@ -33,7 +33,7 @@ function Navbar({ active }) {
     <>
       <header className="header">
         <div className="container shadow-2xl" style={{ height: "78px" }}>
-          <Link href="">
+          <Link href="/">
             <Image
               decoding="async"
               src={logo}

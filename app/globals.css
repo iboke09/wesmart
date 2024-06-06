@@ -251,7 +251,6 @@ ul {
 /* Responsive navbar // */
 
 .responsivenav ul li {
-
   border-bottom: 2px solid;
   transition: 0.3s;
   font-size: 20px;
@@ -263,6 +262,7 @@ ul {
   display: flex;
   padding: 25px 0px 25px;
   transition: 0.3s;
+  transition: l;
 }
 
 .responsivenav ul li:hover a {
@@ -1715,3 +1715,23 @@ footer{
     display: none;
   }
 }
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  display: none;
+}
+
+/* .hayo::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
