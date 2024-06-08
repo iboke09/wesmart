@@ -24,6 +24,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
           height: "100vh",
           background: "rgba(0, 0, 0, 0.5)",
           zIndex: "10",
+          transition:"0.5s",  
         }}
       ></div>
       <div

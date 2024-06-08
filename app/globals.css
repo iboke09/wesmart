@@ -1118,6 +1118,20 @@ footer{
   position: relative;
 }
 
+.meet::before{
+  content: "";
+  position: absolute;
+  left: -150px;
+  width: 265px;
+  height: 200px;
+  background-color: var(--shadow-color);
+  border-radius: 50%;
+  filter: blur(100px);
+  top: -170px;
+  z-index: -99;
+}
+
+
 .meet .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -1402,7 +1416,7 @@ i {
 .ski:not(.ski.o, .ski.t):after {
   content: "";
   position: absolute;
-  left: -150px;
+  right: -100px;
   width: 265px;
   height: 200px;
   background-color: var(--shadow-color);
