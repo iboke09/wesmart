@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 import { Gabarito } from 'next/font/google'
+import Navbar from "./_component/Navbar/Navbar";
 
 const gabarito = Gabarito({
   subsets: ['latin'],
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
       <link rel='icon' href='/favicon/favicon.ico' />
       </head>
       {/* <link rel="icon" type="icon" href="./favicon.png"/> */}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}><Navbar/  >{children}</body>
     </html>
   );
 }

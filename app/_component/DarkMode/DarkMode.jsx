@@ -15,9 +15,9 @@ function DarkMode() {
     }
   }
   let defaultChecked = "defaultChecked";
-  
+
   let lp = 0;
-  
+
   if (typeof window !== "undefined") {
     if (localStorage.getItem("dali")) {
       lp = 1;
@@ -71,7 +71,6 @@ function DarkMode() {
               let toggleBtn = document.querySelector("#toggle");
               let bodyEl = document.querySelector("body");
               if (localStorage.getItem("dali")) {
-                // toggleBtn.removeAttribute("defaultChecked")
                 toggleBtn.removeAttribute("checked");
                 bodyEl.classList.add(localStorage.getItem("dali"));
               } else {

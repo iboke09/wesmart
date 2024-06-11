@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Navbar from "../_component/Navbar/Navbar";
 import { color } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
 import image from "../img/IMG_0455.webp"
+import Loading from '../loading';
 export default function Sales() {
     return (
         <div style={{ height: "100vh", width: "100vw" }}>
@@ -75,15 +76,15 @@ export default function Sales() {
                 </div>
                 <div className='container'>
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 maskat" style={{ position: "relative", top: "120px" }}>
-                        <div className='' style={{ display: "flex", justifyContent: "center" }}><Image className='sura' alt={"Sap"} src={image} width={400} height={400} style={{
+                        <div className='' style={{ display: "flex", justifyContent: "center" }}><Suspense fallback={<Loading/>}><Image className='sura' alt={"Sap"} src={image} width={400} height={400} style={{
                             borderRadius: "0px 67px"
-                        }} /></div>
+                        }} /></Suspense></div>
                         <div className='' style={{
                             display: "flex",
                             alignItems: "center"
                         }}>
                             <div className='contento' >
-                                <h2 className="title blawh text-xl yoga" data-aos="fade-left">
+                                <h2 className="title blawh text-xl yoga" >
                                     Sales Manager
                                 </h2>
                                 <h1 className="title-2 agib2 text-4xl"  style={{
