@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logo from "../../img/LogoForDarkBack-24-24-02.webp";
+import logo from "../../img/LogoForDarkBackFinal-02.webp";
 import Link from "next/link";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
