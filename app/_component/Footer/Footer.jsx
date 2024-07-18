@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/lightLogoWebp-11.webp";
+import logo from "../../img/LogoForDarkBackFinal-02.webp";
 import Image from "next/image";
 import Link from "next/link";
 // import Spline from "@splinetool/react-spline";

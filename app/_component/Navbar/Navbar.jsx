@@ -38,8 +38,8 @@ function Navbar({ active }) {
               decoding="async"
               src={logo}
               alt="Logo"
-              width={9740}
-              height={200}
+              width={140}
+              height={100}
               className="tazbit"
             />
           </Link>

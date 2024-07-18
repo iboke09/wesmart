@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "../../img/lightLogoWebp-11.webp";
+import logo from "../../img/LogoForDarkBackFinal-02.webp";
 import { Navlink } from "./Navbar";
 import Link from "next/link";
 import Image from "next/image";
