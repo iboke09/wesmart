@@ -1,14 +1,14 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
-import { Gabarito } from 'next/font/google'
+import { Gabarito } from "next/font/google";
 import Navbar from "./_component/Navbar/Navbar";
 
 const gabarito = Gabarito({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-gabarito',
-})
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-gabarito",
+});
 
 export const metadata = {
   title: "Wesmart For Technology",
@@ -19,16 +19,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <link rel='icon' href='/favicon/favicon.ico' />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </head>
       {/* <link rel="icon" type="icon" href="./favicon.png"/> */}
-      <body className={inter.className}><Navbar/  >{children}</body>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
 
-
 // This is the root layout component for your Next.js app.
 // Learn more: https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts#root-layout-required
-
-

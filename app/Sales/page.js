@@ -83,7 +83,7 @@ export default function Sales() {
                             display: "flex",
                             alignItems: "center"
                         }}>
-                            <div className='contento' >
+                            <div className='contento'>
                                 <h2 className="title blawh text-xl yoga" >
                                     Sales Manager
                                 </h2>
