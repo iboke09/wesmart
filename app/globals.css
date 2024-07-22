@@ -1658,15 +1658,6 @@ footer {
   display: none;
 }
 
-/* .hayo::after{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-} */
-
 .pyramid-loader {
   position: relative;
   width: 300px;
