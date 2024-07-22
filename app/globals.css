@@ -920,7 +920,7 @@ footer {
   }
   .maskdarkapp {
     position: relative;
-    left: 215px;
+    left: 218px;
   }
   .landing .text h2 {
     font-size: 39px;
@@ -1050,7 +1050,7 @@ footer {
 }
 @media (max-width: 500px) {
   .tazbit {
-    width: 125px !important;
+    width: 130px !important;
   }
   .maskdarkapp {
     left: 95px !important;
