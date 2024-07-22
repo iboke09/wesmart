@@ -91,7 +91,7 @@ function DarkMode() {
           />
         )}
 
-        <svg
+        {/* <svg
           viewBox="0 0 69.667 44"
           // xmlns:xlink="http://www.w3.org/1999/xlink"
           xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +271,8 @@ function DarkMode() {
               ></path>
             </g>
           </g>
-        </svg>
+        </svg> */}
+        <span className="slider"></span>
       </label>
     </div>
   );
