@@ -55,7 +55,7 @@ function Main() {
           see causes
         </Link>
       </div>
-      <div>
+      <div className="tawsit">
         <Image src={image} alt="alt" width={450} height={200} />
         {/* <div class="pyramid-loader">
           <div class="wrapper">

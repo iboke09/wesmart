@@ -40,6 +40,7 @@ function Navbar({ active }) {
               alt="Logo"
               width={140}
               height={100}
+              quality={100}
               className="tazbit"
             />
           </Link>
