@@ -22,8 +22,7 @@ function Navbar({ active }) {
     { name: "Services", path: "/Services" },
     { name: "About", path: "/About" },
     { name: "Contact", path: "/Contact" },
-    { name: "Pricing", path: "/Pricing" },
-    { name: "Portfolio", path: "/Portfolio" },
+
   ];
   const isActive = (path) => {
     return currentPath === path;

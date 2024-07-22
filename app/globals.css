@@ -913,6 +913,11 @@ footer {
   }
 }
 
+@media (min-width: 1024px) {
+  .maskdarkapp{
+    margin-left: 35px;
+  }
+}
 @media (max-width: 1022px) {
   .yami ul li:not(:nth-child(0)) {
     display: none !important ;
