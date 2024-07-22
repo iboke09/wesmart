@@ -1730,7 +1730,7 @@ footer {
   filter: blur(12px);
 }
 
-.tawsit{
+.tawsit {
   position: relative;
   top: 0px;
 }
@@ -1740,4 +1740,70 @@ footer {
     position: relative;
     top: 100px;
   }
+}
+
+/* styles/contactForm.css */
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+.contact-form div {
+  margin-bottom: 1em;
+}
+
+.contact-form label {
+  margin-bottom: 0.5em;
+  color: #333333;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #cccccc;
+  padding: 0.5em;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  padding: 0.7em;
+  color: #fff;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+.why1::after {
+  content: "";
+  width: 165%;
+  height: 165%;
+  position: absolute;
+  background-color: #14509e;
+  border-radius: 200px;
+  top: -425px;
+  right: -550px;
+  z-index: -1;
+  rotate: -31deg;
+}
+
+.contact_title {
+  font-size: 40px;
+  padding: 30px 0px;
+  text-align: left;
+  color: var(--blawho-color);
+}
+
+.locals {
+  animation: up-and-down 3s linear infinite;
 }
