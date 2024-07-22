@@ -3,6 +3,27 @@
 @tailwind utilities;
 
 :root {
+  transition: 0.7s;
+  --vi-color: black;
+  --blawhok-color: #4b4b4b;
+  --main-color: #ffffff;
+  --main-alt-color1: rgb(255, 255, 255);
+  --main-alt-color11: transparent;
+  --main-alt-color: #fdbb00;
+  --muhum-color: #f8f8f8;
+  --section-background: #b4a5a5;
+  --mask-color: rgb(70, 76, 85);
+  --blawh-color: black;
+  --blawhs-color: white;
+  --blawho-color: black;
+  --shadow-color: #26d5ff;
+  --gray-color: #726a6e;
+  --agib-color: black;
+  --agib2-color: #00cdff;
+  --agib-zindex: 99;
+}
+
+.darko {
   --main-transition: 0.3s;
   --main-color: #00cdff;
   --main-alt-color1: #00152e;
@@ -23,27 +44,6 @@
   --blawhs-color: black;
   --agib-zindex: -100;
   --vi-color: rgb(6 45 94);
-}
-
-.darko {
-  transition: 0.7s;
-  --vi-color: black;
-  --blawhok-color: #4b4b4b;
-  --main-color: #ffffff;
-  --main-alt-color1: rgb(255, 255, 255);
-  --main-alt-color11: transparent;
-  --main-alt-color: #fdbb00;
-  --muhum-color: #f8f8f8;
-  --section-background: #b4a5a5;
-  --mask-color: rgb(70, 76, 85);
-  --blawh-color: black;
-  --blawhs-color: white;
-  --blawho-color: black;
-  --shadow-color: #26d5ff;
-  --gray-color: #726a6e;
-  --agib-color: black;
-  --agib2-color: #00cdff;
-  --agib-zindex: 99;
 }
 
 * {
@@ -389,7 +389,7 @@ h2 {
   border-radius: 16px;
   left: 3px;
   top: 2.4px;
-  background-color: white;
+  background-color: #00152e;
   transition: 0.4s;
 }
 
@@ -400,7 +400,7 @@ h2 {
 
 input:checked + .slider:before {
   transform: translateX(1.4em);
-  background-color: #00152e;
+  background-color: white;
 }
 .text a {
   display: inline-flex;
@@ -914,7 +914,7 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  .maskdarkapp{
+  .maskdarkapp {
     margin-left: 35px;
   }
 }
