@@ -20,9 +20,9 @@ const Contact = () => {
     });
   };
   const handleSubmit = async (e) => {
-    // e.preventDefault();
-    // // هنا يمكنك إضافة كود لإرسال البيانات إلى خادمك أو خدمة خارجية
-    // console.log("Form data submitted:", formData);
+    e.preventDefault();
+    // هنا يمكنك إضافة كود لإرسال البيانات إلى خادمك أو خدمة خارجية
+    console.log("Form data submitted:", formData);
   };
 
   return (
@@ -42,7 +42,7 @@ const Contact = () => {
                   <div className={styles.contactFormContainer}>
                     <h2 className="contact_title">Contact us</h2>
                     <form
-                      action={'http://localhost:8000/server.php'}
+                      action={"http://localhost:8000/server.php"}
                       onSubmit={(event) => handleSubmit(event)}
                       className={styles.contactForm}
                       method="POST"
@@ -82,7 +82,7 @@ const Contact = () => {
                           className={styles.textarea}
                         />
                       </div>
-                      <button type="submit" className={styles.button} >
+                      <button type="submit" className={styles.button}>
                         Send Message
                       </button>
                     </form>
@@ -92,7 +92,10 @@ const Contact = () => {
             </div>
           </section>
         </div>
-        <div style={{ top: "200px", position: "relative" }} className="footer_top">
+        <div
+          style={{ top: "200px", position: "relative" }}
+          className="footer_top"
+        >
           <Footer />
         </div>
       </div>

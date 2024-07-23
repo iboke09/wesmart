@@ -1,5 +1,7 @@
 <?php
-    header('Access-Control-Allow-Origin: https://wesmart-seven.vercel.app/');
+    header('Access-Control-Allow-Origin: https://wesmart-seven.vercel.app/Contact');
+    header('Access-Control-Allow-Methods: POST');
+    header('Access-Control-Allow-Headers: Content-Type');
     $to = "fazexxibrahim@gmail.com";
     $name=$_POST["name"]; 
     $emaill=$_POST["email"];
@@ -55,6 +57,6 @@
 
 <script>
 setTimeout(function() {
-    location.href = "/"
+    location.href = "http://localhost:3000/Contact"
 }, 4000)
 </script>
