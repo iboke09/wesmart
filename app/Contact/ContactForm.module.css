@@ -40,7 +40,8 @@
 
 
 .button {
-  background-color: #14509e;
+  background-color: #089bdf;
+  transition: 0.3s;
   color: white;
   border-radius: 30px;
   width: 100%;

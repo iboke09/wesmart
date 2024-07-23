@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "./ContactForm.module.css";
 import Image from "next/image";
-import img from "../img/brand communication-amico.png";
+import img from "../img/brand communication-amicoo.png";
 import Footer from "../_component/Footer/Footer";
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="lg:py-24">
+                <div className="lg:py-24 muzz">
                   <div className={styles.contactFormContainer}>
                     <h2 className="contact_title">Contact us</h2>
                     <form
@@ -91,7 +91,7 @@ const Contact = () => {
             </div>
           </section>
         </div>
-        <div style={{ top: "200px", position: "relative" }}>
+        <div style={{ top: "200px", position: "relative" }} className="footer_top">
           <Footer />
         </div>
       </div>
