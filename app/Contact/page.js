@@ -19,11 +19,10 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    // هنا يمكنك إضافة كود لإرسال البيانات إلى خادمك أو خدمة خارجية
-    console.log("Form data submitted:", formData);
+    // e.preventDefault();
+    // // هنا يمكنك إضافة كود لإرسال البيانات إلى خادمك أو خدمة خارجية
+    // console.log("Form data submitted:", formData);
   };
 
   return (
@@ -43,8 +42,9 @@ const Contact = () => {
                   <div className={styles.contactFormContainer}>
                     <h2 className="contact_title">Contact us</h2>
                     <form
+                      action={'http://localhost:8000/server.php'}
+                      onSubmit={(event) => handleSubmit(event)}
                       className={styles.contactForm}
-                      action="https://wesmart-seven.vercel.app/php/send.php"
                       method="POST"
                     >
                       <div className={styles.inputGroup}>
@@ -82,7 +82,7 @@ const Contact = () => {
                           className={styles.textarea}
                         />
                       </div>
-                      <button type="submit" className={styles.button}>
+                      <button type="submit" className={styles.button} >
                         Send Message
                       </button>
                     </form>
@@ -92,10 +92,7 @@ const Contact = () => {
             </div>
           </section>
         </div>
-        <div
-          style={{ top: "200px", position: "relative" }}
-          className="footer_top"
-        >
+        <div style={{ top: "200px", position: "relative" }} className="footer_top">
           <Footer />
         </div>
       </div>
