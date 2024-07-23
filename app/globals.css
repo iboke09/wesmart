@@ -21,6 +21,8 @@
   --agib-color: black;
   --agib2-color: #00cdff;
   --agib-zindex: 99;
+  --padding-top: 110px;
+  --padding-bottom: 110px;
 }
 
 .darko {
@@ -1812,3 +1814,7 @@ footer {
 .locals {
   animation: up-and-down 3s linear infinite;
 }
+
+/* .texoI{
+    color: var(--agib2-color);
+} */
