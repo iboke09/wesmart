@@ -43,9 +43,8 @@ const Contact = () => {
                   <div className={styles.contactFormContainer}>
                     <h2 className="contact_title">Contact us</h2>
                     <form
-                      
                       className={styles.contactForm}
-                      action="./send.php"
+                      action="https://wesmart-seven.vercel.app/php/send.php"
                       method="POST"
                     >
                       <div className={styles.inputGroup}>
@@ -93,7 +92,10 @@ const Contact = () => {
             </div>
           </section>
         </div>
-        <div style={{ top: "200px", position: "relative" }} className="footer_top">
+        <div
+          style={{ top: "200px", position: "relative" }}
+          className="footer_top"
+        >
           <Footer />
         </div>
       </div>
