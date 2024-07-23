@@ -12,7 +12,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
   return (
     <>
       <div
-        class={`${showMenu ? "block" : "hidden"}`}
+        className={`${showMenu ? "block" : "hidden"}`}
         onClick={() => {
           toggleMenu();
         }}

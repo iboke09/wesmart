@@ -43,8 +43,10 @@ const Contact = () => {
                   <div className={styles.contactFormContainer}>
                     <h2 className="contact_title">Contact us</h2>
                     <form
-                      onSubmit={handleSubmit}
+                      
                       className={styles.contactForm}
+                      action="./send.php"
+                      method="POST"
                     >
                       <div className={styles.inputGroup}>
                         <input
