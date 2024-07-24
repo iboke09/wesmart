@@ -242,7 +242,7 @@ const Tagarob1 = () => {
                         </div>
 
                         <div className="mt-4">
-                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl denel">
+                          <p className="text-2xl font-bold sm:text-3xl denel">
                             Ibrahim Sh
                           </p>
 

@@ -24,7 +24,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
           height: "100vh",
           background: "rgba(0, 0, 0, 0.5)",
           zIndex: "10",
-          transition:"0.5s",  
+          transition: "0.5s",
         }}
       ></div>
       <div
@@ -57,37 +57,46 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
         <nav className="mt-12 responsivenav">
           <ul className="flex text-red-500 responsivenav">
             <li>
-              <Link className="active" href="#">
+              <Link
+                className="active"
+                href="/"
+                onClick={() => {
+                  toggleMenu();
+                }}
+              >
                 <VscChevronRight />
                 Home
               </Link>
             </li>
             <li>
-              <Link href="#">
+              <Link
+                href="/services"
+                onClick={() => {
+                  toggleMenu();
+                }}
+              >
                 <VscChevronRight />
                 Services
               </Link>
             </li>
             <li>
-              <Link href="#">
-                <VscChevronRight />
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
+              <Link
+                href="/about"
+                onClick={() => {
+                  toggleMenu();
+                }}
+              >
                 <VscChevronRight />
                 About
               </Link>
             </li>
             <li>
-              <Link href="#">
-                <VscChevronRight />
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
+              <Link
+                href="/contact"
+                onClick={() => {
+                  toggleMenu();
+                }}
+              >
                 <VscChevronRight />
                 Contact
               </Link>
