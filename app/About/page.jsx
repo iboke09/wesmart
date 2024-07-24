@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import img from "../img/Researching-amico.svg";
+import img from "../img/Mystery box-rafiki.svg";
 import img1 from "../img/Man thinking-bro.svg";
 import img2 from "../img/Shrug-bro.svg";
 import Footer from "../_component/Footer/Footer";
@@ -15,8 +15,8 @@ function About() {
         >
           <section>
             <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-              <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-                <div className="relative h-64 rounded-lg sm:h-80 lg:order-last lg:h-full ">
+              <div className="grid sm:grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
+                <div className="relative h-64 rounded-lg sm:h-80 lg:order-last lg:h-full hidden md:block">
                   <Image
                     alt="web design"
                     src={img}
@@ -24,7 +24,7 @@ function About() {
                   />
                 </div>
 
-                <div className="lg:py-24">
+                <div className="lg:py-24 lull">
                   <h2 className="text-3xl font-bold sm:text-4xl whito">
                     About Our Company
                   </h2>

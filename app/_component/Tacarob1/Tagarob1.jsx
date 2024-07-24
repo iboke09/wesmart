@@ -94,10 +94,10 @@ const Tagarob1 = () => {
                   <button
                     aria-label="Next slide"
                     id="keen-slider-next-desktop"
-                    className="rounded-full border p-3 hover:text-white ilk1"
+                    className="rounded-full border p-3 hover:text-white ilk"
                     style={{
-                      borderColor: "rgb(0 21 46)",
-                      color: "rgb(0 21 46)",
+                      borderColor: "rgb(8 155 223)",
+                      color: "rgb(8 155 223)",
                     }}
                   >
                     <svg
@@ -172,7 +172,7 @@ const Tagarob1 = () => {
 
                         <div className="mt-4">
                           <p className="text-2xl font-bold  sm:text-3xl denel">
-                            Stayin Alive
+                            Omar Shwehneh
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
@@ -185,9 +185,9 @@ const Tagarob1 = () => {
                         </div>
                       </div>
 
-                      <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
+                      <h3 className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
                         &mdash; Michael Scott
-                      </footer>
+                      </h3>
                     </blockquote>
                   </div>
 
@@ -243,7 +243,7 @@ const Tagarob1 = () => {
 
                         <div className="mt-4">
                           <p className="text-2xl font-bold text-rose-600 sm:text-3xl denel">
-                            Stayi Alive
+                            Ibrahim Sh
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
@@ -256,9 +256,9 @@ const Tagarob1 = () => {
                         </div>
                       </div>
 
-                      <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
+                      <h3 className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
                         &mdash; Michael Scott
-                      </footer>
+                      </h3>
                     </blockquote>
                   </div>
 
@@ -314,7 +314,7 @@ const Tagarob1 = () => {
 
                         <div className="mt-4">
                           <p className="text-2xl font-bold text-rose-600 sm:text-3xl denel">
-                            Stayin Alive
+                            Abdullah sh
                           </p>
 
                           <p className="mt-4 leading-relaxed text-gray-700">
@@ -327,9 +327,9 @@ const Tagarob1 = () => {
                         </div>
                       </div>
 
-                      <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
+                      <h3 className="mt-4 text-sm font-medium text-gray-700 sm:mt-6 bg-transparent">
                         &mdash; Michael Scott
-                      </footer>
+                      </h3>
                     </blockquote>
                   </div>
                 </div>

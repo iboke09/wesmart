@@ -19,9 +19,9 @@ function Navbar({ active }) {
 
   const pages = [
     { name: "Home", path: "/" },
-    { name: "Services", path: "/Services" },
-    { name: "About", path: "/About" },
-    { name: "Contact", path: "/Contact" },
+    { name: "Services", path: "/services" },
+    { name: "About", path: "/about" },
+    { name: "Contact", path: "/contact" },
 
   ];
   const isActive = (path) => {
