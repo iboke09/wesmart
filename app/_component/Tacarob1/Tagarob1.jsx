@@ -340,7 +340,11 @@ const Tagarob1 = () => {
               <button
                 aria-label="Previous slide"
                 id="keen-slider-previous"
-                className="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                className="rounded-full border p-4  transition hover:text-white ilk"
+                style={{
+                    borderColor: "rgb(8 155 223)",
+                    color: "rgb(8 155 223)",
+                  }}
               >
                 <svg
                   className="size-5 -rotate-180 transform"
@@ -361,7 +365,11 @@ const Tagarob1 = () => {
               <button
                 aria-label="Next slide"
                 id="keen-slider-next"
-                className="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                className="rounded-full border p-4  transition hover:text-white ilk"
+                style={{
+                    borderColor: "rgb(8 155 223)",
+                    color: "rgb(8 155 223)",
+                  }}
               >
                 <svg
                   className="h-5 w-5"
