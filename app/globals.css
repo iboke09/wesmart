@@ -1831,15 +1831,77 @@ footer {
     color: var(--agib2-color);
 } */
 
-@media (max-width:1023px) {
-  .locals img{
+@media (max-width: 1023px) {
+  .locals img {
     display: none;
   }
-  .muzz{
+  .muzz {
     position: relative;
     top: -220px;
   }
-  .footer_top{
+  .footer_top {
     top: 90px !important;
   }
+}
+
+.btnop {
+  background-color: #0a87cc;
+}
+.btnop:hover {
+  background-color: #0771a2;
+}
+
+.fullu {
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+
+.fullu1 {
+  width: 40%;
+  border-radius: 15px;
+  left: 240px;
+  top: 150px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+}
+
+.rigo {
+  right: -75px;
+}
+
+.kura::before {
+  content: "";
+  position: absolute;
+  left: -60px;
+  top: -330px;
+  width: 107%;
+  height: 105%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 194, 255, 1) 0%,
+    rgba(0, 51, 128, 1) 100%
+  );
+  border-radius: 0% 0% 40% 40%;
+  z-index: -99;
+}
+
+.rulla {
+  background-color: #00448f;
+}
+
+.whito {
+  color: white;
+}
+
+.wid {
+  width: 100%;
+  top: -40px;
+  left: 12px;
+}
+
+.yobba {
+  padding-top: 100px;
+  position: relative;
+  height: 100vh;
+  place-content: end;
 }

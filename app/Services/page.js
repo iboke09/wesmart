@@ -1,4 +1,7 @@
+// 'use client'
+
 import Navbar from "../_component/Navbar/Navbar";
+import Tagarob1 from "../_component/Tacarob1/tagarob1";
 
 export default function Services() {
   return (
@@ -230,6 +233,7 @@ export default function Services() {
             </div>
           </div>
         </section> */}
+        <Tagarob1/>
       </div>
     </>
   );
