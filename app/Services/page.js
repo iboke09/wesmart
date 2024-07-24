@@ -1,7 +1,7 @@
 // 'use client'
 
 import Navbar from "../_component/Navbar/Navbar";
-import Tagarob1 from "../_component/Tacarob1/tagarob1";
+import Tagarob1 from "../_component/Tacarob1/Tagarob1";
 
 export default function Services() {
   return (
