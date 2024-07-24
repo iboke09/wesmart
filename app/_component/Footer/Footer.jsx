@@ -20,7 +20,10 @@ function Footer() {
             />
           </div>
 
-          <p className="mx-auto mt-6 max-w-md text-center leading-relaxed transition text-gray-500">
+          <p
+            className="mx-auto mt-6 max-w-md text-center leading-relaxed transition"
+            style={{ color: "rgb(178 178 178)" }}
+          >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
             consequuntur amet culpa cum itaque neque.
           </p>
