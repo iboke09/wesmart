@@ -1939,3 +1939,31 @@ footer {
   margin-left: 4px;
   color: var(--blawh-color);
 }
+.ilk {
+  transition: 0.3s;
+}
+.ilk:hover {
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+.ilk:hover svg {
+  color: white;
+}
+
+.ilk1 {
+  transition: 0.3s;
+}
+.ilk1:hover {
+  background-color: rgb(12, 53, 78);
+  color: white;
+}
+.ilk1:hover svg {
+  color: white;
+}
+
+.denel {
+  color: #00b1ff;
+}
+.denel1 {
+  color: rgb(7 43 102);
+}

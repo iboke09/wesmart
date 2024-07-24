@@ -26,7 +26,7 @@ function About() {
 
                 <div className="lg:py-24">
                   <h2 className="text-3xl font-bold sm:text-4xl whito">
-                    Grow your audience
+                    About Our Company
                   </h2>
 
                   <p className="mt-4 whito">

@@ -56,7 +56,7 @@ const Tagarob1 = () => {
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
               <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Read trusted reviews from our customers
+                  Read trusted reviews from our customers
                 </h2>
 
                 <p className="mt-4 text-gray-700">
@@ -69,7 +69,11 @@ const Tagarob1 = () => {
                   <button
                     aria-label="Previous slide"
                     id="keen-slider-previous-desktop"
-                    className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                    className="rounded-full border p-3 hover:text-white ilk"
+                    style={{
+                      borderColor: "rgb(8 155 223)",
+                      color: "rgb(8 155 223)",
+                    }}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +81,7 @@ const Tagarob1 = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-5 rtl:rotate-180"
+                      className="size-5 rtl:rotate-180 "
                     >
                       <path
                         strokeLinecap="round"
@@ -90,7 +94,11 @@ const Tagarob1 = () => {
                   <button
                     aria-label="Next slide"
                     id="keen-slider-next-desktop"
-                    className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                    className="rounded-full border p-3 hover:text-white ilk1"
+                    style={{
+                      borderColor: "rgb(0 21 46)",
+                      color: "rgb(0 21 46)",
+                    }}
                   >
                     <svg
                       className="size-5 rtl:rotate-180"
@@ -115,7 +123,7 @@ const Tagarob1 = () => {
                   <div className="keen-slider__slide">
                     <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                       <div>
-                        <div className="flex gap-0.5 text-green-500">
+                        <div className="flex gap-0.5 denel1">
                           <svg
                             className="h-5 w-5"
                             fill="currentColor"
@@ -163,7 +171,7 @@ const Tagarob1 = () => {
                         </div>
 
                         <div className="mt-4">
-                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                          <p className="text-2xl font-bold  sm:text-3xl denel">
                             Stayin Alive
                           </p>
 
@@ -186,7 +194,7 @@ const Tagarob1 = () => {
                   <div className="keen-slider__slide">
                     <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                       <div>
-                        <div className="flex gap-0.5 text-green-500">
+                        <div className="flex gap-0.5 denel1">
                           <svg
                             className="h-5 w-5"
                             fill="currentColor"
@@ -234,7 +242,7 @@ const Tagarob1 = () => {
                         </div>
 
                         <div className="mt-4">
-                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl denel">
                             Stayi Alive
                           </p>
 
@@ -257,7 +265,7 @@ const Tagarob1 = () => {
                   <div className="keen-slider__slide">
                     <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                       <div>
-                        <div className="flex gap-0.5 text-green-500">
+                        <div className="flex gap-0.5 denel1">
                           <svg
                             className="h-5 w-5"
                             fill="currentColor"
@@ -305,7 +313,7 @@ const Tagarob1 = () => {
                         </div>
 
                         <div className="mt-4">
-                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
+                          <p className="text-2xl font-bold text-rose-600 sm:text-3xl denel">
                             Stayin Alive
                           </p>
 
