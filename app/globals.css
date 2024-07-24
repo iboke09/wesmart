@@ -1905,3 +1905,37 @@ footer {
   height: 100vh;
   place-content: end;
 }
+
+.container.re {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rest {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.container.re .box div {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container.re .box div {
+  font-size: 23px;
+}
+
+.container.re .box div img {
+  width: 150px;
+}
+
+.container.re .box p {
+  width: 300px;
+  color: var(--blawh-color);
+}
+
+.container.re .box div h1 {
+  margin-left: 4px;
+  color: var(--blawh-color);
+}
