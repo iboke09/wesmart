@@ -52,8 +52,8 @@ export default function Services() {
               {services.map((service, index) => (
                 <div
                   key={index}
-                  className="p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
-                  style={{ backgroundColor: "var(--blawhs-color)" }}
+                  className="p-6 rounded-lg shadow-lg hover:shadow-xl  duration-300"
+                  style={{ backgroundColor: "var(--main-alt-color1" ,transition:'0.7s'}}
                 >
                   <div className="text-5xl mb-4 text-center">
                     {service.icon}
