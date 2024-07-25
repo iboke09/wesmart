@@ -13,7 +13,7 @@ const services = [
     icon: "🌐",
   },
   {
-    title: "E-commerce Solutions",
+    title: "E-commerce",
     description:
       "Build and grow your online store with our custom e-commerce solutions.",
     icon: "🛒",
