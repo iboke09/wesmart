@@ -23,9 +23,11 @@
   --agib-zindex: 99;
   --padding-top: 110px;
   --padding-bottom: 110px;
+  --border-F:60px;
 }
 
 .darko {
+  --border-F:-40px;
   --main-transition: 0.3s;
   --main-color: #00cdff;
   --main-alt-color1: #00152e;
@@ -1983,4 +1985,11 @@ footer {
   .container.re .box {
     margin-bottom: 30px;
   }
+}
+
+.rest{
+  transition: 0.3s;
+  border-bottom: 1px solid white;
+  padding-bottom: 60px;
+  margin-bottom: var(--border-F);
 }

@@ -22,6 +22,7 @@ function notFound() {
                     height={100}
                     alt="error illustration"
                     class="left-0 top-0 w-full h-full"
+                    load
                   />
                 </div>{" "}
                 <h4 class="text-gray-900 text-3xl mb-2 mt-4 font-bold text-center">
