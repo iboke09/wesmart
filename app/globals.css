@@ -1902,9 +1902,7 @@ footer {
 }
 
 .yobba {
-  padding-top: 100px;
   position: relative;
-  height: 100vh;
   place-content: end;
 }
 
@@ -1992,4 +1990,12 @@ footer {
   border-bottom: 1px solid white;
   padding-bottom: 60px;
   margin-bottom: var(--border-F);
+}
+
+.smooth-scroll-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  will-change: transform;
 }

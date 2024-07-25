@@ -4,7 +4,9 @@ import { useState } from "react";
 import styles from "./ContactForm.module.css";
 import Image from "next/image";
 import img from "../img/brand communication-amicoo.png";
-import Footer from "../_component/Footer/Footer";
+import Footer from "../_component/Footer/Footer"
+
+;
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
