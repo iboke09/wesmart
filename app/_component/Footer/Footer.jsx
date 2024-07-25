@@ -32,34 +32,16 @@ function Footer() {
             <li>
               <Link
                 className="text-white transition hover:text-white/75"
-                href="#s"
+                href="/"
               >
-                About
+                Home
               </Link>
             </li>
 
             <li>
               <Link
                 className="text-white transition hover:text-white/75"
-                href="#s"
-              >
-                Careers
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                className="text-white transition hover:text-white/75"
-                href="#s"
-              >
-                History
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                className="text-white transition  hover:text-white/75"
-                href="#services"
+                href="/services"
               >
                 Services
               </Link>
@@ -67,19 +49,37 @@ function Footer() {
 
             <li>
               <Link
-                className="text-white transition  hover:text-white/75"
-                href="#s"
+                className="text-white transition hover:text-white/75"
+                href="/about"
               >
-                Projects
+                About
               </Link>
             </li>
 
             <li>
               <Link
                 className="text-white transition  hover:text-white/75"
-                href="#s"
+                href="/contact"
               >
-                Blog
+                Contact
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="text-white transition  hover:text-white/75"
+                href="/#sales"
+              >
+                Team
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="text-white transition  hover:text-white/75"
+                href="/sales"
+              >
+                Sales
               </Link>
             </li>
           </ul>

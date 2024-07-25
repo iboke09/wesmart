@@ -33,7 +33,7 @@ function Our() {
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1000"
             >
-              <Link href="/Sales" id="sales">
+              <Link href="/sales" id="sales">
                 {" "}
                 <Image
                   src={imageb}
