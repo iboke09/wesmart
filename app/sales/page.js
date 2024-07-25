@@ -76,7 +76,7 @@ export default function Sales() {
                 </div>
                 <div className='container'>
                     <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 maskat" style={{ position: "relative", top: "120px" }}>
-                        <div className='' style={{ display: "flex", justifyContent: "center" }}><Suspense fallback={<Loading/>}><Image className='sura' alt={"Sap"} src={image} width={400} height={400} style={{
+                        <div className='' style={{ display: "flex", justifyContent: "center" }}><Suspense fallback={<Loading/>}><Image load='lazy'className='sura' alt={"Sap"} src={image} width={400} height={400} style={{
                             borderRadius: "0px 67px"
                         }} /></Suspense></div>
                         <div className='' style={{
