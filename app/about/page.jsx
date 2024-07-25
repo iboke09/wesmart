@@ -10,7 +10,7 @@ function About() {
     <>
       <div className="kura">
         <div
-          style={{ height: "64vh", top: "100px", position: "relative" }}
+          style={{ height: "70vh", top: "100px", position: "relative" }}
           className="container"
         >
           <section>
