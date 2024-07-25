@@ -41,7 +41,7 @@ function notFound() {
                   href="/"
                   class="bg-blue-500 hover:bg-blue-600 py-3 px-6 rounded font-bold text-lg text-white"
                 >
-                  Go to homepage
+                  Go back to homepage
                 </a>
               </div>
             </div>
