@@ -1,4 +1,6 @@
+'use client'
 import React, { Children, useEffect, useRef } from 'react';
+
 
 const SmoothScroll = () => {
     const scrollWrapperRef = useRef(null);
