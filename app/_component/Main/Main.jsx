@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import image from "../../img/FrameHero.svg";
+import image from "../../img/landingimg.png";
 import Link from "next/link";
 import Image from "next/image";
 
