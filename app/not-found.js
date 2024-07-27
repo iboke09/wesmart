@@ -39,7 +39,7 @@ function notFound() {
                 </p>{" "}
                 <a
                   href="/"
-                  class="bg-blue-500 hover:bg-blue-600 py-3 px-6 rounded font-bold text-lg text-white"
+                  class=" hover:bg-blue-600 py-3 px-6 rounded font-bold text-lg text-white oma transition"
                 >
                   Go back to homepage
                 </a>
