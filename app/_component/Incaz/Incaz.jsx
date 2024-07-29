@@ -30,8 +30,8 @@ export default function Component() {
               <p className="text-lg">Clients Served</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">$1.2B</h3>
-              <p className="text-lg">Revenue Generated</p>
+              <h3 className="text-3xl font-bold">15</h3>
+              <p className="text-lg">Number of companies</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
               <h3 className="text-3xl font-bold">95%</h3>
