@@ -556,7 +556,7 @@ input:checked + .slider:before {
   .landing .text a.bad-btn {
     margin: 0;
   }
-  .our .box p{
+  .our .box p {
     font-size: 17px;
   }
 }
@@ -687,7 +687,7 @@ footer {
 
 /* End Our */
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .containerS .cards .splide__pagination {
     top: 530px !important;
   }
@@ -1029,6 +1029,9 @@ footer {
 @media (max-width: 500px) {
   .tazbit {
     width: 160px !important;
+  }
+  .containerS .cards .splide__pagination {
+    top: 545px !important;
   }
   .maskdarkapp {
     left: 95px !important;

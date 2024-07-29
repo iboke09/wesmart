@@ -56,7 +56,7 @@ function Spliden() {
                 <SplideSlide key={item.id} style={{ width: "50vw" }}>
                   <div className="card">
                     {item.img}
-                    <h2>{item.name}</h2>
+                    <h2 style={{textAlign:'center'}}>{item.name}</h2>
                     <p className="splideP">{item.text}</p>
                   </div>
                 </SplideSlide>
