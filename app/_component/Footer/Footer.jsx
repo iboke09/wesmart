@@ -24,8 +24,8 @@ function Footer() {
             className="mx-auto mt-6 max-w-md text-center leading-relaxed transition"
             style={{ color: "rgb(178 178 178)" }}
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-            consequuntur amet culpa cum itaque neque.
+            WeSmart delivers SAP solutions, web design, and graphic design to
+            enhance your business.
           </p>
 
           <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
