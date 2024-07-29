@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Main() {
   const text =
-    "That dont lights. Blessed land spirit creature divide our made twoitself upon youll dominion waters man second good you theyre dividedupon winged were replenish night";
+    "Unlock your potential with our expert SAP solutions.Streamline operations and boost efficiency. Enhance your growth with exceptional web design and engaging graphics designs.";
   const pVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -28,8 +28,8 @@ function Main() {
         className="centere"
         style={{ textAlign: "left", top: "65px", position: "relative" }}
       >
-        <p className="first">give a hand</p>
-        <motion.h2>to make the better world</motion.h2>
+        <p className="first">BOOST BUSINESS</p>
+        <motion.h2>with our expert services</motion.h2>
         <motion.p
           className="no"
           variants={pVariants}
@@ -46,13 +46,13 @@ function Main() {
           className="pro-btn animate__animated animate__zoomInLeft"
           href="/Services"
         >
-          <span style={{ zIndex: "1000" }}>donate now</span>
+          <span style={{ zIndex: "1000" }}>contact us</span>
         </Link>
         <Link
           className="bad-btn animate__animated animate__zoomInRight"
-          href="#"
+          href="#sap"
         >
-          see causes
+          learn more
         </Link>
       </div>
       <div className="tawsit">

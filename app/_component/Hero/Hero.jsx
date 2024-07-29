@@ -17,10 +17,9 @@ import "animate.css";
 function Hero() {
   return (
     <>
-      
       <div className="our">
         <div className="tutan main-title">
-          <h2>our major causes</h2>
+          <h2>Our Major Services</h2>
         </div>
         <div className="container">
           <Tilt className={styles.hal}>
@@ -31,10 +30,10 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcAbout className={styles.svgi} />
-              <h4 className={styles.children}>Give Donation</h4>
+              <h4 className={styles.children}>Get SAP Solutions</h4>
               <p className={styles.children}>
-                It youre. Was called youre fowl grass lesser land together
-                waters beast darkness earth land whose male all moveth fruitful.
+                Elevate your operations and boost efficiency through our
+                tailored SAP integration and dedicated support.
               </p>
             </motion.div>
           </Tilt>
@@ -46,10 +45,10 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcCamcorderPro className={styles.svgi} />
-              <h4 className={styles.children}>Give Inspiration</h4>
+              <h4 className={styles.children}>Discover Web Design</h4>
               <p className={styles.children}>
-                It youre. Was called youre fowl grass lesser land together
-                waters beast darkness earth land whose male all moveth fruitful.
+                Create memorable experiences with our innovative, beautifully
+                designed websites that blend form and function.
               </p>
             </motion.div>
           </Tilt>
@@ -61,10 +60,10 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcBarChart className={styles.svgi} />
-              <h4 className={styles.children}>Become Bolunteer</h4>
+              <h4 className={styles.children}>Explore Graphic Design</h4>
               <p className={styles.children}>
-                It youre. Was called youre fowl grass lesser land together
-                waters beast darkness earth land whose male all moveth fruitful.
+                Captivate your audience with our bespoke graphic design. Elevate
+                your brand with visuals that make a memorable impact.
               </p>
             </motion.div>
           </Tilt>

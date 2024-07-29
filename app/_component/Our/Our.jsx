@@ -24,7 +24,7 @@ function Our() {
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
           >
-            <h2>Meet Our Voluteer</h2>
+            <h2>Meet Our Team</h2>
           </div>
           <div className="container">
             <div

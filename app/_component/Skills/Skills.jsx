@@ -20,9 +20,9 @@ import { SiCodesignal } from "react-icons/si";
 function Skills() {
   return (
     <>
-      <div className="ski">
+      <div className="ski" id="sap">
         <div className="container">
-          <div className="animatio">
+          <div className="animatio" id="sap">
             <motion.div
               data-aos="fade-up"
               className="gitA"
@@ -44,7 +44,7 @@ function Skills() {
             <h2 className="title blawh text-xl" data-aos="fade-left">
               Wesmart Technology
             </h2>
-            <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
+            <h1 className="title-2 blawh text-4xl" data-aos="fade-left" >
               SAP
             </h1>
             <p className="blawh" data-aos="fade-left">
