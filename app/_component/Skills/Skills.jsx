@@ -10,7 +10,7 @@ import image4 from "../../img/landing13.jpg";
 import { motion } from "framer-motion";
 import { FcSupport } from "react-icons/fc";
 import imageS from "../../img/enterprise-resource-planning-holographic-interface.jpg";
-import imageS1 from "../../img/abstract-background-with-low-poly-design.jpg"; 
+import imageS1 from "../../img/abstract-background-with-low-poly-design.jpg";
 import image22 from "../../img/emily-bernal-BM3U_D2lygo-unsplash.jpg";
 import image23 from "../../img/kelly-sikkema-Dx1b5ucschA-unsplash.jpg";
 import image24 from "../../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg";
@@ -42,13 +42,13 @@ function Skills() {
           </div>
           <div className="container content">
             <h2 className="title blawh text-xl" data-aos="fade-left">
-              Lorem header
+              Wesmart Technology
             </h2>
             <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
               SAP
             </h1>
             <p className="blawh" data-aos="fade-left">
-              AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
+              Elevate Your Business with Expert SAP Solutions
             </p>
           </div>
           <div className="mask" data-aos="fade-up">
@@ -61,8 +61,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text1">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              Maximize efficiency with our SAP solutions — we streamline
+              operations and offer expert support.
             </p>
             <Image
               src={imageS1}
@@ -72,8 +72,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text2">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              Boost your edge with our SAP implementation — we ensure smooth
+              transitions and top performance.
             </p>
           </div>
         </div>
@@ -83,7 +83,9 @@ function Skills() {
           <div className="animatio">
             <motion.div
               data-aos="fade-up"
-              style={{ background: "linear-gradient(85deg, #eb68b3, transparent) " }}
+              style={{
+                background: "linear-gradient(85deg, #eb68b3, transparent) ",
+              }}
               className="gitA"
               whileInView={{ height: "150px" }}
               transition={{ duration: 0.3, delay: 0.35 }}
@@ -94,7 +96,9 @@ function Skills() {
             </div>
             <motion.div
               data-aos="fade-up"
-              style={{ background: " linear-gradient(95deg,#eb68b3, transparent)" }}
+              style={{
+                background: " linear-gradient(95deg,#eb68b3, transparent)",
+              }}
               className="gitA_2 t"
               whileInView={{ height: "185px" }}
               transition={{ duration: 0.3, delay: 0.65 }}
@@ -102,7 +106,7 @@ function Skills() {
           </div>
           <div className="container content">
             <h2 className="title blawh text-xl" data-aos="fade-left">
-              Lorem header
+              Wesmart Technology
             </h2>
             <h1
               className="title-2 blawh text-4xl ue"
@@ -112,12 +116,17 @@ function Skills() {
               Graphic
             </h1>
             <p className="blawh" data-aos="fade-left">
-              AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
+              Captivate Your Audience with Innovative Graphic Designs
             </p>
           </div>
           <Image
             src="https://github.githubassets.com/assets/shape-2-f30dcc9bd35c.svg"
-            style={{ position: "absolute", left: "1300px", top: "165px",zIndex:"1" }}
+            style={{
+              position: "absolute",
+              left: "1300px",
+              top: "165px",
+              zIndex: "1",
+            }}
             className="kayip"
             alt=""
             width={800}
@@ -143,8 +152,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text1">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              Captivate with our graphic design — we bring your brand&apos;s
+              vision to life with stunning visuals.
             </p>
             <Image
               // data-aos="fade-up"
@@ -156,8 +165,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text2">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              Our designs effectively communicate your message and leave a
+              lasting impression.
             </p>
           </div>
         </div>
@@ -184,13 +193,13 @@ function Skills() {
           </div>
           <div className="container content">
             <h2 className="title blawh text-xl" data-aos="fade-left">
-              Lorem header
+              Wesmart Technology
             </h2>
             <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
-              Web Design
+              Web Design & Development
             </h1>
             <p className="blawh" data-aos="fade-left">
-              AUDIENCE WITH INNOVATIVE AND ATTRACTIVE DESIGNS.
+              Create Stunning Websites with Our Design and Development
             </p>
           </div>
           <div className="mask" data-aos="fade-up" data-aos-duration="1000">
@@ -205,8 +214,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text1">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              Transform your online presence with our web design — we create
+              attractive and user-friendly websites.
             </p>
             <Image
               // data-aos="fade-up"
@@ -218,8 +227,8 @@ function Skills() {
               alt="sap"
             />
             <p className="text2">
-              These checks highlight opportunities to improve the accessibility
-              of your web app.
+              From concept to launch, our web solutions meet your business goals
+              and exceed expectations.
             </p>
           </div>
         </div>

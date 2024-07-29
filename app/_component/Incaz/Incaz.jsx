@@ -15,7 +15,7 @@ export default function Component() {
       <span className="absolute inset-0 w-full h-full object-cover rounded-md bg-muted" />
       <div className="absolute inset-0 maskV flex items-center justify-center">
         <div className="container px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 text-white">
-          <div className="space-y-4">
+          <div className="space-y-4 place-content-center">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight">
               Transforming the Future with Innovation
             </h1>
