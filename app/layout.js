@@ -1,14 +1,15 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
-import { Gabarito } from "next/font/google";
+// import { Gabarito } from "next/font/google";
 import Navbar from "./_component/Navbar/Navbar";
 
-const gabarito = Gabarito({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-gabarito",
-});
+// const gabarito = Gabarito({
+//   subsets: ["latin"],
+//   display: "swap",
+//   variable: "--font-gabarito",
+// });
+
 
 export const metadata = {
   title: "Wesmart For Technology",
