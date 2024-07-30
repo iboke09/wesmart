@@ -1,3 +1,4 @@
+'use client'
 import React, { Suspense } from "react";
 import Image from "next/image";
 import image from "../../img/v1.jpg.webp";
@@ -13,8 +14,14 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaYoutube, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import Link from "next/link";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Loading from "@/app/loading";
 function Our() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div className="meet" id="meet">
