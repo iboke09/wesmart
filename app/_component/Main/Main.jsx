@@ -33,25 +33,24 @@ function Main() {
         <motion.h2>with our expert services</motion.h2>
         <motion.p
           className="no"
-          // variants={pVariants}
-          // initial="hidden"
-          // animate="visible"
+          variants={pVariants}
+          initial="hidden"
+          animate="visible"
         >
-          {/* {text.split("").map((char, index) => (
+          {text.split("").map((char, index) => (
             <motion.span key={index} variants={spanVariants}>
               {char}
             </motion.span>
-          ))} */}
-          asd aushd jdfsdjbg jdbg djfbg djfbgjdbf sdfisduf sdbf 
+          ))}
         </motion.p>
         <Link
-          className="pro-btn"
+          className="pro-btn animate__animated animate__zoomInLeft"
           href="/Services"
         >
           <span style={{ zIndex: "1000" }}>contact us</span>
         </Link>
         <Link
-          className="bad-btn "
+          className="bad-btn animate__animated animate__zoomInRight"
           href="#sap"
         >
           learn more
