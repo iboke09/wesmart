@@ -57,7 +57,7 @@ function Main() {
         </Link>
       </div>
       <div className="tawsit">
-        <Image src={image} alt="alt" width={450} height={200} />
+        <Image src={image} alt="alt" width={450} height={200}  loading="eager"/>
         {/* <div class="pyramid-loader">
           <div class="wrapper">
             <span class="side side1"></span>

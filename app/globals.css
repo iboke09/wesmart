@@ -493,7 +493,7 @@ input:checked + .slider:before {
   }
 
   .landing .text .first {
-    font-size: 55px;
+    font-size: 44px;
     margin-bottom: -15px;
   }
 
@@ -2006,4 +2006,10 @@ footer {
 
 .oma {
   background-color: #079be0;
+}
+
+@media (max-width: 1025px) {
+  .text .first {
+    font-size: 44px;
+  }
 }
