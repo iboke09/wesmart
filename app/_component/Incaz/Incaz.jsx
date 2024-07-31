@@ -26,27 +26,27 @@ export default function Component() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h5 className="text-3xl font-bold">250+</h5>
+              <p className="text-3xl font-bold">250+</p>
               <p className="text-lg">Clients Served</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">15</h3>
+              <p className="text-3xl font-bold">15</p>
               <p className="text-lg">Number of companies</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">95%</h3>
+              <p className="text-3xl font-bold">95%</p>
               <p className="text-lg">Customer Satisfaction</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">120+</h3>
+              <p className="text-3xl font-bold">120+</p>
               <p className="text-lg">Projects Completed</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">50+</h3>
+              <p className="text-3xl font-bold">50+</p>
               <p className="text-lg">Awards and Recognitions</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h3 className="text-3xl font-bold">15+</h3>
+              <p className="text-3xl font-bold">15+</p>
               <p className="text-lg">Years of Excellence</p>
             </div>
           </div>
