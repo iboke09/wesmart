@@ -45,7 +45,7 @@ function Main() {
         </motion.p>
         <Link
           className="pro-btn animate__animated animate__zoomInLeft"
-          href="/Services"
+          href="/contact"
         >
           <span style={{ zIndex: "1000" }}>contact us</span>
         </Link>
