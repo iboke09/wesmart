@@ -26,7 +26,7 @@ export default function Component() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <h4 className="text-3xl font-bold">250+</h4>
+              <h3 className="text-3xl font-bold">250+</h3>
               <p className="text-lg">Clients Served</p>
             </div>
             <div className="bg-gray-800/50 p-6 rounded-lg">
