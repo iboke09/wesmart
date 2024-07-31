@@ -353,7 +353,7 @@ h2 {
 }
 
 /* The switch - the box around the slider */
-div.maskdarkapp > div.maskdark label#theme-toggle-button {
+#theme-toggle-button {
   font-size: 17px;
   position: relative;
   display: inline-block;
@@ -363,7 +363,7 @@ div.maskdarkapp > div.maskdark label#theme-toggle-button {
 }
 
 /* Hide default HTML checkbox */
-ul > div.maskdarkapp > div.maskdark > label#theme-toggle-button > input#toggle {
+#theme-toggle-button input {
   opacity: 1;
   width: 0;
   height: 0;
