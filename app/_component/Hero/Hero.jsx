@@ -30,7 +30,7 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcAbout className={styles.svgi} />
-              <h4 className={styles.children}>Get SAP Solutions</h4>
+              <h2 className={styles.children}>Get SAP Solutions</h2>
               <p className={styles.children}>
                 Elevate your operations and boost efficiency through our
                 tailored SAP integration and dedicated support.
@@ -45,7 +45,7 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcCamcorderPro className={styles.svgi} />
-              <h4 className={styles.children}>Discover Web Design</h4>
+              <h2 className={styles.children}>Discover Web Design</h2>
               <p className={styles.children}>
                 Create memorable experiences with our innovative, beautifully
                 designed websites that blend form and function.
@@ -60,7 +60,7 @@ function Hero() {
               data-tilt-max-glare="1.8"
             >
               <FcBarChart className={styles.svgi} />
-              <h4 className={styles.children}>Explore Graphic Design</h4>
+              <h2 className={styles.children}>Explore Graphic Design</h2>
               <p className={styles.children}>
                 Captivate your audience with our bespoke graphic design. Elevate
                 your brand with visuals that make a memorable impact.

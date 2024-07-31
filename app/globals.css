@@ -637,7 +637,7 @@ input:checked + .slider:before {
   box-shadow: 0 0 30px #ddd;
 }
 
-.our .box h4 {
+.our .box h2 {
   font-size: 23px;
   color: black;
   margin-bottom: 10px;
@@ -665,7 +665,7 @@ footer {
     width: 295px;
   }
 
-  .our .box h4:nth-child(2) {
+  .our .box h2:nth-child(2) {
     font-size: 19px;
   }
 
@@ -1091,7 +1091,7 @@ footer {
   transition: var(--main-transition);
 }
 
-.meet .box .tutan h4 {
+.meet .box .tutan h3 {
   margin-top: 15px;
   margin-bottom: 15px;
   font-weight: 500;
@@ -1101,7 +1101,7 @@ footer {
   transition: all 300ms linear 0s;
 }
 
-.meet .box .tutan:not(h4) p,
+.meet .box .tutan:not(h3) p,
 i {
   color: var(--blawh-color);
 }

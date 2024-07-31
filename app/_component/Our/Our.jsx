@@ -52,7 +52,7 @@ function Our() {
             </Link>
 
             <div className="tutan">
-              <h4 className="head">Abdullah Shwehenh</h4>
+              <h3 className="head">Abdullah Shwehenh</h3>
               <p style={{ margin: "13px 0px" }}>Sales Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
@@ -98,7 +98,7 @@ function Our() {
             </Link>
 
             <div className="tutan">
-              <h4 className="head">Adam Virland</h4>
+              <h3 className="head">Adam Virland</h3>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
@@ -144,7 +144,7 @@ function Our() {
               <Image src={image3} width={1000} height={100} alt="" />
             </Link>
             <div className="tutan">
-              <h4 className="head">Adam Virland</h4>
+              <h3 className="head">Adam Virland</h3>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land
@@ -190,7 +190,7 @@ function Our() {
             </Link>
 
             <div className="tutan">
-              <h4 className="head">Alea Mirslava</h4>
+              <h3 className="head">Alea Mirslava</h3>
               <p style={{ margin: "13px 0px" }}>Party Manager</p>
               <p style={{ margin: "20px 0px" }}>
                 So seed seed green that winged cattle in kath moved us land

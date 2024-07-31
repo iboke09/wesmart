@@ -34,7 +34,7 @@ function DarkMode() {
   }
   return (
     <div className="maskdark">
-      <label id="theme-toggle-button" for="toggle">
+      <label id="theme-toggle-button">
         {lp == 1 ? (
           <input
             type="checkbox"
