@@ -61,17 +61,27 @@ function Our() {
               <div className="sochial">
                 <a
                   href="https://www.youtube.com/@omr94/asfgats"
+                  aria-label="Read more about the economic outlook for the next decade"
                   className="active"
                 >
                   <FaFacebook />
                 </a>
-                <a href="https://www.youtube.com/watch?afvvsM&ab_cs%D8%B9%Df%D9%8A-bashararabi">
+                <a
+                  href="https://www.youtube.com/watch?afvvsM&ab_cs%D8%B9%Df%D9%8A-bashararabi"
+                  aria-label="Read more about the latest trends in sustainable fashion"
+                >
                   <FaYoutube />
                 </a>
-                <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channegasd9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri">
+                <a
+                  href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channegasd9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri"
+                  aria-label="Read more about the cultural significance of Diwali in India"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.youtube.com/shorts/gAzasdfgF_tyI">
+                <a
+                  href="https://www.youtube.com/shorts/gAzasdfgF_tyI"
+                  aria-label="Read more about the effects of social media on teenagers"
+                >
                   <FaInstagram />
                 </a>
               </div>
@@ -97,17 +107,27 @@ function Our() {
               <div className="sochial">
                 <a
                   href="https://www.youtube.com/@omr94/asdghts"
+                  aria-label="Read more about the groundbreaking cancer research at Johns Hopkins"
                   className="active"
                 >
                   <FaFacebook />
                 </a>
-                <a href="https://www.youtube.com/watch?v=kF-Yvasdd&ab_channel=%D8%gasd%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi">
+                <a
+                  href="https://www.youtube.com/watch?v=kF-Yvasdd&ab_channel=%D8%gasd%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi"
+                  aria-label="Read more about the benefits of yoga and meditation"
+                >
                   <FaYoutube />
                 </a>
-                <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%8asffD8%B1%D9%8A%7Cmosabri">
+                <a
+                  href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%8asffD8%B1%D9%8A%7Cmosabri"
+                  aria-label="Read more about the top 10 travel destinations for 2024"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.youtube.com/shorts/gasdF_tyI">
+                <a
+                  href="https://www.youtube.com/shorts/gasdF_tyI"
+                  aria-label="Read more about the new features in the latest iPhone release"
+                >
                   <FaInstagram />
                 </a>
               </div>
@@ -131,16 +151,29 @@ function Our() {
                 years living.
               </p>
               <div className="sochial">
-                <a href="https://www.youtube.com/asddf/sasd" className="active">
+                <a
+                  href="https://www.youtube.com/asddf/sasd"
+                  className="active"
+                  aria-label="Read more about the importance of mental health awareness"
+                >
                   <FaFacebook />
                 </a>
-                <a href="https://www.youtube.com/sdaatchasdab_channel=%D8%A8%D8%B4%D8%Aasdasdrarabi">
+                <a
+                  href="https://www.youtube.com/sdaatchasdab_channel=%D8%A8%D8%B4%D8%Aasdasdrarabi"
+                  aria-label="Read more about the history of the Great Wall of China"
+                >
                   <FaYoutube />
                 </a>
-                <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channasd">
+                <a
+                  href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channasd"
+                  aria-label="Read more about the benefits of a healthy Mediterranean diet"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.youtube.com/shorasdts/gasdasdAzW4MF_tyI">
+                <a
+                  href="https://www.youtube.com/shorasdts/gasdasdAzW4MF_tyI"
+                  aria-label="Read more about the impact of climate change on polar bears"
+                >
                   <FaInstagram />
                 </a>
               </div>
@@ -164,16 +197,29 @@ function Our() {
                 years living.
               </p>
               <div className="sochial">
-                <a href="https://www.youtube.com/@omr94/" className="active">
+                <a
+                  href="https://www.youtube.com/@omr94/"
+                  className="active"
+                  aria-label="Read more about the new electric car model from Tesla"
+                >
                   <FaFacebook />
                 </a>
-                <a href="https://www.youtube.com/asd">
+                <a
+                  href="https://www.youtube.com/asd"
+                  aria-label="Read more about the latest advancements in AI technology"
+                >
                   <FaYoutube />
                 </a>
-                <a href="https://www.youtube.com/eaf">
+                <a
+                  href="https://www.youtube.com/eaf"
+                  aria-label="Read more about the upcoming tech conference in San Francisco"
+                >
                   <FaLinkedinIn />
                 </a>
-                <a href="https://www.youtube.com/shorts/">
+                <a
+                  href="https://www.youtube.com/shortss/"
+                  aria-label="Read more about Seminole's new baby mayor"
+                >
                   <FaInstagram />
                 </a>
               </div>
