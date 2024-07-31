@@ -37,9 +37,9 @@ function DarkMode() {
       <label id="theme-toggle-button" for="toggle">
         {lp == 1 ? (
           <input
-            aria-labelledby="theme-toggle-button"
             type="checkbox"
             id="toggle"
+            aria-labelledby="theme-toggle-button"
             onChange={() => {
               let toggleBtn = document.querySelector("#toggle");
               let bodyEl = document.querySelector("body");
@@ -65,10 +65,10 @@ function DarkMode() {
           />
         ) : (
           <input
-            aria-labelledby="theme-toggle-button"
-            defaultChecked
-            type="checkbox"
-            id="toggle"
+          defaultChecked
+          type="checkbox"
+          id="toggle"
+          aria-labelledby="theme-toggle-button"
             onChange={() => {
               let toggleBtn = document.querySelector("#toggle");
               let bodyEl = document.querySelector("body");
