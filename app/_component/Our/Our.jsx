@@ -93,7 +93,7 @@ function Our() {
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1250"
           >
-            <Link href="#developer">
+            <Link href="#developer" aria-label="Read more about the restoration of ancient artifacts in Egypt">
               <Image src={image1} alt="" width={1000} height={100} />
             </Link>
 
@@ -139,7 +139,7 @@ function Our() {
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1500"
           >
-            <Link href="#web">
+            <Link href="#web" aria-label="Read more about the benefits of renewable energy sources">
               {" "}
               <Image src={image3} width={1000} height={100} alt="" />
             </Link>
@@ -185,7 +185,7 @@ function Our() {
             data-aos-anchor-placement="center-bottom"
             data-aos-duration="1750"
           >
-            <Link href="#site">
+            <Link href="#site" aria-label="Read more about the evolution of the internet and its future">
               <Image src={image} width={1000} height={100} alt="" />
             </Link>
 
