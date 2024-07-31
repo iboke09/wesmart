@@ -34,9 +34,10 @@ function DarkMode() {
   }
   return (
     <div className="maskdark">
-      <label id="theme-toggle-button" for='toggle'>
+      <label id="theme-toggle-button" for="toggle">
         {lp == 1 ? (
           <input
+            aria-labelledby="theme-toggle-button"
             type="checkbox"
             id="toggle"
             onChange={() => {
@@ -64,6 +65,7 @@ function DarkMode() {
           />
         ) : (
           <input
+            aria-labelledby="theme-toggle-button"
             defaultChecked
             type="checkbox"
             id="toggle"
