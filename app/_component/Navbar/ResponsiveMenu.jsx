@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "../../img/TheFinalOfDesigns-02.png";
+import logo from "../../img/TheFinalOfDesigns-02 (1).webp";
 import { Navlink } from "./Navbar";
 import Link from "next/link";
 import Image from "next/image";
@@ -53,6 +53,7 @@ function ResponsiveMenu({ showMenu, toggleMenu }) {
           alt="Logo"
           width={180}
           height={100}
+          quality={100}
         />
         <nav className="mt-12 responsivenav">
           <ul className="flex text-red-500 responsivenav">

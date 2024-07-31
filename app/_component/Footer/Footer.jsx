@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/TheFinalOfDesigns-02.png";
+import logo from "../../img/TheFinalOfDesigns-02 (1).webp";
 import Image from "next/image";
 import Link from "next/link";
 // import Spline from "@splinetool/react-spline";
@@ -17,6 +17,7 @@ function Footer() {
               alt="Logo"
               width={140}
               height={100}
+              quality={100}
             />
           </div>
 
