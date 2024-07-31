@@ -65,13 +65,13 @@ function Our() {
                   >
                     <FaFacebook />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=kF-YvvrNweM&ab_channel=%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi">
                     <FaYoutube />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri">
                     <FaLinkedinIn />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/shorts/gAzW4MF_tyI">
                     <FaInstagram />
                   </a>
                 </div>
@@ -83,7 +83,7 @@ function Our() {
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1250"
             >
-              <Link href="">
+              <Link href="#">
                 <Image src={image1} alt="" width={1000} height={100} />
               </Link>
 
@@ -101,13 +101,13 @@ function Our() {
                   >
                     <FaFacebook />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=kF-YvvrNweM&ab_channel=%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi">
                     <FaYoutube />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri">
                     <FaLinkedinIn />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/shorts/gAzW4MF_tyI">
                     <FaInstagram />
                   </a>
                 </div>
@@ -119,7 +119,7 @@ function Our() {
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1500"
             >
-              <Link href="">
+              <Link href="#">
                 {" "}
                 <Image src={image3} width={1000} height={100} alt="" />
               </Link>
@@ -137,13 +137,13 @@ function Our() {
                   >
                     <FaFacebook />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=kF-YvvrNweM&ab_channel=%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi">
                     <FaYoutube />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri">
                     <FaLinkedinIn />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/shorts/gAzW4MF_tyI">
                     <FaInstagram />
                   </a>
                 </div>
@@ -155,7 +155,7 @@ function Our() {
               data-aos-anchor-placement="center-bottom"
               data-aos-duration="1750"
             >
-              <Link href="">
+              <Link href="#">
                 <Image src={image} width={1000} height={100} alt="" />
               </Link>
 
@@ -173,13 +173,13 @@ function Our() {
                   >
                     <FaFacebook />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=kF-YvvrNweM&ab_channel=%D8%A8%D8%B4%D8%A7%D8%B1%D8%B9%D8%B1%D8%A8%D9%8A-bashararabi">
                     <FaYoutube />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/watch?v=wxxqpmCiSYg&ab_channel=%D9%85%D9%88%D8%B5%D8%A8%D8%B1%D9%8A%7Cmosabri">
                     <FaLinkedinIn />
                   </a>
-                  <a href="https://www.youtube.com/@omr94/shorts">
+                  <a href="https://www.youtube.com/shorts/gAzW4MF_tyI">
                     <FaInstagram />
                   </a>
                 </div>

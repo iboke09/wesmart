@@ -353,7 +353,7 @@ h2 {
 }
 
 /* The switch - the box around the slider */
-#theme-toggle-button {
+div.maskdark label#theme-toggle-button {
   font-size: 17px;
   position: relative;
   display: inline-block;
@@ -363,7 +363,7 @@ h2 {
 }
 
 /* Hide default HTML checkbox */
-#theme-toggle-button input {
+div.maskdark label#theme-toggle-button input#toggle {
   opacity: 1;
   width: 0;
   height: 0;
@@ -1501,17 +1501,8 @@ i {
     line-height: 34px;
   }
 }
-#toggle:checked .kayip {
-  width: 100000px;
-}
-@media (max-width: 1199px) {
-  .kayip {
-    left: 570px !important;
-  }
-  .kayip1 {
-    left: 500px !important;
-  }
 
+@media (max-width: 1199px) {
   .ski:not(.ski.o, .ski.t):after {
     width: 170px;
     height: 138px;
