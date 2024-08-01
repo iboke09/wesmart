@@ -6,7 +6,8 @@ import React from "react";
 import styles from "./Services.module.css";
 import Landing from "../_component/Landing/Landing";
 import Image from "next/image";
-import image from "../img/FrameHero.svg";
+import image from "../img/LandingPageVersion2.png";
+import ERPSection from "../_component/ERPSection/ERPSection";
 
 export default function Services() {
   return (
@@ -42,6 +43,7 @@ export default function Services() {
             </div>
           </div>
         </Landing>
+        <ERPSection/>
         <Tagarob1 />
       </>
     </>
