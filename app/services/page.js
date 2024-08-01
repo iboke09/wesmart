@@ -24,7 +24,7 @@ export default function Services() {
                 amet.
                 <br /> facilisis tortor malesuada malesuada.
               </p>
-              <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 top-20 relative">
+              <div className="grid grid-cols-2 gap-6  top-20 relative gridS" style={{columnGap:"0.5rem"}}>
                 <div className="of" >ERP Systems</div>
                 <div className="act">Web Design</div>
                 <div className="of">Skada Systems</div>
