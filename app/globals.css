@@ -16,6 +16,7 @@
   --blawh-color: black;
   --blawhs-color: white;
   --blawho-color: black;
+  --blawhsUI-color: #00000052;
   --shadow-color: #26d5ff;
   --gray-color: #726a6e;
   --agib-color: black;
@@ -28,6 +29,7 @@
 }
 
 .darko {
+  --blawhsUI-color: #ffffffc8;
   --maskERP-color: white;
   --border-F: -40px;
   --main-transition: 0.3s;
@@ -2350,3 +2352,112 @@ footer {
 
 
 /* ERP /// */
+
+/* UI */
+
+.headerUI {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  font-size: 49px;
+  font-weight: bold;
+  /* font-family: "__Inter_aaf875"; */
+  line-height: 70px;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin: auto;
+}
+/* Base styles (unchanged) */
+.container.UI {
+  margin-top: 100px;
+    transition: 0.7s;
+    border-radius: 20px;
+    height: 837px;
+    background-color: var(--main-alt-color1);
+    box-shadow: var(--blawhsUI-color) 0px 0px 10px;
+}
+
+.maskUI {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 97px;
+}
+
+.maskUI .boxUI{
+  background: var(--maskERP-color);
+  color: black;
+  padding: 126px 80px;
+  border-radius: 12px;
+  transition: 0.7s;
+}
+
+.mainUItitle {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 70px;
+  width: fit-content;
+  margin: 0px auto 29px auto;
+}
+
+.icermaskUI {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  place-items: center;
+}
+
+.UIcontactBtn {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  border-radius: 54.8px;
+  padding: 7px 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.UIcontactBtn:hover {
+  background-image: linear-gradient(
+    22deg,
+    rgb(0 34 123) 0%,
+    rgb(86 194 234) 100%
+  );
+}
+
+.maskUI .boxUI:nth-child(2) {
+  box-shadow: var(--blawhs-color) -10px 22px 30px;
+  position: relative;
+  left: 26px;
+}
+
+.maskUI .boxUI p {
+  color: var(--blawhs-color);
+  transition: 0.7s;
+}
+
+@media (max-width: 1025px) {
+  .maskUI .boxUI {
+        padding: 100px 27px;
+  }
+}

@@ -1,6 +1,6 @@
 import styles from "./ERPSection.module.css";
 import Image from "next/image";
-import image from '../../img/enterprise-resource-planning-holographic-interface.jpg'
+import image from '../../img/ErpPgoto.png'
 const ERPSection = () => {
   return (
     <div
@@ -29,7 +29,7 @@ const ERPSection = () => {
             <button className="ERPcontactBtn">Contact Us</button>
           </div>
           <div className="icermask">
-            <Image src={image} alt="alt" width={100} height={100} />
+            <Image src={image} alt="alt" width={270} height={100} />
             <div className="boxERP">
               <h2 className="mainERPtitle">Skada Systems</h2>
               <p>

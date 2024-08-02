@@ -390,7 +390,7 @@ const Tagarob1 = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
