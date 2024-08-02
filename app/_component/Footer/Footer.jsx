@@ -20,7 +20,6 @@ function Footer() {
               quality={100}
             />
           </div>
-
           <p
             className="mx-auto mt-6 max-w-md text-center leading-relaxed transition"
             style={{ color: "rgb(178 178 178)" }}

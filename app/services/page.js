@@ -7,7 +7,7 @@ import styles from "./Services.module.css";
 import Landing from "../_component/Landing/Landing";
 import Image from "next/image";
 import image from "../img/LandingPageVersion2.png";
-import ERPSection from "../_component/ERPSection/ERPSection";
+import ERPSection from "../_component/ERPSection/ERPSection.jsx";
 
 export default function Services() {
   return (

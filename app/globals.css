@@ -24,9 +24,11 @@
   --padding-top: 110px;
   --padding-bottom: 110px;
   --border-F: 60px;
+  --maskERP-color: rgb(0 21 46);
 }
 
 .darko {
+  --maskERP-color: white;
   --border-F: -40px;
   --main-transition: 0.3s;
   --main-color: #00cdff;
@@ -326,6 +328,7 @@ h2 {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   line-height: 70px;
+  width: fit-content;
   margin-bottom: 20px;
 }
 
@@ -440,6 +443,9 @@ input:checked + .slider:before {
 @media (max-width: 767px) {
   .text {
     width: 100%;
+  }
+  .landing .textS h2{
+    margin: auto;
   }
 }
 
@@ -2016,6 +2022,10 @@ footer {
   }
 }
 
+.landing .textS p{
+  transition: 0.7s;
+}
+
 .act,
 .of {
   font-size: 17px;
@@ -2025,6 +2035,7 @@ footer {
   border-radius: 8px;
   width: 161px;
   box-shadow: #1cb3ff80 0px 0px 10px;
+  transition: 0.7s;
 }
 
 .of {
@@ -2077,15 +2088,20 @@ footer {
 }
 
 .landing .textS h2 {
-  background-image: linear-gradient(80deg, #39a6ce, #002a98);
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 0px;
   font-size: 49px;
   font-weight: bold;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "__Inter_aaf875"; */
   line-height: 70px;
   margin-bottom: 20px;
+  width: fit-content;
 }
 
 @media (max-width: 767px) {
@@ -2123,3 +2139,214 @@ footer {
   position: relative;
   animation: up-and-down 3s linear infinite;
 }
+
+.headerE {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  font-size: 49px;
+  font-weight: bold;
+  /* font-family: "__Inter_aaf875"; */
+  line-height: 70px;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin: auto;
+}
+/* Base styles (unchanged) */
+.container.ERP {
+  margin-top: 100px;
+  transition: 0.7s;
+  border-radius: 20px;
+  height: 837px;
+  background-color: var(--maskERP-color);
+}
+
+.maskERP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 97px;
+}
+
+.maskERP .boxERP {
+  background: var(--main-alt-color1);
+  color: black;
+  padding: 126px 80px;
+  border-radius: 12px;
+  transition: 0.7s;
+}
+
+.mainERPtitle {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 70px;
+  width: fit-content;
+  margin: 0px auto 29px auto;
+}
+
+.icermask {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  place-items: center;
+}
+
+.ERPcontactBtn {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  border-radius: 54.8px;
+  padding: 7px 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ERPcontactBtn:hover {
+  background-image: linear-gradient(
+    22deg,
+    rgb(0 34 123) 0%,
+    rgb(86 194 234) 100%
+  );
+}
+
+.maskERP .boxERP:nth-child(2) {
+  box-shadow: var(--blawh-color) 13px 22px 30px;
+  position: relative;
+  left: -23px;
+}
+
+.maskERP .boxERP p {
+  color: var(--blawh-color);
+  transition: 0.7s;
+}
+
+/* Media Queries for devices under 1200px */
+/* @media (max-width: 1200px) {
+  .container.ERP {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    height: auto;
+  }
+
+  .maskERP {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .maskERP .boxERP {
+    padding: 40px 20px;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .mainERPtitle {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+
+  .ERPcontactBtn {
+    padding: 10px 30px;
+    width: 100%;
+  }
+
+  .icermask {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .maskERP .boxERP:nth-child(2) {
+    left: 0;
+    box-shadow: none;
+  }
+}
+  /*  */
+
+@media (max-width: 1025px) {
+  .maskERP .boxERP {
+        padding: 100px 27px;
+  }
+}
+/* 
+@media (max-width: 768px) {
+  .maskERP {
+    padding: 5px;
+  }
+
+  .maskERP .boxERP {
+    padding: 15px;
+  }
+
+  .ERPcontactBtn {
+    padding: 8px 16px;
+    width: 100%;
+  }
+
+  .mainERPtitle {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .maskERP {
+    padding: 5px;
+  }
+
+  .maskERP .boxERP {
+    padding: 10px;
+  }
+
+  .mainERPtitle {
+    font-size: 14px;
+  }
+
+  .ERPcontactBtn {
+    padding: 6px 12px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .maskERP {
+    padding: 5px;
+  }
+
+  .maskERP .boxERP {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .mainERPtitle {
+    font-size: 12px;
+  }
+
+  .ERPcontactBtn {
+    padding: 5px 10px;
+    width: 100%;
+  }
+} */
+
+
+/* ERP /// */
