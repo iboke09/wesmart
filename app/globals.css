@@ -314,7 +314,7 @@ ul {
   line-height: 100px;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "__Inter_aaf875" !important;
+  font-family: '__Inter_36bd41' !important;
 }
 
 h2 {
@@ -322,6 +322,23 @@ h2 {
 }
 
 .landing .text h2 {
+  background: radial-gradient(circle, rgb(86 194 234), rgb(2, 44, 149));
+  background-clip: text;
+  color: transparent;
+  margin-top: 0px;
+  font-size: 49px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 70px;
+  width: fit-content;
+  margin-bottom: 20px;
+  position: relative;
+  animation: textAnimation infinite 8s linear ;
+  background-size: 200% 200%;
+}
+
+
+/* .landing .text h2 {
   background-image: linear-gradient(80deg, #39a6ce, #002a98);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -332,8 +349,36 @@ h2 {
   line-height: 70px;
   width: fit-content;
   margin-bottom: 20px;
-}
+  position: relative;
+  /* animation: textAnimation infinite 1s alternate; */
 
+/* .landing .text h2::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(80deg, #39a6ce, #002a98);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  font-size: 49px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  line-height: 70px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  animation: textAnimation infinite 1s alternate;
+} */
+
+@keyframes textAnimation {
+  0% ,100% {
+    background-position: 0% 0%;
+  }
+  50%{
+    background-position: 200% 200%;
+  }
+}
 /* .card{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./img/landing13.avif) !important;
 
@@ -528,7 +573,7 @@ input:checked + .slider:before {
     line-height: 1.2;
     margin-top: 35px;
     margin-bottom: 5px; */
-    font-family: "__Inter_aaf875" !important;
+    font-family: '__Inter_36bd41' !important;
     font-size: 28px !important;
     margin-top: -5px;
   }
@@ -2499,13 +2544,13 @@ footer {
 }
 @media (max-width: 1025px) {
   .maskERP {
-    padding: 97px 20px;
+    padding: 80px 20px;
   }
   .maskERP .boxERP {
     padding: 100px 27px;
   }
   .maskUI {
-    padding: 97px 20px;
+    padding: 80px 20px;
   }
   .maskUI .boxUI {
     padding: 100px 27px;
