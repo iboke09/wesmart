@@ -52,7 +52,7 @@ const Tagarob1 = () => {
     <>
       <div className="yobba">
         <section className="" style={{backgroundColor:'var(--main-alt-color12)',transition:'0.7s'}}>
-          <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24" style={{borderBottom:'1px solid white'}}>
+          <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
             <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-16">
               <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right">
                 <h2 className="text-3xl font-bold tracking-tight  sm:text-4xl" style={{color:'var(--blawh-color)',transition:'0.7s'}}> 
