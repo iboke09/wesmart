@@ -2569,7 +2569,11 @@ footer {
   }
   .boxERP:nth-child(2) {
     margin-bottom: 70px;
-}
+  }
+  .container.ERP,
+  .container.UI {
+    height: 890px;
+  }
 }
 @media (max-width: 400px) {
   .maskERP .boxERP p {
@@ -2584,13 +2588,10 @@ footer {
   }
 }
 
-
 /* UIUI Responsive */
 
-
-
 @media (max-width: 600px) {
-  .maskUI.I{
+  .maskUI.I {
     flex-wrap: wrap;
   }
   .icermaskUI {
@@ -2598,7 +2599,7 @@ footer {
     height: 0;
   }
   .maskUI .boxUI:nth-child(2) {
-    left: 0;  
+    left: 0;
   }
   .UIcontactBtn {
     margin-top: 44px;
@@ -2635,6 +2636,5 @@ footer {
     margin-bottom: 60px;
   }
 }
-
 
 /* UIUI Responsive/// */
