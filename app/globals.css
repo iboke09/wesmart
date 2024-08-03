@@ -29,6 +29,7 @@
 }
 
 .darko {
+  transition: 0.7s;
   --blawhsUI-color: #ffffffc8;
   --maskERP-color: white;
   --border-F: -40px;
@@ -314,7 +315,7 @@ ul {
   line-height: 100px;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: '__Inter_36bd41' !important;
+  font-family: "__Inter_36bd41" !important;
 }
 
 h2 {
@@ -322,7 +323,7 @@ h2 {
 }
 
 .landing .text h2 {
-  background: radial-gradient(circle, rgb(86 194 234), rgb(2, 44, 149));
+  background: radial-gradient(circle, rgb(86 194 234), rgb(25 77 136));
   background-clip: text;
   color: transparent;
   margin-top: 0px;
@@ -333,10 +334,9 @@ h2 {
   width: fit-content;
   margin-bottom: 20px;
   position: relative;
-  animation: textAnimation infinite 8s linear ;
+  animation: textAnimation infinite 8s linear;
   background-size: 200% 200%;
 }
-
 
 /* .landing .text h2 {
   background-image: linear-gradient(80deg, #39a6ce, #002a98);
@@ -372,10 +372,11 @@ h2 {
 } */
 
 @keyframes textAnimation {
-  0% ,100% {
+  0%,
+  100% {
     background-position: 0% 0%;
   }
-  50%{
+  50% {
     background-position: 200% 200%;
   }
 }
@@ -573,7 +574,7 @@ input:checked + .slider:before {
     line-height: 1.2;
     margin-top: 35px;
     margin-bottom: 5px; */
-    font-family: '__Inter_36bd41' !important;
+    font-family: "__Inter_36bd41" !important;
     font-size: 28px !important;
     margin-top: -5px;
   }
@@ -2206,7 +2207,7 @@ footer {
   margin-top: 100px;
   transition: 0.7s;
   border-radius: 20px;
-  height: 837px;
+  height: 780px;
   background-color: var(--maskERP-color);
 }
 
@@ -2215,13 +2216,13 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding: 97px;
+  padding: 85px 90px 110px 90px;
 }
 
 .maskERP .boxERP {
   background: var(--main-alt-color1);
   color: black;
-  padding: 126px 80px;
+  padding: 81px 75px 152px;
   border-radius: 12px;
   transition: 0.7s;
 }
@@ -2249,6 +2250,7 @@ footer {
   flex-direction: column;
   height: 100%;
   place-items: center;
+  position: relative;
 }
 
 .ERPcontactBtn {
@@ -2301,112 +2303,6 @@ footer {
   color: var(--blawh-color);
   transition: 0.7s;
 }
-
-/* Media Queries for devices under 1200px */
-/* @media (max-width: 1200px) {
-  .container.ERP {
-    margin-top: 50px;
-    padding: 20px;
-    border-radius: 15px;
-    height: auto;
-  }
-
-  .maskERP {
-    padding: 20px;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .maskERP .boxERP {
-    padding: 40px 20px;
-    margin: 20px 0;
-    width: 100%;
-  }
-
-  .mainERPtitle {
-    font-size: 20px;
-    line-height: 1.5;
-    margin: 10px 0;
-  }
-
-  .ERPcontactBtn {
-    padding: 10px 30px;
-    width: 100%;
-  }
-
-  .icermask {
-    width: 100%;
-    padding: 20px 0;
-  }
-
-  .maskERP .boxERP:nth-child(2) {
-    left: 0;
-    box-shadow: none;
-  }
-}
-  /*  */
-
-@media (max-width: 767px) {
-}
-/* 
-@media (max-width: 768px) {
-  .maskERP {
-    padding: 5px;
-  }
-
-  .maskERP .boxERP {
-    padding: 15px;
-  }
-
-  .ERPcontactBtn {
-    padding: 8px 16px;
-    width: 100%;
-  }
-
-  .mainERPtitle {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 576px) {
-  .maskERP {
-    padding: 5px;
-  }
-
-  .maskERP .boxERP {
-    padding: 10px;
-  }
-
-  .mainERPtitle {
-    font-size: 14px;
-  }
-
-  .ERPcontactBtn {
-    padding: 6px 12px;
-    width: 100%;
-  }
-}
-
-@media (max-width: 400px) {
-  .maskERP {
-    padding: 5px;
-  }
-
-  .maskERP .boxERP {
-    padding: 5px;
-    font-size: 12px;
-  }
-
-  .mainERPtitle {
-    font-size: 12px;
-  }
-
-  .ERPcontactBtn {
-    padding: 5px 10px;
-    width: 100%;
-  }
-} */
-
 /* ERP /// */
 
 /* UI */
@@ -2422,18 +2318,18 @@ footer {
   margin-top: 0px;
   font-size: 49px;
   font-weight: bold;
-  /* font-family: "__Inter_aaf875"; */
   line-height: 70px;
   margin-bottom: 20px;
   width: fit-content;
   margin: auto;
 }
-/* Base styles (unchanged) */
+
+
 .container.UI {
   margin-top: 100px;
   transition: 0.7s;
   border-radius: 20px;
-  height: 837px;
+  height: 780px;
   background-color: var(--main-alt-color1);
   box-shadow: var(--blawhsUI-color) 0px 0px 10px;
 }
@@ -2443,13 +2339,13 @@ footer {
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding: 97px;
+  padding: 85px 90px 110px 90px;
 }
 
 .maskUI .boxUI {
   background: var(--maskERP-color);
   color: black;
-  padding: 126px 80px;
+  padding: 81px 75px 152px;
   border-radius: 12px;
   transition: 0.7s;
 }
@@ -2477,6 +2373,7 @@ footer {
   flex-direction: column;
   height: 100%;
   place-items: center;
+  position: relative;
 }
 
 .UIcontactBtn {
@@ -2517,6 +2414,7 @@ footer {
 
 .maskUI .boxUI:nth-child(2) {
   box-shadow: var(--blawhs-color) -10px 22px 30px;
+  z-index: 1;
   position: relative;
   left: 26px;
 }
@@ -2526,12 +2424,31 @@ footer {
   transition: 0.7s;
 }
 
+.ilstU {
+  z-index: 2;
+  position: absolute;
+  left: -164px;
+  bottom: -100px;
+}
+.ilstE {
+  z-index: 2;
+  position: absolute;
+  right: -164px;
+  bottom: -100px;
+}
+
 @media (max-width: 767px) {
   .maskERP {
     padding: 97px 0px;
   }
   .maskUI {
     padding: 97px 0px;
+  }
+  .headerE {
+    font-size: 40px;
+  }
+  .headerUI {
+    font-size: 40px;
   }
 }
 @media (max-width: 1199px) {
@@ -2541,16 +2458,22 @@ footer {
   .maskUI {
     padding: 70px;
   }
+  .ilstU {
+    display: none;
+  }
+  .ilstE{
+    display: none;
+  }
 }
 @media (max-width: 1025px) {
   .maskERP {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .maskERP .boxERP {
     padding: 100px 27px;
   }
   .maskUI {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .maskUI .boxUI {
     padding: 100px 27px;

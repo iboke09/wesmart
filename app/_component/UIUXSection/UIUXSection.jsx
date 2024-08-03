@@ -1,5 +1,7 @@
 import Image from "next/image";
-import image from "../../img/brand communication-amicoo.png";
+import image from "../../img/uiuxS.png";
+import image1 from '../../img/WebSectionIllustration.svg'
+import image2 from '../../img/ErpSectionIllustration.svg'
 export default function UIUXSection() {
   return (
     <>
@@ -16,7 +18,7 @@ export default function UIUXSection() {
         <div className="container UI">
           <div className="maskUI">
             <div className="icermaskUI">
-              <Image src={image} alt="" width={100} height={100} />
+              <Image src={image} alt="" width={280} height={100} />
               <div className="boxUI">
                 <h2 className="mainUItitle">UI/UX Design</h2>
                 <p>
@@ -26,6 +28,7 @@ export default function UIUXSection() {
                   error, ut ratione temporibus? Cupiditate, explicabo.
                 </p>
               </div>
+                <Image src={image1} alt="alt" width={250} height={100} className="ilstU"/>
             </div>
             <div className="icermaskUI">
               <div className="boxUI">

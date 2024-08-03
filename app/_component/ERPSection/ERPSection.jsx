@@ -1,12 +1,12 @@
 import styles from "./ERPSection.module.css";
 import Image from "next/image";
 import image from '../../img/ErpPgoto.png'
+import image1 from '../../img/ErpSectionIllustration.svg'
 const ERPSection = () => {
   return (
     <div
       style={{
         height: "100vh",
-        backgroundColor: "var(--main-alt-color1)",
         transition: "0.7s",
         marginTop: "200px",
         textAlign: "center",
@@ -39,6 +39,7 @@ const ERPSection = () => {
                 error, ut ratione temporibus? Cupiditate, explicabo.
               </p>
             </div>
+            <Image src={image1} alt="alt" width={250} height={100} className="ilstE"/>
           </div>
         </div>
       </div>
