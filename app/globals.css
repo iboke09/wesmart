@@ -684,7 +684,7 @@ input:checked + .slider:before {
 }
 
 .our .box h2 {
-  font-size: 23px;
+  font-size: 22px;
   color: black;
   margin-bottom: 10px;
   margin-top: -5px;
@@ -2449,6 +2449,9 @@ footer {
   }
   .headerUI {
     font-size: 40px;
+  }
+  .card svg{
+    display: none;
   }
 }
 @media (max-width: 1199px) {
