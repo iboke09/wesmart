@@ -41,8 +41,8 @@ function Spliden() {
           }}
         >
           <h1>Our Services</h1>
-          <div className="cards">
-            <Splide
+          <div className="cards" style={{zIndex:'40'}}>
+            <Splide 
               aria-label="Testimonials"
               options={{
                 type: "loop",
