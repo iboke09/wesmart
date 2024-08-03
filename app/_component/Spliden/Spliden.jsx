@@ -28,6 +28,7 @@ function Spliden() {
           alignItems: "center",
           height: "85vh",
           marginTop: "100px",
+          zIndex:'12'
         }}
       >
         <div
@@ -39,7 +40,7 @@ function Spliden() {
             height: "100vh",
           }}
         >
-          <h1>Any Thing</h1>
+          <h1>Our Services</h1>
           <div className="cards">
             <Splide
               aria-label="Testimonials"
