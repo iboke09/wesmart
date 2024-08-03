@@ -26,7 +26,7 @@ const ERPSection = () => {
                 impedit laboriosam, obcaecati recusandae. Enim.
               </p>
             </div>
-            <button className="ERPcontactBtn">Contact Us</button>
+            <button className="ERPcontactBtn"><span style={{position:'relative',zIndex:'100'}}>Contact Us</span></button>
           </div>
           <div className="icermask">
             <Image src={image} alt="alt" width={270} height={100} />

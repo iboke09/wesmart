@@ -446,9 +446,6 @@ input:checked + .slider:before {
   .text {
     width: 100%;
   }
-  .landing .textS h2{
-    margin: auto;
-  }
 }
 
 /* .landing .text a.pro-btn:hover {
@@ -2024,7 +2021,7 @@ footer {
   }
 }
 
-.landing .textS p{
+.landing .textS p {
   transition: 0.7s;
 }
 
@@ -2216,19 +2213,37 @@ footer {
     rgb(0 34 123) 100%
   );
   border-radius: 54.8px;
-  padding: 7px 50px;
+  padding: 12px 70px;
   color: white;
   border: none;
   cursor: pointer;
+  font-size: 18px;
   transition: 0.3s;
+  position: relative;
 }
 
-.ERPcontactBtn:hover {
+.ERPcontactBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 54.8px;
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+  display: inline-flex;
   background-image: linear-gradient(
     22deg,
-    rgb(0 34 123) 0%,
-    rgb(86 194 234) 100%
+    rgb(52, 152, 188) 0%,
+    rgb(2, 36, 120) 100%
   );
+  padding: 12px 70px;
+}
+
+.ERPcontactBtn:hover::after {
+  opacity: 1;
 }
 
 .maskERP .boxERP:nth-child(2) {
@@ -2286,10 +2301,7 @@ footer {
 }
   /*  */
 
-@media (max-width: 1025px) {
-  .maskERP .boxERP {
-        padding: 100px 27px;
-  }
+@media (max-width: 767px) {
 }
 /* 
 @media (max-width: 768px) {
@@ -2350,7 +2362,6 @@ footer {
   }
 } */
 
-
 /* ERP /// */
 
 /* UI */
@@ -2375,11 +2386,11 @@ footer {
 /* Base styles (unchanged) */
 .container.UI {
   margin-top: 100px;
-    transition: 0.7s;
-    border-radius: 20px;
-    height: 837px;
-    background-color: var(--main-alt-color1);
-    box-shadow: var(--blawhsUI-color) 0px 0px 10px;
+  transition: 0.7s;
+  border-radius: 20px;
+  height: 837px;
+  background-color: var(--main-alt-color1);
+  box-shadow: var(--blawhsUI-color) 0px 0px 10px;
 }
 
 .maskUI {
@@ -2390,7 +2401,7 @@ footer {
   padding: 97px;
 }
 
-.maskUI .boxUI{
+.maskUI .boxUI {
   background: var(--maskERP-color);
   color: black;
   padding: 126px 80px;
@@ -2424,25 +2435,39 @@ footer {
 }
 
 .UIcontactBtn {
-  background-image: linear-gradient(
-    22deg,
-    rgb(86 194 234) 0%,
-    rgb(0 34 123) 100%
-  );
+  background: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%);
   border-radius: 54.8px;
-  padding: 7px 50px;
+  padding: 12px 70px;
   color: white;
   border: none;
   cursor: pointer;
-  transition: 0.3s;
+  font-size: 18px;
+  transition: 0.5s;
+  position: relative;
 }
 
-.UIcontactBtn:hover {
+.UIcontactBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 54.8px;
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+  display: inline-flex;
   background-image: linear-gradient(
     22deg,
-    rgb(0 34 123) 0%,
-    rgb(86 194 234) 100%
+    rgb(52, 152, 188) 0%,
+    rgb(2, 36, 120) 100%
   );
+  padding: 12px 70px;
+}
+
+.UIcontactBtn:hover::after {
+  opacity: 1;
 }
 
 .maskUI .boxUI:nth-child(2) {
@@ -2456,8 +2481,48 @@ footer {
   transition: 0.7s;
 }
 
+@media (max-width: 767px) {
+  .maskERP {
+    padding: 97px 0px;
+  }
+  .maskUI {
+    padding: 97px 0px;
+  }
+}
+@media (max-width: 1199px) {
+  .maskERP {
+    padding: 70px;
+  }
+  .maskUI {
+    padding: 70px;
+  }
+}
 @media (max-width: 1025px) {
+  .maskERP {
+    padding: 97px 20px;
+  }
+  .maskERP .boxERP {
+    padding: 100px 27px;
+  }
+  .maskUI {
+    padding: 97px 20px;
+  }
   .maskUI .boxUI {
-        padding: 100px 27px;
+    padding: 100px 27px;
+  }
+  .landing .textS h2 {
+    margin: auto;
+  }
+  .maskUI .boxUI:nth-child(2) {
+    left: 15px;
+  }
+  .UIcontactBtn {
+    padding: 12px 40px;
+  }
+  .ERPcontactBtn {
+    padding: 12px 40px;
+  }
+  .maskERP .boxERP:nth-child(2) {
+    left: -12px;
   }
 }

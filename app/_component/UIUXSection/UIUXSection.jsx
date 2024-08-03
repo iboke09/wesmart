@@ -37,7 +37,7 @@ export default function UIUXSection() {
                   impedit laboriosam, obcaecati recusandae. Enim.
                 </p>
               </div>
-              <button className="UIcontactBtn">Contact Us</button>
+              <button className="UIcontactBtn"><span style={{position:'relative',zIndex:'100'}}>Contact Us</span></button>
             </div>
           </div>
         </div>
