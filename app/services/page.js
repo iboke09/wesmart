@@ -27,14 +27,17 @@ export default function Services() {
                 amet.
                 <br /> facilisis tortor malesuada malesuada.
               </p>
-              <div className="grid grid-cols-2 gap-6  top-20 relative gridS" style={{columnGap:"0.5rem"}}>
-                <div className="of" >ERP Systems</div>
+              <div
+                className="grid grid-cols-2 gap-6  top-20 relative gridS"
+                style={{ columnGap: "0.5rem" }}
+              >
+                <div className="of">ERP Systems</div>
                 <div className="act">Web Design</div>
                 <div className="of">Skada Systems</div>
-                <div className="act">Mobile App</div>
+                <div className="act">UI/UX Design</div>
               </div>
             </div>
-            <div className="tawsitS" style={{top:'30px'}}>
+            <div className="tawsitS" style={{ top: "30px" }}>
               <Image
                 src={image}
                 alt="alt"
@@ -45,10 +48,10 @@ export default function Services() {
             </div>
           </div>
         </Landing>
-        <ERPSection/>
-        <UIUXSection/>
+        <ERPSection />
+        <UIUXSection />
         <Tagarob1 />
-        <Footer/>
+        <Footer />
       </>
     </>
   );

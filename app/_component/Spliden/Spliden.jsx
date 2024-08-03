@@ -28,7 +28,6 @@ function Spliden() {
           alignItems: "center",
           height: "85vh",
           marginTop: "100px",
-          zIndex:'12'
         }}
       >
         <div
