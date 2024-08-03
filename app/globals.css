@@ -612,6 +612,7 @@ input:checked + .slider:before {
   padding-top: var(--padding-top);
   padding-bottom: var(--padding-bottom);
   position: relative;
+  margin-bottom: 100px;
 }
 
 .main-title {
@@ -625,7 +626,17 @@ input:checked + .slider:before {
   margin-bottom: 10px;
   text-transform: capitalize;
   font-weight: 600;
-  color: var(--blawh-color);
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+  width: fit-content;
+  margin: auto;
 }
 
 .our .container {
@@ -1143,7 +1154,7 @@ footer {
   font-weight: 500;
   font-size: 20px;
   text-align: center;
-  color: #1aacbd;
+  color: #317cba;
   transition: all 300ms linear 0s;
 }
 
@@ -1806,8 +1817,9 @@ footer {
     position: relative;
     top: 100px;
   }
-  .tawsitS {
-    display: none;
+  .landing .textS {
+    width: 775px;
+    flex-wrap: wrap;
   }
 }
 
@@ -2324,7 +2336,6 @@ footer {
   margin: auto;
 }
 
-
 .container.UI {
   margin-top: 100px;
   transition: 0.7s;
@@ -2450,8 +2461,11 @@ footer {
   .headerUI {
     font-size: 40px;
   }
-  .card svg{
+  .card svg {
     display: none;
+  }
+  .landing .textS p {
+    font-size: 14px;
   }
 }
 @media (max-width: 1199px) {
@@ -2464,11 +2478,14 @@ footer {
   .ilstU {
     display: none;
   }
-  .ilstE{
+  .ilstE {
     display: none;
   }
 }
 @media (max-width: 1025px) {
+  .textS {
+    top: 450px !important;
+  }
   .maskERP {
     padding: 60px 20px;
   }
@@ -2496,4 +2513,122 @@ footer {
   .maskERP .boxERP:nth-child(2) {
     left: -12px;
   }
+  .textS img {
+    width: 300px;
+    margin-top: 150px;
+  }
 }
+
+@media (max-width: 600px) {
+  .maskERP {
+    flex-wrap: wrap-reverse;
+  }
+  .icermask {
+    justify-content: center;
+    height: 0;
+  }
+  .maskERP .boxERP:nth-child(2) {
+    left: 0;
+  }
+  .container.ERP,
+  .container.UI {
+    height: 110vh;
+    width: 83vw;
+  }
+  .ERPcontactBtn {
+    margin-top: 44px;
+    padding: 9px 58px;
+    font-size: 18px;
+  }
+  .theAPP {
+    margin-bottom: 399px !important;
+  }
+  .maskERP .boxERP {
+    padding: 5px 27px 55px 27px;
+    height: 292px;
+  }
+  .mainERPtitle {
+    padding: 0px;
+    margin: 10px auto;
+    font-size: 20px;
+  }
+  .maskERP .boxERP p {
+    font-size: 15px;
+  }
+  .maskERP .boxERP {
+    box-shadow: var(--blawhs-color) 0px 0px 13px !important;
+    position: relative;
+  }
+}
+@media (max-width: 440px) {
+  .maskERP .boxERP p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 400px) {
+  .maskERP .boxERP p {
+    font-size: 10px;
+  }
+  .boxERP:nth-child(2) {
+    margin-bottom: 60px;
+  }
+  .container.ERP,
+  .container.UI {
+    width: 100vw;
+  }
+}
+
+
+/* UIUI Responsive */
+
+
+
+@media (max-width: 600px) {
+  .maskUI.I{
+    flex-wrap: wrap;
+  }
+  .icermaskUI {
+    justify-content: center;
+    height: 0;
+  }
+  .maskUI .boxUI:nth-child(2) {
+    left: 0;  
+  }
+  .UIcontactBtn {
+    margin-top: 44px;
+    padding: 9px 58px;
+    font-size: 18px;
+  }
+  .maskUI .boxUI {
+    padding: 5px 27px 55px 27px;
+    height: 292px;
+  }
+  .mainUItitle {
+    padding: 0px;
+    margin: 10px auto;
+    font-size: 20px;
+  }
+  .maskUI .boxUI p {
+    font-size: 15px;
+  }
+  .maskUI .boxUI {
+    box-shadow: var(--blawh-color) 0px 0px 13px !important;
+    position: relative;
+  }
+}
+@media (max-width: 440px) {
+  .maskUI .boxUI p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 400px) {
+  .maskUI .boxUI p {
+    font-size: 10px;
+  }
+  .boxUI:nth-child(2) {
+    margin-bottom: 60px;
+  }
+}
+
+
+/* UIUI Responsive/// */

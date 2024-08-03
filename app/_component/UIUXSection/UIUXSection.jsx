@@ -6,6 +6,7 @@ export default function UIUXSection() {
   return (
     <>
       <div
+      className="theAPP"
         style={{
           height: "100vh",
           backgroundColor: "var(--main-alt-color1)",
@@ -16,7 +17,7 @@ export default function UIUXSection() {
         }}>
         <h1 className="headerUI">Web Softwer</h1>
         <div className="container UI">
-          <div className="maskUI">
+          <div className="maskUI I">
             <div className="icermaskUI">
               <Image src={image} alt="" width={280} height={100} />
               <div className="boxUI">

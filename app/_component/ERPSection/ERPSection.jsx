@@ -4,7 +4,7 @@ import image from '../../img/ErpPgoto.png'
 import image1 from '../../img/ErpSectionIllustration.svg'
 const ERPSection = () => {
   return (
-    <div
+    <div className="theAPP"
       style={{
         height: "100vh",
         transition: "0.7s",
