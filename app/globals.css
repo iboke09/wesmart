@@ -2742,3 +2742,8 @@ footer {
 }
 
 /* UIUI Responsive/// */
+
+
+.contactP .landing::after{
+  display: none;
+}
