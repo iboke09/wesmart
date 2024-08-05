@@ -4,11 +4,45 @@ import img from "../img/Mystery box-rafiki.svg";
 import img1 from "../img/Man thinking-bro.svg";
 import img2 from "../img/Shrug-bro.svg";
 import Footer from "../_component/Footer/Footer";
+import Landing from "../_component/Landing/Landing";
 
 const About = () => {
   return (
     <>
-      <div className="kura">
+      <Landing>
+        <div className="textA container">
+          <div
+            className="centere"
+            style={{ textAlign: "left", top: "65px", position: "relative" }}
+          >
+            <h2>About Our Company</h2>
+            <p style={{ color: "var(--blawh-color)", width: "500px" }}>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
+              hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
+              minus veniam tempora deserunt? Molestiae eius quidem quam
+              repellat.
+            </p>
+            <a
+              href="#"
+              className="rulla mt-8 inline-block rounded  px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring "
+            ><span style={{position:'relative',zIndex:'10'}}>
+              Get Started Today
+            </span>
+            </a>
+          </div>
+
+          <div className="tawsitS" style={{ top: "-50px" }}>
+            <Image
+              src={img}
+              alt="alt"
+              width={450}
+              height={200}
+              loading="eager"
+            />
+          </div>
+        </div>
+      </Landing>
+      {/* <div className="kura">
         <div
           style={{ height: "70vh", top: "100px", position: "relative" }}
           className="container"
@@ -81,12 +115,10 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
-}
-
+};
 
 export default About;
-

@@ -22,6 +22,7 @@
   --agib-color: black;
   --agib2-color: #00cdff;
   --agib-zindex: 20;
+  --agib-zindex_2: 1;
   --padding-top: 110px;
   --padding-bottom: 110px;
   --border-F: 60px;
@@ -37,6 +38,7 @@
   --main-color: #00cdff;
   --main-alt-color1: #00152e;
   --main-alt-color12: #00152e;
+  --agib-zindex_2: 20;
   --main-alt-color11: rgb(5, 20, 38);
   --padding-top: 110px;
   --padding-bottom: 110px;
@@ -885,7 +887,7 @@ footer {
   background-color: var(--shadow-color);
   border-radius: 50%;
   filter: blur(100px);
-  z-index: 99;
+  z-index: var(--agib-zindex_2);
 }
 
 .hait::before {
@@ -1821,6 +1823,10 @@ footer {
     width: 775px;
     flex-wrap: wrap;
   }
+  .landing .textA {
+    width: 775px;
+    flex-wrap: wrap;
+  }
 }
 
 /* styles/contactForm.css */
@@ -1952,7 +1958,7 @@ footer {
 }
 
 .rulla {
-  background-color: #00448f;
+  background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%)
 }
 
 .whito {
@@ -2082,6 +2088,9 @@ footer {
 .landing .textS p {
   transition: 0.7s;
 }
+.landing .textA p {
+  transition: 0.7s;
+}
 
 .act,
 .of {
@@ -2122,8 +2131,23 @@ footer {
   justify-content: space-evenly;
 }
 
+.textA {
+  top: 45%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-basis: 100;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 1024px) {
   .landing .textS {
+    width: 775px;
+  }
+  .landing .textA {
     width: 775px;
   }
   .centere {
@@ -2142,9 +2166,29 @@ footer {
   .textS {
     top: 410px !important;
   }
+  .textA {
+    top: 475px !important;
+  }
 }
 
 .landing .textS h2 {
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  font-size: 49px;
+  font-weight: bold;
+  /* font-family: "__Inter_aaf875"; */
+  line-height: 70px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.landing .textA h2 {
   background-image: linear-gradient(
     22deg,
     rgb(86 194 234) 0%,
@@ -2171,6 +2215,12 @@ footer {
   .landing .textS p {
     margin-bottom: -30px;
   }
+  .landing .textA h2 {
+    font-size: 40px;
+  }
+  .landing .textA p {
+    margin-bottom: -30px;
+  }
   /* .landing::after{
     z-index: -100;
     left: 236px;
@@ -2182,17 +2232,25 @@ footer {
     line-height: 45px;
     width: 117px;
   }
+  .rulla{
+    position: relative;
+    top: 20px;
+  }
 }
 
 @media (max-width: 400px) {
   .landing::after {
-    z-index: -100;
     left: 236px;
     bottom: -175px;
   }
 }
 
 .textS img {
+  position: relative;
+  animation: up-and-down 3s linear infinite;
+}
+
+.textA img {
   position: relative;
   animation: up-and-down 3s linear infinite;
 }
@@ -2467,6 +2525,9 @@ footer {
   .landing .textS p {
     font-size: 14px;
   }
+  .landing .textA p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1199px) {
   .maskERP {
@@ -2486,6 +2547,9 @@ footer {
   .textS {
     top: 450px !important;
   }
+  .textA {
+    top: 450px !important;
+  }
   .maskERP {
     padding: 60px 20px;
   }
@@ -2501,6 +2565,9 @@ footer {
   .landing .textS h2 {
     margin: auto;
   }
+  .landing .textA h2 {
+    margin: auto;
+  }
   .maskUI .boxUI:nth-child(2) {
     left: 15px;
   }
@@ -2514,6 +2581,10 @@ footer {
     left: -12px;
   }
   .textS img {
+    width: 300px;
+    margin-top: 150px;
+  }
+  .textA img {
     width: 300px;
     margin-top: 150px;
   }
@@ -2589,8 +2660,41 @@ footer {
 }
 
 /* UIUI Responsive */
-
+.rulla{
+  position: relative;
+}
+.rulla:hover::after{
+  opacity: 1;
+}
+.rulla::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3em;
+  transition: opacity 0.5s ease-out;
+  z-index: 2;
+  opacity: 0;
+  background-image: linear-gradient(90deg, rgb(7, 161, 207) 0%, rgb(3, 45, 107) 100%);
+  padding: 0px 50px;
+  cursor: pointer;
+}
 @media (max-width: 600px) {
+  .landing .textA h2 {
+    font-size: 25px;
+  }
+  .rulla{
+    line-height: 0.50rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .landing .textA p {
+    font-size: 12px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
   .maskUI.I {
     flex-wrap: wrap;
   }
