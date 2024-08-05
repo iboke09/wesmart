@@ -18,7 +18,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Loading from "@/app/loading";
-function Our() {
+const Our = () => {
   useEffect(() => {
     AOS.init();
   }, []);

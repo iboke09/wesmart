@@ -5,7 +5,7 @@ import img1 from "../img/Man thinking-bro.svg";
 import img2 from "../img/Shrug-bro.svg";
 import Footer from "../_component/Footer/Footer";
 
-function About() {
+const About = () => {
   return (
     <>
       <div className="kura">

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import Spline from "@splinetool/react-spline";
 
-function Footer() {
+const Footer = () => {
   return (
     <>
       {/* <Spline scene="https://prod.spline.design/7yukYUf0Rgsg8-0W/scene.splinecode" /> */}

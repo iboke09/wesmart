@@ -14,7 +14,7 @@ import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
 import "../Spliden/Spliden";
 import "./index.scss";
-function Spliden() {
+const Spliden = () => {
   return (
     <>
       {/* <div className="spikes" style={{ position: "relative" }}></div> */}

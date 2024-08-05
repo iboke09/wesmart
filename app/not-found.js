@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import img from "./img/404 Error-amico.svg";
-function notFound() {
+const notFound = () => {
   return (
     <>
       <div>

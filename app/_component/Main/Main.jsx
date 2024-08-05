@@ -5,7 +5,7 @@ import image from "../../img/FrameHero.svg";
 import Link from "next/link";
 import Image from "next/image";
 
-function Main() {
+const Main = () => {
   const text =
     "Unlock your potential with our expert SAP solutions.Streamline operations and boost efficiency. Enhance your growth with exceptional web design and engaging graphics designs.";
   const pVariants = {

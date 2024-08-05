@@ -1,6 +1,6 @@
 import React from "react";
 
-function DarkMode() {
+const DarkMode = () => {
   let darkMode = false;
   let value = "darko";
   if (typeof window !== "undefined") {

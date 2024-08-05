@@ -18,7 +18,7 @@ import image24 from "../../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg";
 import image25 from "../../img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg";
 import image26 from "../../img/nothingso-19.png";
 import { SiCodesignal } from "react-icons/si";
-function Skills() {
+const Skills = () => {
   return (
     <>
       <div className="ski" id="sap">

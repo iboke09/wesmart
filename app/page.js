@@ -7,7 +7,6 @@ import Landing from "./_component/Landing/Landing";
 import Footer from "./_component/Footer/Footer";
 import Our from "./_component/Our/Our";
 import Skills from "./_component/Skills/Skills";
-import Tacarob from "./_component/Tacarob/Tacarob";
 import Main from "./_component/Main/Main";
 import Incaz from "./_component/Incaz/Incaz.jsx";
 export default function Home() {
