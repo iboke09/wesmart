@@ -15,7 +15,7 @@ export default function UIUXSection() {
           textAlign: "center",
           marginBottom: "285px",
         }}>
-        <h1 className="headerUI">Web Softwer</h1>
+        <h1 className="headerUI">Softwer design</h1>
         <div className="container UI">
           <div className="maskUI I">
             <div className="icermaskUI">
