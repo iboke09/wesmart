@@ -47,11 +47,12 @@ const Main = () => {
           className="pro-btn animate__animated animate__zoomInLeft"
           href="/contact"
         >
-          <span style={{ zIndex: "1000" }}>contact us</span>
+          <span style={{ zIndex: "1000" ,fontWeight:'normal'}}>contact us</span>
         </Link>
         <Link
           className="bad-btn animate__animated animate__zoomInRight"
           href="#sap"
+          style={{fontWeight:'normal'}}
         >
           learn more
         </Link>

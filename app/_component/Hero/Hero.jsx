@@ -34,6 +34,7 @@ const Hero = () => {
               <p className={styles.children}>
                 Elevate your operations and boost efficiency through our
                 tailored SAP integration and dedicated support.
+                .
               </p>
             </motion.div>
           </Tilt>
