@@ -338,7 +338,7 @@ h2 {
   width: fit-content;
   margin-bottom: 30px;
   position: relative;
-  animation: textAnimation infinite 8s linear;
+  /* animation: textAnimation infinite 8s linear; */
   background-size: 200% 200%;
 }
 
