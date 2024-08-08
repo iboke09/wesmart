@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import img from "../img/Mystery box-rafiki.svg";
 import img1 from "../img/Man thinking-bro.svg";
-import img2 from "../img/SvgVector 1.svg";
+import img2 from "../img/SvgVector 1PNG.png";
 import Footer from "../_component/Footer/Footer";
 import Landing from "../_component/Landing/Landing";
 
@@ -12,7 +12,7 @@ const About = () => {
       <Landing>
         <div
           className="textA container"
-          style={{ flexDirection: "row-reverse" }}
+          // style={{ flexDirection: "row-reverse" }}
         >
           <div
             className="centere"

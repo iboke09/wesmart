@@ -2062,6 +2062,9 @@ footer {
     height: 115%;
     border-radius: 0% 0% 0% 0%;
   }
+  .contact_title{
+    font-size: 43px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -2154,6 +2157,7 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  
   .landing .textS {
     width: 775px;
   }
@@ -2263,8 +2267,12 @@ footer {
 .textA img {
   position: relative;
   animation: up-and-down 3s linear infinite;
+  width: 590px;
 }
 
+.textA .centere{
+  top: 145px !important ;
+}
 .headerE {
   background-image: linear-gradient(
     22deg,
@@ -2540,6 +2548,9 @@ footer {
   }
 }
 @media (max-width: 1199px) {
+  .textA .centere {
+    top: 45px !important;
+}
   .maskERP {
     padding: 70px;
   }
@@ -2552,13 +2563,22 @@ footer {
   .ilstE {
     display: none;
   }
+  .textA img{
+    width: 400px !important;
+  }
 }
 @media (max-width: 1025px) {
+  .textA .centere {
+    text-align: center !important;
+  }
+  .tawsitS {
+    display: none;
+  }
   .textS {
     top: 450px !important;
   }
   .textA {
-    top: 450px !important;
+    top: 360px !important;
   }
   .maskERP {
     padding: 60px 20px;
