@@ -11,7 +11,6 @@ export default function UIUXSection() {
           height: "100vh",
           backgroundColor: "var(--main-alt-color1)",
           transition: "0.7s",
-          marginTop: "400px",
           textAlign: "center",
           marginBottom: "285px",
         }}>

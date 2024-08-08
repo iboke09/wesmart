@@ -2161,7 +2161,7 @@ footer {
     width: 775px;
   }
   .centere {
-    text-align: center !important;
+    /* text-align: center !important; */
   }
 
   .gridS {

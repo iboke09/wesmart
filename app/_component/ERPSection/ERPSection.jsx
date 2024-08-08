@@ -8,7 +8,7 @@ const ERPSection = () => {
       style={{
         height: "100vh",
         transition: "0.7s",
-        marginTop: "200px",
+        marginTop: "100px",
         textAlign: "center",
         marginBottom: "200px",
       }}
