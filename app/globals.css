@@ -1967,7 +1967,8 @@ footer {
 }
 
 .rulla {
-  background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%)
+  background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%);
+  border-radius: 50px;
 }
 
 .whito {
@@ -2681,8 +2682,8 @@ footer {
   top: 0;
   left: 0;
   width: 100%;
+  border-radius: 50px;
   height: 100%;
-  border-radius: 0.3em;
   transition: opacity 0.5s ease-out;
   z-index: 2;
   opacity: 0;
