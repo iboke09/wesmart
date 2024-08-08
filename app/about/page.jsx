@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import img from "../img/Mystery box-rafiki.svg";
 import img1 from "../img/Man thinking-bro.svg";
-import img2 from "../img/Shrug-bro.svg";
+import img2 from "../img/SvgVector 1.svg";
 import Footer from "../_component/Footer/Footer";
 import Landing from "../_component/Landing/Landing";
 
@@ -10,7 +10,10 @@ const About = () => {
   return (
     <>
       <Landing>
-        <div className="textA container">
+        <div
+          className="textA container"
+          style={{ flexDirection: "row-reverse" }}
+        >
           <div
             className="centere"
             style={{ textAlign: "left", top: "65px", position: "relative" }}
@@ -25,15 +28,16 @@ const About = () => {
             <a
               href="#"
               className="rulla mt-8 inline-block rounded  px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring "
-            ><span style={{position:'relative',zIndex:'10'}}>
-              Get Started Today
-            </span>
+            >
+              <span style={{ position: "relative", zIndex: "10" }}>
+                Get Started Today
+              </span>
             </a>
           </div>
 
-          <div className="tawsitS" style={{ top: "-50px" }}>
+          <div className="tawsitS" style={{ top: "-70px" }}>
             <Image
-              src={img}
+              src={img2}
               alt="alt"
               width={450}
               height={200}

@@ -1871,7 +1871,7 @@ footer {
   background-color: #005bb5;
 }
 
-.why1::after {
+/* .why1::after {
   content: "";
   width: 165%;
   height: 165%;
@@ -1886,7 +1886,7 @@ footer {
   right: -550px;
   z-index: -1;
   rotate: -31deg;
-}
+} */
 
 .contact_title {
   font-size: 40px;
@@ -2745,5 +2745,5 @@ footer {
 
 
 .contactP .landing::after{
-  display: none;
+  /* display: none; */
 }
