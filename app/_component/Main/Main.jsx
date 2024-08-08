@@ -29,7 +29,7 @@ const Main = () => {
         className="centere"
         style={{ textAlign: "left", top: "65px", position: "relative" }}
       >
-        <p className="first">BOOST BUSINESS</p>
+        <p className="first">Boost Business</p>
         <motion.h2>with our expert services</motion.h2>
         <motion.p
           className="no"
