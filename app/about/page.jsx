@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import img from "../img/Mystery box-rafiki.svg";
 import img1 from "../img/Man thinking-bro.svg";
-import img2 from "../img/ContactUsvector 1.svg";
+import img2 from "../img/SvgVector 1.svg";
 import Footer from "../_component/Footer/Footer";
 import Landing from "../_component/Landing/Landing";
 

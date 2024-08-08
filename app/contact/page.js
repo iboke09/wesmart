@@ -3,7 +3,7 @@
 import { useState } from "react";
 import styles from "./ContactForm.module.css";
 import Image from "next/image";
-import img from "../img/brand communication-amicoo.png";
+import img from "../img/ContactUsvector 1.svg";
 import Footer from "../_component/Footer/Footer";
 import Landing from "../_component/Landing/Landing";
 const Contact = () => {
