@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -45,7 +45,7 @@ const Skills = () => {
             <h2 className="title blawh text-xl" data-aos="fade-left">
               Wesmart Technology
             </h2>
-            <h1 className="title-2 blawh text-4xl" data-aos="fade-left" >
+            <h1 className="title-2 blawh text-4xl" data-aos="fade-left">
               SAP
             </h1>
             <p className="blawh" data-aos="fade-left">
@@ -215,8 +215,8 @@ const Skills = () => {
               alt="sap"
             />
             <p className="text1">
-              Transform your online presence with our web design — we create
-              attractive and user-friendly websites.
+              We create attractive, fast websites that work on all devices,
+              ensuring a smooth user experience.
             </p>
             <Image
               // data-aos="fade-up"
@@ -228,14 +228,14 @@ const Skills = () => {
               alt="sap"
             />
             <p className="text2">
-              From concept to launch, our web solutions meet your business goals
-              and exceed expectations.
+              We boost your best site’s visibility and performance with effective SEO
+              techniques to drive more traffic and improve rankings.
             </p>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
 export default Skills;

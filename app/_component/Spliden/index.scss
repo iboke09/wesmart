@@ -8,11 +8,17 @@
   align-items: center;
   justify-content: flex-start;
   h1 {
-    text-align: center;
-    font-size: 3rem;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
     font-weight: 600;
-    padding: 1rem 0;
-    color: var(--blawh-color);
+    background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .cards {
     width: 100%;

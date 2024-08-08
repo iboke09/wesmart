@@ -24,15 +24,15 @@ export default function Component() {
               shaping the industries of tomorrow.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <p className="text-3xl font-bold">250+</p>
-              <p className="text-lg">Clients Served</p>
+              <p className="text-3xl font-bold">150+</p>
+              <p className="text-lg">Clients Served In Sap</p>
             </div>
-            <div className="bg-gray-800/50 p-6 rounded-lg">
+            {/* <div className="bg-gray-800/50 p-6 rounded-lg">
               <p className="text-3xl font-bold">15</p>
               <p className="text-lg">Number of companies</p>
-            </div>
+            </div> */}
             <div className="bg-gray-800/50 p-6 rounded-lg">
               <p className="text-3xl font-bold">95%</p>
               <p className="text-lg">Customer Satisfaction</p>
@@ -41,13 +41,13 @@ export default function Component() {
               <p className="text-3xl font-bold">120+</p>
               <p className="text-lg">Projects Completed</p>
             </div>
-            <div className="bg-gray-800/50 p-6 rounded-lg">
+            {/* <div className="bg-gray-800/50 p-6 rounded-lg">
               <p className="text-3xl font-bold">50+</p>
               <p className="text-lg">Awards and Recognitions</p>
-            </div>
+            </div> */}
             <div className="bg-gray-800/50 p-6 rounded-lg">
-              <p className="text-3xl font-bold">15+</p>
-              <p className="text-lg">Years of Excellence</p>
+              <p className="text-3xl font-bold">10+</p>
+              <p className="text-lg">Years of Experience In Sap</p>
             </div>
           </div>
         </div>

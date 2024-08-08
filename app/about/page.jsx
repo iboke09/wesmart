@@ -20,17 +20,17 @@ const About = () => {
           >
             <h2>About Our Company</h2>
             <p style={{ color: "var(--blawh-color)", width: "500px" }}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui
-              hic atque tenetur quis eius quos ea neque sunt, accusantium soluta
-              minus veniam tempora deserunt? Molestiae eius quidem quam
-              repellat.
+              WeSmart specializes in website design, development, and all types
+              of design, including UI/UX. Additionally, we have outstanding
+              expertise in SAP, delivering industry-leading solutions and
+              optimizations.
             </p>
             <a
               href="#"
               className="rulla mt-8 inline-block rounded  px-12 py-3 text-sm font-medium text-white transition focus:outline-none focus:ring "
             >
               <span style={{ position: "relative", zIndex: "10" }}>
-                Get Started Today
+                Start Your Project
               </span>
             </a>
           </div>
