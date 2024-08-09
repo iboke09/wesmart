@@ -37,6 +37,7 @@ const About = () => {
 
           <div className="tawsitS" style={{ top: "-70px" }}>
             <Image
+              quality={100}
               src={img2}
               alt="alt"
               width={450}

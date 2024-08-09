@@ -28,7 +28,7 @@ const Skills = () => {
               data-aos="fade-up"
               className="gitA"
               whileInView={{ height: "150px" }}
-              transition={{ duration: 0.3, delay: 0.35 }}
+              transition={{ duration: 0.2, delay: 0.35 }}
             ></motion.div>
             <div data-aos="fade-up">
               <FcSupport />
@@ -38,7 +38,7 @@ const Skills = () => {
               data-aos="fade-up"
               className="gitA_2"
               whileInView={{ height: "185px" }}
-              transition={{ duration: 0.3, delay: 0.65 }}
+              transition={{ duration: 0.2, delay: 0.65 }}
             ></motion.div>
           </div>
           <div className="container content">
@@ -89,7 +89,7 @@ const Skills = () => {
               }}
               className="gitA"
               whileInView={{ height: "150px" }}
-              transition={{ duration: 0.3, delay: 0.35 }}
+              transition={{ duration: 0.2, delay: 0.35 }}
             ></motion.div>
             <div data-aos="fade-up">
               <SiCodesignal style={{ color: "gray" }} />
@@ -102,7 +102,7 @@ const Skills = () => {
               }}
               className="gitA_2 t"
               whileInView={{ height: "185px" }}
-              transition={{ duration: 0.3, delay: 0.65 }}
+              transition={{ duration: 0.2, delay: 0.65 }}
             ></motion.div>
           </div>
           <div className="container content">
@@ -179,7 +179,7 @@ const Skills = () => {
               data-aos="fade-up"
               className="gitA"
               whileInView={{ height: "150px" }}
-              transition={{ duration: 0.3, delay: 0.35 }}
+              transition={{ duration: 0.2, delay: 0.35 }}
             ></motion.div>
             <div data-aos="fade-up">
               <FcSupport />
@@ -189,7 +189,7 @@ const Skills = () => {
               data-aos="fade-up"
               className="gitA_2"
               whileInView={{ height: "185px" }}
-              transition={{ duration: 0.3, delay: 0.65 }}
+              transition={{ duration: 0.2, delay: 0.65 }}
             ></motion.div>
           </div>
           <div className="container content">
