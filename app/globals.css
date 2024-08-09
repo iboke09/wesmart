@@ -342,7 +342,7 @@ h2 {
 }
 
 .landing .text h2.animate {
-  animation: textAnimation infinite 8s linear;
+  /* animation: textAnimation infinite 8s linear; */
 }
 
 /* .landing .text h2 {
