@@ -71,7 +71,7 @@
   color: var(--agib2-color);
 }
 
-.roboto{
+.roboto {
   font-family: var(--lato-font);
 }
 
@@ -319,7 +319,7 @@ ul {
   font-size: 60px;
   color: var(--blawh-color);
   line-height: 70px;
-  font-family: '__Lato_13ac2b', '__Lato_Fallback_13ac2b' !important;
+  font-family: "__Lato_13ac2b", "__Lato_Fallback_13ac2b" !important;
 }
 
 h2 {
@@ -333,13 +333,16 @@ h2 {
   margin-top: 0px;
   font-size: 53px;
   font-weight: 900;
-  font-family: '__Lato_13ac2b', '__Lato_Fallback_13ac2b';
+  font-family: "__Lato_13ac2b", "__Lato_Fallback_13ac2b";
   line-height: 70px;
   width: fit-content;
   margin-bottom: 30px;
   position: relative;
-  /* animation: textAnimation infinite 8s linear; */
   background-size: 200% 200%;
+}
+
+.landing .text h2.animate {
+  animation: textAnimation infinite 8s linear;
 }
 
 /* .landing .text h2 {
@@ -1891,7 +1894,11 @@ footer {
 } */
 
 .contact_title {
-  background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%);
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1967,7 +1974,11 @@ footer {
 }
 
 .rulla {
-  background-image: linear-gradient(22deg, rgb(86 194 234) 0%, rgb(0 34 123) 100%);
+  background-image: linear-gradient(
+    22deg,
+    rgb(86 194 234) 0%,
+    rgb(0 34 123) 100%
+  );
   border-radius: 50px;
 }
 
@@ -2062,7 +2073,7 @@ footer {
     height: 115%;
     border-radius: 0% 0% 0% 0%;
   }
-  .contact_title{
+  .contact_title {
     font-size: 43px;
   }
 }
@@ -2157,7 +2168,6 @@ footer {
 }
 
 @media (max-width: 1024px) {
-  
   .landing .textS {
     width: 775px;
   }
@@ -2246,7 +2256,7 @@ footer {
     line-height: 45px;
     width: 117px;
   }
-  .rulla{
+  .rulla {
     position: relative;
     top: 20px;
   }
@@ -2270,7 +2280,7 @@ footer {
   width: 590px;
 }
 
-.textA .centere{
+.textA .centere {
   top: 145px !important ;
 }
 .headerE {
@@ -2550,7 +2560,7 @@ footer {
 @media (max-width: 1199px) {
   .textA .centere {
     top: 45px !important;
-}
+  }
   .maskERP {
     padding: 70px;
   }
@@ -2563,7 +2573,7 @@ footer {
   .ilstE {
     display: none;
   }
-  .textA img{
+  .textA img {
     width: 400px !important;
   }
 }
@@ -2690,13 +2700,13 @@ footer {
 }
 
 /* UIUI Responsive */
-.rulla{
+.rulla {
   position: relative;
 }
-.rulla:hover::after{
+.rulla:hover::after {
   opacity: 1;
 }
-.rulla::after{
+.rulla::after {
   content: "";
   position: absolute;
   top: 0;
@@ -2707,7 +2717,11 @@ footer {
   transition: opacity 0.5s ease-out;
   z-index: 2;
   opacity: 0;
-  background-image: linear-gradient(90deg, rgb(7, 161, 207) 0%, rgb(3, 45, 107) 100%);
+  background-image: linear-gradient(
+    90deg,
+    rgb(7, 161, 207) 0%,
+    rgb(3, 45, 107) 100%
+  );
   padding: 0px 50px;
   cursor: pointer;
 }
@@ -2715,8 +2729,8 @@ footer {
   .landing .textA h2 {
     font-size: 25px;
   }
-  .rulla{
-    line-height: 0.50rem;
+  .rulla {
+    line-height: 0.5rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -2724,7 +2738,7 @@ footer {
     font-size: 12px;
     padding-left: 110px;
     padding-right: 110px;
-}
+  }
   .maskUI.I {
     flex-wrap: wrap;
   }
@@ -2773,15 +2787,18 @@ footer {
 
 /* UIUI Responsive/// */
 
-
-.contactP .landing::after{
+.contactP .landing::after {
   /* display: none; */
 }
 
-.ContactForm_button__cxA5t{
-  background-image: linear-gradient(90deg, rgb(7, 161, 207) 0%, rgb(3, 45, 107) 100%) !important;
+.ContactForm_button__cxA5t {
+  background-image: linear-gradient(
+    90deg,
+    rgb(7, 161, 207) 0%,
+    rgb(3, 45, 107) 100%
+  ) !important;
 }
 
-.ContactForm_contactFormContainer__g_Sy1{
+.ContactForm_contactFormContainer__g_Sy1 {
   background-color: #edf4ff !important;
 }

@@ -1,5 +1,5 @@
-'use client'
-import React from "react";
+"use client";
+import React,{useEffect} from "react";
 import { motion } from "framer-motion";
 import image from "../../img/FrameHero.svg";
 import Link from "next/link";
@@ -23,7 +23,12 @@ const Main = () => {
       opacity: 1,
     },
   };
-  
+  useEffect(() => {
+    setTimeout(() => {
+      let la = document.querySelector(".first1");
+      la.classList.add("animate");
+    }, 5000);
+  }, []);
   return (
     <div className="text container">
       <div
@@ -31,7 +36,7 @@ const Main = () => {
         style={{ textAlign: "left", top: "65px", position: "relative" }}
       >
         <p className="first">Boost Business</p>
-        <motion.h2>with our expert services</motion.h2>
+        <motion.h2 className="first1">with our expert services</motion.h2>
         <motion.p
           className="no"
           variants={pVariants}
@@ -48,18 +53,20 @@ const Main = () => {
           className="pro-btn animate__animated animate__zoomInLeft"
           href="/contact"
         >
-          <span style={{ zIndex: "1000" ,fontWeight:'normal'}}>contact us</span>
+          <span style={{ zIndex: "1000", fontWeight: "normal" }}>
+            contact us
+          </span>
         </Link>
         <Link
           className="bad-btn animate__animated animate__zoomInRight"
           href="#sap"
-          style={{fontWeight:'normal'}}
+          style={{ fontWeight: "normal" }}
         >
           learn more
         </Link>
       </div>
       <div className="tawsit">
-        <Image src={image} alt="alt" width={450} height={200}  loading="eager"/>
+        <Image src={image} alt="alt" width={450} height={200} loading="eager" />
         {/* <div class="pyramid-loader">
           <div class="wrapper">
             <span class="side side1"></span>
@@ -72,6 +79,6 @@ const Main = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Main;
