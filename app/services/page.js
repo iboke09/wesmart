@@ -43,6 +43,7 @@ export default function Services() {
             </div>
             <div className="tawsitS" style={{ top: "30px" }}>
               <Image
+              className="bozdu"
                 src={image}
                 alt="alt"
                 width={450}

@@ -2331,7 +2331,7 @@ footer {
   }
 }
 
-.textS img {
+.textS img.bozdu {
   position: relative;
   animation: up-and-down 3s linear infinite;
 }
@@ -2647,13 +2647,13 @@ footer {
     text-align: center !important;
   }
   .tawsitS.A {
-    display: none;
+    /* display: none; */
   }
   .textS {
     top: 450px !important;
   }
   .textA {
-    top: 360px !important;
+    top: 460px !important;
   }
   .maskERP {
     padding: 60px 20px;
@@ -2685,13 +2685,14 @@ footer {
   .maskERP .boxERP:nth-child(2) {
     left: -12px;
   }
-  .textS img {
+  .textS img.bozdu {
     width: 300px;
     margin-top: 150px;
   }
   .textA img {
     width: 300px;
     margin-top: 150px;
+    left: -20px;
   }
 }
 
@@ -3188,6 +3189,25 @@ footer {
   .bad-btn {
     place-content: center;
   }
+  .textA {
+    top: 440px !important;
+  }
+  .textA img {
+    width: 300px !important;
+    left: -18px;
+  }
+  /* .ContactForm_contactFormContainer__g_Sy1{
+    top: -100px;
+    position: relative;
+  }
+  .locals img {
+    position: relative;
+    bottom: -365px;
+  }
+  .locals img {
+    display: block;
+    width: 288px;
+  } */
 }
 
 @keyframes bouncing {
