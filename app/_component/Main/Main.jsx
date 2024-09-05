@@ -69,12 +69,12 @@ const Main = () => {
       </div>
       <div className="tawsit">
         <Image
-          src={image}
+          src="/img/Frame.png"
           alt="alt"
           width={450}
           height={200}
           loading="eager"
-          quality={100}
+          // quality={100}
         />
       </div>
     </div>

@@ -32,13 +32,13 @@ export default function Services() {
                 <br /> and expertise. acilisis tortor malesuada malesuada.
               </p>
               <div
-                className="grid grid-cols-2 gap-6  top-20 relative gridS"
+                className="grid grid-cols-2 gap-6  top-20 relative gridS imagemuhassen"
                 style={{ columnGap: "0.5rem" }}
               >
-                <div className="of">ERP Systems</div>
-                <div className="act">Web Design</div>
-                <div className="of">Skada Systems</div>
-                <div className="act">UI/UX Design</div>
+                <div className="of">ERP Systems<Image src="/img/Vector.svg" alt="alt" width={40} height={100} /></div>
+                <div className="act">Web Design<Image src="/img/Group.svg" alt="alt" width={40} height={100} /></div>
+                <div className="of">Skada Systems<Image src="/img/Icon.svg" alt="alt" width={40} height={100} /></div>
+                <div className="act">UI/UX Design<Image src="/img/Group (1).svg"alt="alt" width={40} height={100} /></div>
               </div>
             </div>
             <div className="tawsitS" style={{ top: "30px" }}>

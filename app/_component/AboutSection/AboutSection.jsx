@@ -4,6 +4,7 @@ export default function AboutSection() {
   return (
     <>
       <div
+        id="aboutUs"
         className="image-darta"
         style={{ textAlign: "right", zIndex: "100" }}
       >

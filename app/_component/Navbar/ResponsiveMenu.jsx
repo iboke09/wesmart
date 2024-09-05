@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "/public/img/TheFinalOfDesigns-02 (1).webp";
+import logo from "/public/img/TheFinalOfDesigns-02.png";
 import { Navlink } from "./Navbar";
 import Link from "next/link";
 import Image from "next/image";

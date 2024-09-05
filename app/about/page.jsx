@@ -6,7 +6,8 @@ import img2 from "/public/img/SvgVector 1PNG.png";
 import Footer from "../_component/Footer/Footer";
 import Landing from "../_component/Landing/Landing";
 import AboutSection from "../_component/AboutSection/AboutSection";
-
+import { FaAngleDoubleDown } from "react-icons/fa";
+import Link from "next/link";
 
 export const metadata = {
   title: "About",
@@ -54,6 +55,19 @@ const About = () => {
             </div>
           </div>
         </Landing>
+        <Link href="#aboutUs">
+          <FaAngleDoubleDown
+            style={{
+              color: "#3d72b9",
+              margin: "auto",
+              top: "-80px",
+              position: "relative",
+              fontSize: "45px",
+              animation: "bouncing 1.5s infinite;",
+              cursor: "pointer",
+            }}
+          />
+        </Link>
       </div>
       {/* <div className="kura">
         <div
