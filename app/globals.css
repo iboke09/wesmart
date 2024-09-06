@@ -619,6 +619,9 @@ input:checked + .slider:before {
     margin-bottom: 20px;
     line-height: 25px;
     margin-left: 0px;
+    width: 90%;
+    right: -15px;
+    position: relative;
   }
 
   .landing .text p {
@@ -1951,11 +1954,11 @@ footer {
 
 @media (max-width: 1023px) {
   .locals img {
-    display: none;
+    /* display: none; */
   }
   .muzz {
-    position: relative;
-    top: -220px;
+    /* position: relative; */
+    /* top: -220px; */
   }
   .footer_top {
     top: 90px !important;
@@ -2307,16 +2310,12 @@ footer {
   .landing .textA p {
     margin-bottom: -30px;
   }
-  /* .landing::after{
-    z-index: -100;
-    left: 236px;
-    bottom: -175px;
-  } */
+
   .act,
   .of {
     font-size: 13px;
     line-height: 45px;
-    width: 117px;
+    width: 130px;
   }
   .rulla {
     position: relative;
@@ -3196,6 +3195,16 @@ footer {
     width: 300px !important;
     left: -18px;
   }
+  .ihfa footer {
+    margin-top: 180px;
+  }
+  .locals{
+    display: flex;
+    justify-content: center;
+  }
+  .locals img {
+    width: 350px;
+  }
   /* .ContactForm_contactFormContainer__g_Sy1{
     top: -100px;
     position: relative;
@@ -3209,7 +3218,9 @@ footer {
     width: 288px;
   } */
 }
-
+.locals img{
+  z-index: 10;
+}
 @keyframes bouncing {
   0%,
   10%,
